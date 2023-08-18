@@ -44,7 +44,7 @@ Help Menu
 
 ### AppStore
 
-(ASAP)
+[NEWS! GoCAKs 1.0 is now available on the AppStore. Check it out and dive into the action!](https://apps.apple.com/app/GoCAKs/id6462423363)
 
 ### YouTube
 
