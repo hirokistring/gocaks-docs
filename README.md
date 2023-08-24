@@ -65,3 +65,7 @@ This repository is licensed under:
 CC BY-ND 4.0
 
 https://creativecommons.org/licenses/by-nd/4.0/
+
+## Release Notes
+
+[GoCAKs Release Notes](RELEASE-NOTES.md)
