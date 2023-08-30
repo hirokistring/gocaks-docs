@@ -1,0 +1,353 @@
+/*
+ Localizable.strings
+ GoCAKs
+ */
+
+"roots.games" = "遊戲";
+"roots.help" = "幫助";
+"roots.settings" = "設定";
+
+"games.title" = "**GoCAKs**";
+"games.abbrev" = "**G**ame **o**f **C**ellular **A**utomata for **K**id**s**";
+
+"games.speedrun" = "快速過關";
+"games.creative" = "創意模式";
+"games.version" = "ver. 1.1";
+
+"game.grid" = "格子";
+"game.library" = "細胞庫";
+"game.help" = "幫助";
+"game.settings" = "設定";
+
+"settings.title" = "設定";
+"settings.language" = "語言設定";
+"settings.showgrid" = "顯示格子線";
+"settings.showzoom" = "顯示放大";
+"settings.bgm" = "背景音樂";
+"settings.sfx" = "音效";
+"settings.timespeed" = "時間速度";
+
+"languages.en-US" = "英語";
+"languages.ja-JP" = "日語";
+"languages.zh-CN" = "簡體中文";
+"languages.zh-TW" = "繁體中文";
+"languages.zh-HK" = "香港中文";
+"languages.hi-IN" = "印地語";
+"languages.de-DE" = "德語";
+"languages.fr-FR" = "法語";
+
+"timespeeds.faster3" = "加快 +3";
+"timespeeds.faster2" = "加快 +2";
+"timespeeds.faster1" = "加快 +1";
+"timespeeds.default" = "預設";
+"timespeeds.slow1" = "減慢 +1";
+
+"speedrun.back" = "返回選單";
+"speedrun.title" = "**快速過關**";
+"speedrun.help.title" = "快速過關幫助";
+"speedrun.text1" = "這是一個比賽在最快的時間內打敗敵人的遊戲.\n\n讓我們設計一個高效的策略, 以最少的步驟打敗敵人.\n\n如排列、移除或更改PENTAN的動作都會減少你的預算. 當預算用盡時, 你將不能再操作PENTAN.\n\n在有限的時間和預算內, 有效地消滅所有敵人.";
+
+"speedrun.level1" = "第 1 關";
+"speedrun.level2" = "第 2 關";
+"speedrun.level3" = "第 3 關";
+"speedrun.level4" = "第 4 關";
+"speedrun.level5" = "第 5 關";
+"speedrun.level6" = "第 6 關";
+"speedrun.level7" = "第 7 關";
+"speedrun.level8" = "第 8 關";
+"speedrun.level9" = "第 9 關";
+"speedrun.level10" = "第 10 關";
+
+"speedrun.enabled.codes"  = "在此階段可以使用的命令是：\n\n";
+
+"speedrun.help.score" = "最高分：\n\n";
+"speedrun.help.fastest" = "最快完成時間：\n";
+"speedrun.help.least" = "最少預算完成：\n";
+"speedrun.help.gen" = "時間：";
+"speedrun.help.budget" = "預算：";
+
+"speedrun.level1.description" = "讓我們學習命令的基礎.\n\n";
+"speedrun.level2.description" = "你應該從哪個方向攻擊？\n\n";
+"speedrun.level3.description" = "我們來進行夾擊.\n\n";
+"speedrun.level4.description" = "如何打擊漩渦的中心？\n\n";
+"speedrun.level5.description" = "讓我們打擊四散的敵人的中心.\n\n";
+"speedrun.level6.description" = "讓我們將敵人困在狹小的空間裡.\n\n";
+"speedrun.level7.description" = "在敵人太多之前, 讓我們壓制他們.\n\n";
+"speedrun.level8.description"  = "";
+"speedrun.level9.description"  = "";
+"speedrun.level10.description" = "";
+
+"localspace.creative" = "創意模式";
+"localspace.level1" = "第 1 關";
+"localspace.level2" = "第 2 關";
+"localspace.level3" = "第 3 關";
+"localspace.level4" = "第 4 關";
+"localspace.level5" = "第 5 關";
+"localspace.level6" = "第 6 關";
+"localspace.level7" = "第 7 關";
+"localspace.level8" = "第 8 關";
+"localspace.level9" = "第 9 關";
+"localspace.level10" = "第 10 關";
+"grid.you" = "你";
+"grid.enemy" = "敵人";
+"grid.play" = "播放";
+"grid.stop" = "停止";
+"grid.step" = "步驟";
+"grid.done" = "完成";
+"grid.edit" = "編輯";
+
+"detail.cell" = "細胞";
+"detail.field" = "欄位";
+"detail.codes" = "基因組";
+"detail.deploy" = "部署";
+
+"gene.editor.reset" = "重置";
+
+"cell.name" = "名稱：";
+"cell.xy" = "x, y：";
+"cell.namefield" = "名稱";
+"cell.energy" = "能量";
+"cell.state" = "狀態";
+"cell.color" = "顏色";
+"cell.memory" = "記憶";
+
+"cell.properties.energy" = "能量";
+"cell.properties.state" = "狀態";
+"cell.properties.color" = "顏色";
+"cell.properties.memory" = "記憶";
+
+"cell.editor.reset" = "重置";
+
+"field.type" = "類型";
+"field.value" = "值";
+
+"field.editor.field" = "欄位類型";
+"field.editor.value" = "值";
+"field.editor.reset" = "重置";
+
+"library.title" = "細胞庫";
+"library.help.title" = "細胞庫幫助";
+"library.help.description" = "細胞庫係您儲存已設計或從網格中收集嘅 PENTAN 嘅地方.\n\n讓我哋建立一個新嘅 PENTAN, 並為每個細胞分配一個名稱.";
+"library.add" = "加入";
+
+"deploy.help.title" = "部署幫助";
+"deploy.help.description" = "喺細胞庫中揀一個 PENTAN 嚟部署.\n\n喺部署 PENTAN 之前, 您都可以進行修改. 喺部署之前對 PENTAN 進行嘅任何更改都只適用於此例子, 唔會影響喺細胞庫中嘅 PENTAN.";
+
+"dialog.nobudget" = "預算唔足.\n您唔可以進行任何操作.";
+"dialog.reset" = "重設？";
+"dialog.cancel" = "取消";
+"dialog.youwon" = "你贏咗！";
+"dialog.timeup" = "時間到！";
+"button.ok" = "確認";
+
+"help.title" = "文檔";
+"help.story" = "故事";
+"help.game" = "遊戲";
+"help.codes" = "指令";
+"help.episodes" = "關卡";
+"help.faq" = "常見問題";
+
+/// Help - Story
+
+"help.story.title" = "**故事**";
+
+"help.story.1" = "喺2300年, 人類已經掌握咗太陽系行星改造嘅技術. 呢項使命由一組出色嘅科學家同工程師領導, 佢哋全心全意追求呢個宏大嘅目標.";
+
+"help.story.2" = "最後一個要改造嘅行星係海王星, 一直以來都被視為探索外太陽系同建立人類殖民地嘅最佳選擇. 呢隊團隊使用自我複製嘅納米機器去改變行星嘅表面同大氣層, 喺天體生物學方面取得咗巨大嘅進展.";
+
+"help.story.section1.title" = "EvE-PALMA 項目";
+
+"help.story.3" = "設計納米機器嘅項目被命名為 **EvE-PALMA**, 代表咗 **分子** 自動機嘅 **進化性** **可編程** **人造** **生命** 嘅 **實驗**.";
+
+"help.story.section2.title" = "PENTAN";
+
+"help.story.4" = "喺呢個項目中研發嘅納米機器叫做 **PENTAN**, 即係 **P**rogrammable and **E**volvable **N**anomachines for **T**erraforming the **A**strobiology of **N**eptune（用於改造海王星天體生物學嘅**可編程**同**進化性**納米機器）.";
+
+"help.story.5" = "團隊透過將 PENTAN 嵌入細小嘅冰塊, 然後由土星嘅環發射去海王星嘅藍色甲烷雲中.";
+
+"help.story.6" = "但係, 差唔多所有部署嘅 PENTAN 喺幾十年內變得狂野同難以控制, 儘管團隊都小心翼翼設計. 啲因素影響同修改咗呢啲 PENTAN, 暗示海王星上存在生命.";
+
+"help.story.section3.title" = "您的任務";
+
+"help.story.7" = "您是 **EvE-PALMA** 專案中的一名天體生物學科學家.您的使命是設計新一代的 **PENTAN** 來替換那些已變得狂野的舊版, 並開始改造海王星！";
+
+"help.story.episodes.title" = "關卡";
+
+/// Help - Episodes
+
+"help.episodes.title" = "**關卡**";
+
+"help.episodes.subtitle" = "**PENTAN** 的重新設計";
+
+"help.episodes.1" = "他的實驗室中充滿了安靜的嗡鳴, 微弱的機械聲音對 Tony*Theta7* 來說就像背景音樂. 作為一名天體生物學家, 他對宇宙的奧秘一直抱有深厚的興趣.現在, 他正處於人類最雄心勃勃的專案之一, **EvE-PALMA**, 的前線.";
+"help.episodes.2" = "這是一個代表著充滿期望和抱負的首字母縮寫：**分子** 自動機的 **進化性** **可編程** **人造** **生命** 實驗.他的任務是創建一個可以改造太陽系最後一顆未被開發的寶石, 海王星, 的納米機器.";
+"help.episodes.3" = "他的傑作, **PENTAN**, 是專門為此而設計的. 這是**為改造海王星的天體生物學而設計的** 可編程和進化性的 **納米機器** - 這是一項具有改變整個行星潛能的微小結構.";
+"help.episodes.4" = "然而, 成功卻變得難以捉摸.最初的 **PENTAN** 曾充滿希望, 但後來卻出了問題. 它們被釋放到海王星的甲烷雲中, 藉由在土星的環帶中的冰粒子進行旅程. 但它們沒有開始改造, 而是變得不受控制和狂野.";
+"help.episodes.5" = "現在, Tony*Theta7* 處於關鍵的時刻. 他面臨的挑戰是設計新一代的 **PENTAN**, 不再犯之前的錯誤. 過去的結果暗示海王星上可能有生命, 這是一個令人興奮的發現, 也是這次使命的難點.";
+"help.episodes.6" = "Tony 低下頭深沉地進行著工作. 他的螢幕上呈現著甲烷雲的旋渦和蔚藍的天空.他所撰寫的每一行程式碼, 都成為解決這些狂野 PENTAN 問題的可能答案.";
+"help.episodes.7" = "他的手指迅速在鍵盤上打字, 鍵盤的節奏性點擊聲與實驗室的環境融為一體. 在螢幕上, 分子自動機的複雜藍圖逐漸活躍起來. 每一個新的設計都更先進、更具功能、更易於控制.";
+"help.episodes.8" = "新的 PENTAN 必須與眾不同. 在設計時, 必須考慮到海王星可能已有的生命存在, 這在之前的設計中是未被涉及的. Tony*Theta7* 需要確保這些納米機器能和已存在的生命和諧共存.";
+"help.episodes.9" = "當他輸入最後的程式碼時, 他感到了激烈的期待. 經由一條簡單的指令, 打印機開始運作, 創建了新版 PENTAN 的三維模型. 其細緻的複雜性令人驚嘆－這正代表著人類探索未知的堅持與創新.";
+"help.episodes.10" = "對 Tony*Theta7* 來說, 這是他不懈努力的高峰, 也是邁向改造海王星這一偉大目標的又一大步. 然而, 他的創作真正的挑戰還在前方, 在這顆蔚藍行星的寒冷大氣裡, 新的 PENTAN 要么能駕馭其前輩的野性, 要么也遭受相同的命運.";
+"help.episodes.11" = "改造海王星的故事仍在編寫, 而 Tony*Theta7* 正持筆於手.";
+
+/// Help - The Game
+
+"help.games.title" = "遊戲";
+
+"help.games.1" = "GoCAKs 遊戲";
+"help.games.1-1" = "GoCAKs /goʊ-kɜrks/ 是\n***G***ame of ***C***ellular ***A***utomaton for ***K***id***s*** 的縮寫";
+"help.games.1-2" = "這裡提到的 **cellular automaton** 是指一種類似於計算機程式的模型.";
+"help.games.1-3" = "在這個版本的 GoCAKs 裡, 您會操作一個名為 **PENTAN** 的棋子, 這棋子在一個2D的網格世界上移動, 網格類似於國際象棋的棋盤. PENTAN 會根據事先設定的程式碼移動.";
+
+"help.games.2" = "GoCAKs 作為初級編程學習工具";
+"help.games.2-1" = "PENTAN 的動作是由多個指令組成的.";
+"help.games.2-2" = "透過組合指令, 您可以設計出不同的動作和效果.";
+"help.games.2-3" = "玩 GoCAKs 的本質就是進行編程.";
+"help.games.2-4" = "玩 GoCAKs 可以讓您自然地學習基本的編程概念, 例如迴圈、條件式和變數.";
+
+"help.games.3" = "**PENTAN** 作為編程的生命體";
+"help.games.3-1" = "在 GoCAKs 的世界裡, cellular automaton 被稱作 **PENTAN**.";
+"help.games.3-2" = "PENTAN 是一種能自我複製的納米機器, 有時它的行為像單細胞生物, 有時則像多細胞生物一起合作.";
+"help.games.3-3" = "PENTAN 有以下的特性.";
+
+"help.games.pentan.title.1" = "能量";
+"help.games.pentan.description.1" = "能量是 PENTAN 活動的驅動力.\n\n隨著能量減少, PENTAN 的顏色會逐漸變淡.當能量降到零時, PENTAN 會消失.";
+"help.games.pentan.title.2" = "狀態";
+"help.games.pentan.description.2" = "PENTAN 有一個特定的狀態.\n\n這個狀態是一個數值, 表示 PENTAN 正在運行的代碼位置. 當 PENTAN 執行一段代碼時, 它的狀態會改變, 指向下一個要執行的代碼. PENTAN 自己不能知道其他 PENTAN 的狀態.";
+"help.games.pentan.title.3" = "記憶";
+"help.games.pentan.description.3" = "PENTAN 只能記住一個數字. 根據 PENTAN 所記住的數字, 某些代碼會改變其行為.";
+"help.games.pentan.title.4" = "方向";
+"help.games.pentan.description.4" = "PENTAN 有一個固定的方向. PENTAN 可以改變它的方向.有些代碼會影響朝著 PENTAN 方向的旁邊的 PENTAN.";
+"help.games.pentan.title.5" = "手的方向";
+"help.games.pentan.description.5" = "PENTAN 只有一隻手.\n\n這隻手有一個方向, PENTAN 可以改變其方向. PENTAN 可以用手去黏住旁邊的 PENTAN. 當手觸碰的 PENTAN 移動時, 手也會跟著移動.";
+"help.games.pentan.title.6" = "顏色";
+"help.games.pentan.description.6" = "PENTAN 有自己的顏色.\n\n這個顏色是可以被改變的. PENTAN 可以看到其他 PENTAN 的顏色.";
+"help.games.pentan.title.7" = "基因組";
+"help.games.pentan.description.7" = "PENTAN 的程式被稱作基因組.\n\n基因組由一系列的代碼順序組成.\n\n基因組越長, 能夠執行的程式就越複雜.\n\n但是, 當基因組越長時, 有些指令需要消耗更多的能量, 例如複製 PENTAN 的指令.\n\n因此, 請記住, 當基因組較短時, PENTAN 的增加會較容易；當基因組較長時, 增加會較困難.";
+
+"help.games.4" = "格子";
+"help.games.4-1" = "在 PENTAN 活動的二維格子世界裡, 有些地方具有特定的特性.";
+
+"help.games.fields.title.1" = "能量格子";
+"help.games.fields.description.1" = "這是一個供應熱能的地方, 供 PENTAN 使用.PENTAN 可以在這裡補充能量.";
+"help.games.fields.title.2" = "毒氣格子";
+"help.games.fields.description.2" = "這個地方含有對 PENTAN 有害的物質. 這些物質會消耗 PENTAN 的能量.如果 PENTAN 在這裡停留太久, 它的能量會持續減少, 最後可能會消失.";
+"help.games.fields.title.3" = "輻射格子";
+"help.games.fields.description.3" = "這是一個輻射的地方. 因為輻射的影響, PENTAN 的微小納米結構會受到破壞, 導致 PENTAN 的狀態及代碼發生變異.";
+"help.games.fields.title.4" = "禁止進入格子";
+"help.games.fields.description.4" = "這是一個 PENTAN 不能進入的地方.";
+"help.games.fields.title.5" = "";
+"help.games.fields.description.5" = "";
+"help.games.timeandbudget" = "時間及預算";
+"help.games.timeandbudget.description" = "在速通模式下, 每一階段的時間和預算都是有限的.";
+
+"help.games.time.title" = "時間";
+"help.games.time.description" = "在速通模式下, 每一階段的時間都是有限的.在限定的時間內, 您需要消滅所有的敵人. 當時間到達時, 遊戲會結束, 您會需要從新開始該階段.";
+
+"help.games.budget.title" = "預算";
+"help.games.budget.description" = "在速通模式下, 每一階段的預算都是有限的.放置、移除或是修改 PENTAN 會使用您的預算. 一旦預算用完, 您將不能在該階段操作 PENTAN.透過重設, 時間將返回0, 已使用的預算也會回到0.";
+
+"help.games.howtoplay" = "如何遊玩";
+"help.games.speedrun.title" = "速通模式";
+"help.games.speedrun.description" = "這是一個挑戰在最短時間和最少資源下消滅所有敵人的遊戲模式.\n\n遊戲有從1級到7級的關卡. 在指定的時間和預算內, 試著有效地創建 PENTAN 來消滅所有敵人.";
+"help.games.creative.title" = "創意模式";
+"help.games.creative.description" = "這是一個能夠自由地創建 PENTAN 並進行各種實驗的遊戲模式.\n\n展現你的創造力, 設計出能夠產生有趣動作和現象的 PENTAN.";
+
+/// Help - FAQ
+
+"help.faq.title" = "常見問題";
+
+"faqs.item1.title" = "學校使用";
+"faqs.item1.description" = "Q. GoCAKs 可以在學校課堂上使用嗎？\n\nA. 可以, GoCAKs 適合在學校課堂上使用.您可自由製作和分發材料如截圖. 在營利性質的編程課堂上使用也完全沒問題.";
+
+"faqs.item2.title" = "製作影片";
+"faqs.item2.description" = "Q. 我可否製作並分享我遊玩 GoCAKs 的影片？\n\nA. 可以, 您可製作影片並在如 YouTube 等平台上分享.您亦可從這些影片中獲取收入.";
+
+/// Codes
+
+"help.codes.title" = "指令";
+"help.codes.code.title" = "指令代碼";
+"help.codes.code.description" = "一條指令由命令和參數組成.\n\n參數用數字表示, 有些指令需要使用參數, 而有些則不需.\n\nGoCAKs 的指令經過精心選擇及設計.\n\n雖然每條指令都相對簡單, 但組合起來可帶來無窮的動態和現象.\n\n經過精心設計的 PENTAN 在求生競爭中可能會出現生態系統的現象.";
+
+///
+/// Fields
+///
+
+"fields.none" = "無";
+"fields.energy" = "能量";
+"fields.poison" = "毒氣";
+"fields.radiation" = "輻射";
+"fields.prohibited" = "禁止區";
+
+///
+/// Codes
+///
+
+"codes.nop" = "無作為指令";
+"codes.turn" = "轉向";
+"codes.color" = "更改顏色";
+"codes.add" = "添加";
+"codes.minus" = "減去";
+"codes.end" = "結束";
+"codes.jump" = "跳過";
+"codes.look" = "查看";
+"codes.field" = "欄位";
+"codes.stick" = "黏貼";
+"codes.read" = "讀取";
+"codes.write" = "寫入";
+"codes.give" = "贈予";
+"codes.eat" = "食用";
+"codes.cross" = "交叉";
+"codes.copy" = "複製";
+"codes.split" = "分割";
+"codes.move" = "移動";
+"codes.sleep" = "休眠";
+"codes.append" = "添加指令";
+"codes.memory" = "儲存";
+"codes.equal" = "相等";
+
+"codes.nop.text" = "空指令";
+"codes.nop.description" = "不進行任何操作.這是一個不執行任何動作的指令.\n\n不消耗任何能量.\n\n與 SLEEP 指令不同, PENTAN 仍然處於活躍狀態. 因此, 即使被其他的 PENTAN 攻擊, 它也不會輸給能量較少的對手.";
+"codes.move.text" = "移動";
+"codes.move.description" = "這是一個讓 PENTAN 根據指定的參數和方向移動的指令.\n\n當參數為正數時, 它向前進；參數為負時, 則向後移動. 每個單位時間, 它移動一格, 根據參數的值移動相應的距離.\n\n它先儲存參數值, 每移動一格減少 1, 直至達到 0.\n\n移動會在以下情況停止：達到指定的格數、遇到其他的 PENTAN 或遇到不可通行的格子.";
+"codes.turn.text" = "轉向";
+"codes.turn.description" = "這是一個讓 PENTAN 根據參數旋轉的指令.\n\n正數參數讓它順時針轉, 負數參數則逆時針. 例如, 參數為 +4 時, 它旋轉 360 度, 方向不變；參數為 0 時, 方向朝向北方.";
+"codes.jump.text" = "跳轉";
+"codes.jump.description" = "這指令讓 PENTAN 改變它的狀態（表示程式的執行位置）.\n\n正數參數將狀態向後移動, 而負數參數則向前. 例如, 參數為 -1 會返回到前一個狀態, 參數為 +1 則會跳過下一個代碼前進.";
+"codes.sleep.text" = "休眠";
+"codes.sleep.description" = "讓 PENTAN 進入休眠狀態.\n\n休眠時間取決於參數的數值.\n\n休眠期間, PENTAN 能量逐漸回復.\n\n但如果在休眠中遭到攻擊, 所有能量會被奪走, 且 PENTAN 會死亡.";
+"codes.give.text" = "分予";
+"codes.give.description" = "PENTAN 會將它的能量分一半給面前的 PENTAN.\n\n如果前方沒有其他 PENTAN, 則會損失 1 點能量.";
+"codes.eat.text" = "吃";
+"codes.eat.description" = "攻擊面前的 PENTAN.\n\n能量較多的 PENTAN 會存活, 而能量較少的則會消失. 存活的 PENTAN 會失去等同於被消滅的 PENTAN 能量的數值. 但如果目標 PENTAN 正在休眠, 即使其能量較高, 也能成功攻擊且不會有能量損失.";
+"codes.color.text" = "顏色";
+"codes.color.description" = "這指令會改變 PENTAN 的顏色.\n\n根據參數的數值選擇相對的顏色.";
+"codes.look.text" = "查看";
+"codes.look.description" = "讀取並記住與你相鄰的、與 PENTAN 面朝的方向的 PENTAN 的顏色.";
+"codes.field.text" = "格子";
+"codes.field.description" = "調查 PENTAN 所在的格子的類型, 並記住該格子類型的數值.";
+"codes.add.text" = "加";
+"codes.add.description" = "這是一個指令, 將參數的數值加到 PENTAN 記住的數字上.\n\n若參數為負數, PENTAN 記住的數字會相應減少.";
+"codes.minus.text" = "減";
+"codes.minus.description" = "這是一個指令, 用於從 PENTAN 所記住的數字中減去參數的數值.";
+"codes.memory.text" = "內存";
+"codes.memory.description" = "這是一個指令, 用於儲存參數中的數值.";
+"codes.read.text" = "讀取";
+"codes.read.description" = "這指令讓 PENTAN 從其正前方的相鄰 PENTAN 處讀取並記住代碼參數, 該參數位置是當前狀態與參數的總和.\n\n例如, 若當前狀態是5, 參數是+1, 則從正前方的 PENTAN 讀取並記住位置6的代碼參數.";
+"codes.write.text" = "寫入";
+"codes.write.description" = "這指令讓 PENTAN 把它記住的數字寫入位置, 該位置是其當前狀態與參數的和.\n\n例如, 參數是+1, 則把所記數字寫入下一個代碼的參數位置.";
+"codes.split.text" = "分裂";
+"codes.split.description" = "此指令讓 PENTAN 從自己的基因組中提取特定代碼段, 製造一個新的 PENTAN.\n\n要提取的代碼段由當前狀態和參數的和定位開始, 並向兩側擴展至被“空指令”包圍. 進行此操作會消耗等同於基因組長度的能量, 且新的 PENTAN 會得到剩餘能量的一半. 新 PENTAN 的初始狀態是 NOP 段的起始位置.";
+"codes.copy.text" = "複製";
+"codes.copy.description" = "此指令允許 PENTAN 把自己複製到正前方的位置, 方向與當前一致.\n\n前方位置需為空, 無其他 PENTAN. 進行此操作需要消耗等同於其基因組的能量, 而新 PENTAN 會得到剩餘能量的一半. 新 PENTAN 的初始狀態是其當前狀態與參數的和.";
+"codes.end.text" = "終止";
+"codes.end.description" = "這是一個讓 PENTAN 終止的指令. 只有當 PENTAN 記住的數值與參數相同時, 此命令才會被執行.";
+"codes.cross.text" = "交換";
+"codes.cross.description" = "此指令允許 PENTAN 與其正前方的 PENTAN 交換特定的代碼段.\n\n要交換的代碼段由當前狀態和參數的和開始, 向兩端擴展直至遇到“空指令”為止. 若兩者沒有匹配的空指令部分, 交換不會進行. 此操作消耗等同於基因組長度的能量.";
+"codes.code.text" = "指令";
+"codes.code.description" = "此指令允許將一條代碼加入 PENTAN 的基因組末尾. 添加的代碼會根據參數的數值, 而參數則為記憶中的數值.";
+"codes.equal.text" = "相等";
+"codes.equal.description" = "當參數的值與 PENTAN 儲存的值一致時, 結果為1, 不一致則為0.";
+"codes.stick.text" = "旋轉";
+"codes.stick.description" = "此指令根據參數的數值和正負號改變 PENTAN 手臂的方向或回收它.\n\n正數旋轉順時針, 負數旋轉逆時針. 例如, 參數為 +4, 手臂旋轉360度, 因此不會改變方向. 若參數為0, PENTAN 的手臂會收回.";

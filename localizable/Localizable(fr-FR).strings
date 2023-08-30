@@ -1,0 +1,356 @@
+/* 
+  Localizable.strings
+  GoCAKs 
+*/
+
+"roots.games" = "Jeux";
+"roots.help" = "Aide";
+"roots.settings" = "Paramètres";
+
+"games.title" = "**GoCAKs**";
+"games.abbrev" = "**G**ame **o**f **C**ellular **A**utomata for **K**id**s**";
+
+"games.speedrun" = "Course Rapide";
+"games.creative" = "Mode Créatif";
+"games.version" = "ver. 1.1";
+
+"game.grid" = "Grille";
+"game.library" = "Bibliothèque";
+"game.help" = "Aide";
+"game.settings" = "Paramètres";
+
+"settings.title" = "Paramètres";
+"settings.language" = "Langue Préférée";
+"settings.showgrid" = "Afficher les Lignes de la Grille";
+"settings.showzoom" = "Afficher "; 
+"settings.bgm" = "Musique de Fond";
+"settings.sfx" = "Effets Sonores";
+"settings.timespeed" = "Vitesse du Temps";
+
+"languages.en-US" = "Anglais";
+"languages.ja-JP" = "Japonais";
+"languages.zh-CN" = "Chinois Simplifié";
+"languages.zh-TW" = "Chinois Traditionnel";
+"languages.zh-HK" = "Chinois Hong Kong";
+"languages.hi-IN" = "Hindi";
+"languages.de-DE" = "Allemand";
+"languages.fr-FR" = "Français";
+
+"timespeeds.faster3" = "Plus rapide +3";
+"timespeeds.faster2" = "Plus rapide +2";
+"timespeeds.faster1" = "Plus rapide +1";
+"timespeeds.default" = "Par défaut";
+"timespeeds.slow1" = "Lent +1";
+
+"speedrun.back"  = "Retour au Menu";
+"speedrun.title" = "**Course Rapide**";
+"speedrun.help.title" = "Course Rapide";
+"speedrun.text1" = "C'est un jeu où vous concourez pour le temps qu'il faut pour vaincre l'ennemi.\n\nCréez un programme efficace qui peut vaincre l'ennemi avec moins de mouvements.\n\nLes opérations telles que l'arrangement, la suppression ou la modification de PENTAN réduiront votre budget. Une fois tout le budget épuisé, vous ne pourrez plus utiliser PENTAN.\n\nDans un temps et un budget limités, éliminez efficacement tous les ennemis.";
+
+"speedrun.level1"  = "Niveau 1";
+"speedrun.level2"  = "Niveau 2";
+"speedrun.level3"  = "Niveau 3";
+"speedrun.level4"  = "Niveau 4";
+"speedrun.level5"  = "Niveau 5";
+"speedrun.level6"  = "Niveau 6";
+"speedrun.level7"  = "Niveau 7";
+"speedrun.level8"  = "Niveau 8";
+"speedrun.level9"  = "Niveau 9";
+"speedrun.level10" = "Niveau 10";
+
+"speedrun.enabled.codes"  = "Les commandes qui peuvent être utilisées à ce niveau sont :\n\n";
+
+"speedrun.help.score" = "Meilleur Score\n\n";
+"speedrun.help.fastest" = "Achèvement le Plus Rapide :\n";
+"speedrun.help.least" = "Achèvement avec le Budget Minimum :\n";
+"speedrun.help.gen" = "Temps : ";
+"speedrun.help.budget" = "Budget : ";
+
+"speedrun.level1.description" = "Apprenons les bases des commandes.\n\n";
+"speedrun.level2.description" = "De quelle direction devriez-vous attaquer ?\n\n";
+"speedrun.level3.description" = "Allons pour une attaque en tenaille.\n\n";
+"speedrun.level4.description" = "Comment frapper le centre du tourbillon ?\n\n";
+"speedrun.level5.description" = "Frappons le centre de l'ennemi qui se disperse dans toutes les directions.\n\n";
+"speedrun.level6.description" = "Confinons l'ennemi dans un espace étroit.\n\n";
+"speedrun.level7.description" = "Réprimons-les avant qu'il n'y ait trop d'ennemis.\n\n";
+"speedrun.level8.description"  = "";
+"speedrun.level9.description"  = "";
+"speedrun.level10.description" = "";
+
+"localspace.creative" = "Créatif";
+"localspace.level1" = "Niveau 1";
+"localspace.level2" = "Niveau 2";
+"localspace.level3" = "Niveau 3";
+"localspace.level4" = "Niveau 4";
+"localspace.level5" = "Niveau 5";
+"localspace.level6" = "Niveau 6";
+"localspace.level7" = "Niveau 7";
+"localspace.level8" = "Niveau 8";
+"localspace.level9" = "Niveau 9";
+"localspace.level10" = "Niveau 10";
+
+"grid.you" = "Vous";
+"grid.enemy" = "Ennemi";
+"grid.play" = "Jouer";
+"grid.stop" = "Arrêter";
+"grid.step" = "Étape";
+"grid.done" = "Terminé";
+"grid.edit" = "Éditer";
+
+"detail.cell" = "Cellule";
+"detail.field" = "Champ";
+"detail.codes" = "génome";
+"detail.deploy" = "Déployer";
+
+"gene.editor.reset" = "Réinitialiser";
+
+"cell.name" = "nom : ";
+"cell.xy" = "x, y :";
+"cell.namefield" = "nom";
+"cell.energy" = "énergie";
+"cell.state" = "état";
+"cell.color" = "couleur";
+"cell.memory" = "mémoire";
+
+"cell.properties.energy" = "énergie";
+"cell.properties.state" = "état";
+"cell.properties.color" = "couleur";
+"cell.properties.memory" = "mémoire";
+
+"cell.editor.reset" = "Réinitialiser";
+
+"field.type" = "type";
+"field.value" = "valeur";
+
+"field.editor.field" = "type de champ";
+"field.editor.value" = "valeur";
+"field.editor.reset" = "Réinitialiser";
+
+"library.title" = "Bibliothèque de Cellules";
+"library.help.title" = "La Bibliothèque de Cellules";
+"library.help.description" = "La Bibliothèque de Cellules est l'endroit où vous stockez les PENTANs que vous avez conçus ou collectés depuis la grille.\n\nCréons un nouveau PENTAN et attribuons un nom à chacun.";
+"library.add" = "Ajouter";
+
+"deploy.help.title" = "La Bibliothèque de Cellules";
+"deploy.help.description" = "Choisissons un PENTAN à placer depuis la Bibliothèque de Cellules.\n\nAvant de placer le PENTAN, vous pouvez également apporter des modifications. Toute modification apportée au PENTAN avant sa mise en place ne s'appliquera que dans cette instance et n'affectera pas le PENTAN stocké dans la Bibliothèque de Cellules.";
+
+"dialog.nobudget" = "Plus de budget.\nVous ne pouvez rien faire.";
+"dialog.reset" = "Réinitialiser?";
+"dialog.cancel" = "Annuler";
+"dialog.youwon" = "Vous avez gagné!";
+"dialog.timeup" = "Le temps est écoulé!";
+"button.ok" = "OK";
+
+"help.title" = "Aide";
+"help.story" = "L'Histoire";
+"help.game" = "Le Jeu";
+"help.codes" = "Les Codes";
+"help.episodes" = "Les Épisodes";
+"help.faq" = "FAQ";
+
+/// Help - Story
+
+"help.story.title" = "**L'Histoire**";
+
+"help.story.1" = "En l'an 2300, l'humanité avait acquis la technologie nécessaire pour terraformer les planètes du système solaire. La mission était dirigée par une équipe de scientifiques et d'ingénieurs brillants qui avaient consacré leur vie à cet objectif ambitieux.";
+
+"help.story.2" = "La dernière planète à être terraformée fut Neptune, qui avait longtemps été considérée comme le candidat le plus prometteur pour construire des colonies humaines destinées à explorer le système solaire extérieur. L'équipe a utilisé des nanomachines auto-réplicantes pour changer la surface et l'atmosphère de la planète dans le domaine de l'Astrobiologie.";
+
+"help.story.section1.title" = "Le Projet EvE-PALMA";
+
+"help.story.3" = "Le projet de conception des nanomachines a été nommé **EvE-PALMA**, acronyme pour **Ev**olutionary **E**xperiments of **P**rogrammable **A**rtificial **L**ife by **M**olecular **A**utomata.";
+
+"help.story.section2.title" = "PENTAN";
+
+"help.story.4" = "La nanomachine développée à partir du projet a été appelée **PENTAN**, ou **P**rogrammable et **E**volvable **N**anomachines pour **T**erraformer l'**A**strobiologie de **N**eptune.";
+
+"help.story.5" = "L'équipe a lancé de nombreux PENTANs en les intégrant dans de minuscules glaces et en les envoyant des anneaux de Saturne vers les nuages bleus de méthane de Neptune.";
+
+"help.story.6" = "Cependant, presque tous les PENTANs déployés sont devenus sauvages et incontrôlables en quelques décennies, malgré la conception soignée de l'équipe. Quelque chose avait affecté et modifié les PENTANs, indiquant fortement la présence de vie sur Neptune.";
+
+"help.story.section3.title" = "Votre Mission";
+
+"help.story.7" = "Vous êtes un scientifique en Astrobiologie dans le projet EvE-PALMA. Votre mission est de concevoir une nouvelle génération de PENTANs pour remplacer les anciens qui sont devenus sauvages et terraformer Neptune!";
+
+"help.story.episodes.title" = "Les Épisodes";
+
+/// Help - Episodes
+
+"help.episodes.title" = "**Les Épisodes**";
+
+"help.episodes.subtitle" = "La refonte de **PENTAN**";
+
+"help.episodes.1" = "La solitude de son laboratoire offrait un doux ronronnement, le léger bourdonnement des machines étant le seul fond sonore dont Tony*Theta7* avait besoin. En tant qu'astrobiologiste, il avait toujours été fasciné par les mystères de l'univers. Désormais, il était à l'avant-garde de l'un des projets les plus ambitieux entrepris par l'humanité : **EvE-PALMA**.";
+"help.episodes.2" = "C'était un acronyme qui chantait avec promesse et aspiration : **Ev**olutionary **E**xperiments of **P**rogrammable **A**rtificial **L**ife by **M**olecular **A**utomata. Sa tâche ? Construire des nanomachines capables de terraformer le dernier joyau intact du système solaire, Neptune.";
+"help.episodes.3" = "Son chef-d'œuvre, PENTAN, a été conçu à cette fin précise. **P**rogrammable et **E**volvable **N**anomachines pour **T**erraformer l'**A**strobiologie de **N**eptune - une création qui, dans sa structure microscopique, avait le potentiel de transformer une planète entière.";
+"help.episodes.4" = "Cependant, le succès avait été insaisissable. La première génération de PENTANs, autrefois si prometteuse, avait mal tourné. Ils avaient été relâchés dans les nuages de méthane de Neptune, prenant des trajets sur les particules glacées des anneaux de Saturne. Mais au lieu de lancer le processus de terraformation, ils étaient devenus incontrôlables, sauvages.";
+"help.episodes.5" = "Tony*Theta7* se trouvait maintenant à un point pivot. Son défi était de concevoir une nouvelle génération de PENTANs, qui ne répéteraient pas les erreurs de leurs prédécesseurs. La conception précédente avait indiqué la possible présence de vie sur Neptune, une découverte à la fois excitante et un obstacle dans leur mission.";
+"help.episodes.6" = "Tony était penché sur son travail, le front plissé de concentration. Des images de nuages tourbillonnants de méthane et de cieux teintés de bleu remplissaient ses écrans. Chaque ligne de code qu'il écrivait était une solution potentielle, une nouvelle laisse sur les PENTANs sauvages.";
+"help.episodes.7" = "Ses doigts volaient sur le clavier, le clic rythmique des touches devenant partie intégrante du bruit ambiant du laboratoire. À l'écran, des plans complexes d'automates moléculaires prenaient vie. Chaque design était plus avancé, plus capable, plus maîtrisé.";
+"help.episodes.8" = "Les nouveaux PENTANs devaient être différents. Ils devaient être conçus avec la connaissance que Neptune pourrait déjà abriter la vie, un facteur qui n'était pas considéré dans la conception précédente. Tony*Theta7* devait s'assurer que ces nanomachines pourraient fonctionner en harmonie avec les formes de vie existantes.";
+"help.episodes.9" = "En entrant les dernières lignes de code, il ressentit une montée d'anticipation. Avec une simple commande, l'imprimante s'anima, créant un modèle 3D du PENTAN amélioré. Sa complexité était hypnotisante - un témoignage de l'innovation humaine et du désir inébranlable d'explorer l'inexploré.";
+"help.episodes.10" = "Pour Tony*Theta7*, c'était le point culminant d'un effort inlassable, un pas de plus vers l'objectif noble de terraformer Neptune. Mais le véritable test de sa création était encore à venir, dans les profondeurs froides de l'atmosphère de la planète bleue, où les nouveaux PENTANs dompteraient soit la sauvagerie de leurs prédécesseurs, soit succomberaient au même sort.";
+"help.episodes.11" = "Le chapitre de la terraformation de Neptune était encore en cours d'écriture, et c'était Tony*Theta7* qui tenait le stylo.";
+
+/// Help - The Game
+
+"help.games.title" = "Les Jeux";
+
+"help.games.1" = "Les GoCAKs";
+"help.games.1-1" = "GoCAKs /goʊ-kɜrks/ signifie\n***G***ame of ***C***ellular ***A***utomaton for ***K***id***s***";
+"help.games.1-2" = "L'**automate cellulaire** mentionné ici est quelque chose comme un programme informatique.";
+"help.games.1-3" = "Dans cette version de GoCAKs, vous jouez en manipulant une pièce appelée **PENTAN** (un automate cellulaire) dans un monde représenté sur une grille 2D comme un échiquier. Le PENTAN se déplace selon un programme préétabli.";
+
+"help.games.2" = "GoCAKs comme outil fondamental d'apprentissage de la programmation";
+"help.games.2-1" = "Le programme pour PENTAN est créé en combinant plusieurs instructions.";
+"help.games.2-2" = "En combinant les instructions, vous pouvez créer divers mouvements et phénomènes.";
+"help.games.2-3" = "Jouer à GoCAKs, c'est en soi programmer.";
+"help.games.2-4" = "En jouant à GoCAKs, vous pouvez naturellement apprendre les concepts de programmation de base tels que les boucles, les branchements conditionnels et les variables.";
+
+"help.games.3" = "**PENTAN** comme forme de vie programmée";
+"help.games.3-1" = "Dans le monde de GoCAKs, l'automate cellulaire est appelé **PENTAN**.";
+"help.games.3-2" = "PENTAN, une nanomachine auto-répliquante, se comporte parfois comme une seule cellule et parfois comme un organisme multicellulaire coopérant les uns avec les autres.";
+"help.games.3-3" = "PENTAN a les attributs suivants.";
+
+"help.games.pentan.title.1" = "L'Énergie";
+"help.games.pentan.description.1" = "L'énergie est la source de l'activité de PENTAN.\n\nÀ mesure que l'énergie diminue, la couleur de PENTAN s'estompe. Lorsque l'énergie atteint zéro, PENTAN disparaît.";
+"help.games.pentan.title.2" = "L'État";
+"help.games.pentan.description.2" = "PENTAN a un état.\n\nL'état est un nombre représentant l'emplacement du code que PENTAN exécute. Lorsque PENTAN exécute un certain code, l'état change et pointe vers l'emplacement du prochain code à exécuter. PENTAN ne peut pas connaître l'état des autres PENTANs.";
+"help.games.pentan.title.3" = "La Mémoire";
+"help.games.pentan.description.3" = "PENTAN ne peut se souvenir que d'un seul nombre. Certains codes changent leur comportement en fonction du nombre que PENTAN se souvient.";
+"help.games.pentan.title.4" = "La Direction";
+"help.games.pentan.description.4" = "PENTAN a une direction. PENTAN peut changer sa direction. Un certain code affecte le PENTAN voisin dans la direction que PENTAN regarde.";
+"help.games.pentan.title.5" = "La Direction de la Main";
+"help.games.pentan.description.5" = "PENTAN n'a qu'une seule main.\n\nLa main a une direction, et PENTAN peut changer la direction de la main. PENTAN peut utiliser sa main pour s'accrocher au PENTAN voisin. Lorsque le PENTAN qui est au bout de la main tendue bouge, il peut également bouger avec lui.";
+"help.games.pentan.title.6" = "La Couleur";
+"help.games.pentan.description.6" = "PENTAN a une couleur. \n\nLa couleur peut être modifiée. PENTAN peut voir la couleur des autres pentanes.";
+"help.games.pentan.title.7" = "Le Génome";
+"help.games.pentan.description.7" = "Le programme de PENTAN est appelé un génome.\n\nUn génome est une collection de codes assemblés dans l'ordre.\n\nPlus le génome est long, plus il peut exprimer un programme complexe.\n\nCependant, il existe des instructions qui nécessitent beaucoup d'énergie à exécuter, comme les instructions pour répliquer PENTAN, à mesure que le génome s'allonge.\n\nConsidérez donc que plus le génome est court, plus il est facile pour PENTAN d'augmenter en nombre, et plus le génome est long, plus il est difficile d'augmenter en nombre.";
+
+"help.games.4" = "Les Champs";
+
+"help.games.4-1" = "Dans le monde de la grille bidimensionnelle où PENTAN opère, il y a des lieux avec diverses caractéristiques.";
+
+"help.games.fields.title.1" = "Champ d'Énergie";
+"help.games.fields.description.1" = "C'est un endroit d'où jaillit l'énergie thermique, qui sert d'énergie pour PENTAN. PENTAN peut reconstituer son énergie ici.";
+"help.games.fields.title.2" = "Champ de Poison";
+"help.games.fields.description.2" = "C'est un endroit qui contient de nombreuses substances toxiques pour PENTAN. Ces substances épuiseront l'énergie de PENTAN. Si PENTAN reste en cet endroit trop longtemps, son énergie diminuera progressivement et il finira par disparaître.";
+"help.games.fields.title.3" = "Champ de Radiation";
+"help.games.fields.description.3" = "C'est un endroit où il y a de la radiation. À cause des effets de la radiation, la nano-structure délicate de PENTAN est endommagée, provoquant des changements dans l'état et le code de PENTAN.";
+"help.games.fields.title.4" = "Champ Inaccessible";
+"help.games.fields.description.4" = "C'est un endroit où PENTAN ne peut pas entrer.";
+"help.games.fields.title.5" = "";
+"help.games.fields.description.5" = "";
+
+"help.games.timeandbudget" = "Temps et Budget";
+"help.games.timeandbudget.description" = "En mode Speed Run, il y a des contraintes sur le temps et le budget que vous pouvez utiliser pour chaque étape.";
+
+"help.games.time.title" = "Temps";
+"help.games.time.description" = "En mode Speed Run, il y a une limite sur le temps que vous pouvez utiliser pour chaque étape. Dans le temps imparti, vous devez éliminer tous les ennemis. Lorsque vous atteignez la limite de temps, c'est la fin de la partie et vous devrez recommencer l'étape depuis le début.";
+
+"help.games.budget.title" = "Budget";
+"help.games.budget.description" = "En mode Speed Run, il y a une limite sur le budget que vous pouvez utiliser pour chaque étape. Placer, retirer, ou modifier les PENTANs consomme votre budget. Une fois votre budget épuisé, vous ne pouvez plus opérer les PENTANs dans cette étape. En réinitialisant, le temps revient à 0 et le budget utilisé se réinitialise également à 0.";
+
+"help.games.howtoplay" = "Comment Jouer";
+"help.games.speedrun.title" = "Mode Speed Run";
+"help.games.speedrun.description" = "C'est un jeu où vous concourrez pour éliminer les ennemis en aussi peu de temps et avec le moins de ressources possibles.\n\nIl y a des étapes du Niveau 1 au Niveau 7. Dans le temps et le budget donnés, essayez de créer efficacement des PENTANs pour éliminer tous les ennemis.";
+"help.games.creative.title" = "Mode Créatif";
+"help.games.creative.description" = "C'est un mode où vous pouvez librement créer des PENTANs et réaliser diverses expériences.\n\nLaissez libre cours à votre créativité et créez des PENTANs qui induisent des mouvements et phénomènes intéressants.";
+
+/// Help - FAQ
+
+"help.faq.title" = "FAQ";
+
+"faqs.item1.title" = "Utilisation dans les Écoles";
+"faqs.item1.description" = "Q. GoCAKs peut-il être utilisé dans les cours scolaires?\n\nA. Oui, GoCAKs peut être utilisé dans les cours scolaires. Vous êtes libre de créer et distribuer des matériaux tels que des captures d'écran. Il est également acceptable de l'utiliser dans des cours de programmation qui sont organisés à but lucratif.";
+
+"faqs.item2.title" = "Création de Vidéos";
+"faqs.item2.description" = "Q. Puis-je créer et partager des vidéos de moi jouant à GoCAKs?\n\nA. Oui, vous pouvez créer des vidéos et les partager sur des plateformes comme YouTube. Vous êtes également autorisé à monétiser ces vidéos.";
+
+/// Codes
+
+"help.codes.title" = "Les Codes";
+"help.codes.code.title" = "Code";
+"help.codes.code.description" = "Un code est composé d'une commande et d'un paramètre.\n\nLe paramètre est représenté par un nombre, et certaines commandes utilisent le paramètre tandis que d'autres ne le font pas.\n\nLes instructions dans GoCAKs sont soigneusement sélectionnées et très bien conçues.\n\nBien que chaque instruction soit simple et facile à comprendre, il y a des possibilités infinies dans les mouvements et phénomènes qui peuvent être créés à partir de leurs combinaisons.\n\nLe spectacle de PENTANs soigneusement conçus en compétition pour la survie créerait probablement un phénomène similaire à un écosystème.";
+
+///
+/// Fields
+///
+
+"fields.none" = "aucun";
+"fields.energy" = "énergie";
+"fields.poison" = "poison";
+"fields.radiation" = "radiation";
+"fields.prohibited" = "interdit";
+
+///
+/// Codes
+///
+
+"codes.nop" = "NOP";  // Stands for No Operation, which is commonly used in programming, and thus, can be kept the same.
+"codes.turn" = "TOURNER";
+"codes.color" = "COULEUR";
+"codes.add" = "AJOUTER";
+"codes.minus" = "SOUSTRAIRE";
+"codes.end" = "FIN";
+"codes.jump" = "SAUTER";
+"codes.look" = "REGARDER";
+"codes.field" = "CHAMP";
+"codes.stick" = "COLLER";
+"codes.read" = "LIRE";
+"codes.write" = "ÉCRIRE";
+"codes.give" = "DONNER";
+"codes.eat" = "MANGER";
+"codes.cross" = "CROISER";
+"codes.copy" = "COPIER";
+"codes.split" = "DIVISER";
+"codes.move" = "DÉPLACER";
+"codes.sleep" = "DORMIR";
+"codes.append" = "AJOUTCODE";  // This might need a bit more context.
+"codes.memory" = "MÉMOIRE";
+"codes.equal" = "ÉGAL";
+
+"codes.nop.text" = "NOP";
+"codes.nop.description" = "Aucune Opération. C'est une commande qui ne fait rien.\n\nIl n'y a pas de consommation d'énergie.\n\nContrairement à la commande DORMIR, le PENTAN reste actif. Par conséquent, même s'il est attaqué par d'autres PENTANs, il ne perdra pas face à des adversaires ayant moins d'énergie.";
+"codes.move.text" = "DÉPLACER";
+"codes.move.description" = "C'est une commande pour que PENTAN se déplace dans la direction vers laquelle il est tourné selon le nombre et le signe des paramètres.\n\nLorsque le paramètre est un nombre positif, il avance. Lorsqu'il s'agit d'un nombre négatif, il recule. À chaque unité de temps, il se déplace d'une case, continuant de se déplacer autant de fois que le nombre du paramètre.\n\nIl mémorise d'abord le nombre du paramètre puis réduit ce nombre mémorisé de 1 à chaque déplacement.\n\nLe mouvement s'arrête soit lorsque le nombre mémorisé atteint 0, soit s'il y a un autre PENTAN dans la direction du mouvement, soit s'il y a un emplacement inaccessible.";
+"codes.turn.text" = "TOURNER";
+"codes.turn.description" = "C'est une commande pour changer la direction de PENTAN selon le nombre et le signe des paramètres.\n\nLorsque le paramètre est un nombre positif, il tourne dans le sens des aiguilles d'une montre. Lorsqu'il s'agit d'un nombre négatif, il tourne dans le sens contraire. Par exemple, lorsque le paramètre est +4, il effectue une rotation complète, donc la direction de PENTAN ne change pas. Aussi, lorsque le nombre du paramètre est 0, la direction de PENTAN est réinitialisée pour faire face au nord.";
+"codes.jump.text" = "SAUTER";
+"codes.jump.description" = "C'est une commande pour changer l'état de PENTAN (qui représente la position d'exécution du programme) en fonction du nombre et du signe des paramètres.\n\nLorsque le paramètre est un nombre positif, l'état passe à une valeur plus grande, et lorsqu'il s'agit d'un nombre négatif, l'état passe à une valeur plus petite. Par exemple, si le nombre du paramètre est -1, il revient à l'état précédent. Si le nombre du paramètre est 0, l'état avance simplement au code suivant. Si le nombre du paramètre est +1, il saute le code suivant et avance l'état.";
+"codes.sleep.text" = "DORMIR";
+"codes.sleep.description" = "C'est une commande pour que PENTAN dorme.\n\nIl continue de dormir pendant la même durée que le nombre dans le paramètre.\n\nPendant son sommeil, l'énergie de PENTAN augmente progressivement.\n\nCependant, s'il est attaqué pendant son sommeil, toute son énergie sera volée et il mourra.";
+"codes.give.text" = "DONNER";
+"codes.give.description" = "Il divise et donne la moitié de sa propre énergie au PENTAN voisin dans la direction vers laquelle il est tourné.\n\nS'il n'y a pas d'autre PENTAN devant lui, son énergie diminue de 1.";
+"codes.eat.text" = "MANGER";
+"codes.eat.description" = "Il attaque le PENTAN voisin dans la direction vers laquelle il est tourné.\n\nCelui qui a le plus d'énergie reste tandis que celui qui a moins d'énergie disparaît. À ce moment, l'énergie du PENTAN restant diminue du même montant que l'énergie du PENTAN disparu. Cependant, si le PENTAN voisin est en état de sommeil, même si l'adversaire a plus d'énergie, vous pouvez gagner sans réduire votre propre énergie.";
+"codes.color.text" = "COULEUR";
+"codes.color.description" = "C'est une commande pour changer la couleur de PENTAN.\n\nElle change pour la couleur correspondant au nombre dans le paramètre.";
+"codes.look.text" = "REGARDER";
+"codes.look.description" = "C'est une commande pour lire et mémoriser la couleur du PENTAN à côté de vous, face à la direction que PENTAN indique.";
+"codes.field.text" = "TERRAIN";
+"codes.field.description" = "C'est une commande pour enquêter sur le type de carré où PENTAN est situé et mémoriser le nombre représentant ce type de carré.";
+"codes.add.text" = "AJOUTER";
+"codes.add.description" = "C'est une commande pour ajouter le nombre du paramètre au nombre que PENTAN se souvient.\n\nSi le nombre du paramètre est négatif, le nombre que PENTAN se souvient diminuera du montant du nombre du paramètre.";
+"codes.minus.text" = "SOUSTRAIRE";
+"codes.minus.description" = "C'est une commande pour soustraire le nombre du paramètre du nombre que PENTAN se souvient.";
+"codes.memory.text" = "MÉMOIRE";
+"codes.memory.description" = "C'est une commande pour se souvenir du nombre dans le paramètre.";
+"codes.read.text" = "LIRE";
+"codes.read.description" = "C'est une commande pour que PENTAN lise et se souvienne du paramètre du code situé à la position qui est la somme de son état actuel et du paramètre, du PENTAN voisin dans la direction vers laquelle il est tourné.";
+"codes.write.text" = "ÉCRIRE";
+"codes.write.description" = "C'est une commande pour que PENTAN écrive le nombre qu'il se souvient au paramètre du code situé à la position qui est la somme de son état actuel et du paramètre.";
+"codes.split.text" = "SÉPARER";
+"codes.split.description" = "C'est une commande pour que PENTAN produise un nouveau PENTAN en extrayant une section de code spécifique de son propre génome.";
+"codes.copy.text" = "COPIER";
+"codes.copy.description" = "C'est une commande pour que PENTAN se réplique à l'endroit voisin dans la direction vers laquelle il est tourné.";
+"codes.end.text" = "FIN";
+"codes.end.description" = "C'est une commande pour que PENTAN s'autodétruise. Cependant, la commande n'est exécutée que lorsque le nombre que PENTAN se souvient est le même que le nombre du paramètre.";
+"codes.cross.text" = "ÉCHANGER";
+"codes.cross.description" = "C'est une commande pour que PENTAN échange une certaine section de code avec un autre PENTAN situé devant lui.";
+"codes.code.text" = "CODE";
+"codes.code.description" = "C'est une commande pour ajouter un code à la fin du génome de PENTAN. L'instruction du code ajouté correspondra au nombre du paramètre.";
+"codes.equal.text" = "ÉGAL";
+"codes.equal.description" = "C'est une commande qui stocke 1 lorsque la valeur du paramètre correspond à la valeur stockée par PENTAN, et stocke 0 lorsqu'elle ne correspond pas.";
+"codes.stick.text" = "BÂTON";
+"codes.stick.description" = "C'est une commande pour changer la direction de la main de PENTAN ou pour la rétracter, selon le nombre et le signe des paramètres.";
