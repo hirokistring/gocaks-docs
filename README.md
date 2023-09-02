@@ -1,5 +1,9 @@
 # GoCAKs Game Documentation Repository
 
+> **GoCAKs** - **G**ame **o**f **C**ellular **A**utomata for **K**id**s**
+>
+> **_Coding Battle Game_**
+
 Welcome to the official documentation repository for the **_GoCAKs_** game!
 
 ![Game Icon](pics/game-icon.png)
