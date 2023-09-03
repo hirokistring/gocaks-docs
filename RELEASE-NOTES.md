@@ -1,5 +1,12 @@
 # GoCAKs Release Notes
 
+## 1.3
+
+In this version, we've made the following enhancements:
+
+Added YouTube videos on "How to Play GoCAKs".
+Introduced example programs to the Cell Library.
+
 ## 1.2
 
 In this version, we've implemented the following enhancements:
