@@ -12,7 +12,7 @@
 
 "games.speedrun" = "タイムアタックモード";
 "games.creative" = "クリエイティブモード";
-"games.version" = "バージョン 1.1";
+"games.version" = "バージョン 1.3";
 
 "game.grid" = "グリッド";
 "game.library" = "ライブラリ";
@@ -26,6 +26,7 @@
 "settings.bgm" = "BGM再生";
 "settings.sfx" = "操作音";
 "settings.timespeed" = "時間の速さ";
+"settings.autorotate" = "自動的にビューを回転";
 
 "languages.en-US" = "英語";
 "languages.ja-JP" = "日本語";

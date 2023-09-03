@@ -12,7 +12,7 @@
 
 "games.speedrun" = "Speed Run";
 "games.creative" = "Kreativmodus";
-"games.version" = "ver. 1.1";
+"games.version" = "ver. 1.3";
 
 "game.grid" = "Gitter";
 "game.library" = "Bibliothek";
@@ -26,6 +26,7 @@
 "settings.bgm" = "BGM";
 "settings.sfx" = "Soundeffekte";
 "settings.timespeed" = "Zeitgeschwindigkeit";
+"settings.autorotate" = "Automatische Ansichtsdrehung";
 
 "languages.en-US" = "Englisch";
 "languages.ja-JP" = "Japanisch";
