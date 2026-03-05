@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="base-path" content="." />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/i18n.js" defer></script>
+    <script src="js/showcase.js" defer></script>
+    <title>GoCAKs - PENTAN Showcase</title>
+    <style>
+      .showcase-card {
+        background: var(--bg-card);
+        border-radius: var(--radius-md);
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-md);
+      }
+      .showcase-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--spacing-sm);
+      }
+      .showcase-card-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      .showcase-card-meta {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin-bottom: var(--spacing-sm);
+      }
+      .showcase-card-desc {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        line-height: 1.5;
+        margin-bottom: var(--spacing-md);
+      }
+      .import-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: var(--accent);
+        color: #fff;
+        border: none;
+        border-radius: var(--radius-sm);
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .import-btn:active {
+        opacity: 0.7;
+      }
+      .showcase-toast {
+        position: fixed;
+        bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--bg-card);
+        color: var(--text-primary);
+        padding: 10px 24px;
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+        transition: opacity 0.3s;
+      }
+      .showcase-toast.fade-out {
+        opacity: 0;
+      }
+      .showcase-card-video {
+        width: 100%;
+        max-width: 320px;
+        border-radius: var(--radius-md);
+        margin: var(--spacing-sm) 0 var(--spacing-md);
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <nav class="nav-bar">
+        <a href="index.html" class="nav-back">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+          <span data-i18n="help.title">Help</span>
+        </a>
+      </nav>
+
+      <h1 class="page-title" data-i18n="showcase.pentan.title">
+        PENTAN Showcase
+      </h1>
+      <p class="content-text" data-i18n="showcase.pentan.intro">
+        Official PENTANs ready to import into your library.
+      </p>
+
+      <!-- Watch Dog -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.pentan.watchdog.name">Watch Dog</span>
+        </div>
+        <img
+          src="images/pentan-watch-dog.png"
+          alt="Watch Dog"
+          class="showcase-card-image"
+        />
+        <video class="showcase-card-video" src="movies/preview-watch-dog.mov" controls playsinline preload="metadata">
+          Your browser does not support the video tag.
+        </video>
+        <div class="showcase-card-meta">4 genes &middot; E:100</div>
+        <div
+          class="showcase-card-desc"
+          data-i18n="showcase.pentan.watchdog.desc"
+        >
+          Acts like a watchdog: starting from where it's placed, it continuously
+          patrols around in a circle while staying alert, protecting the area
+          near its deployment point.
+        </div>
+        <button
+          class="import-btn"
+          onclick="importPentan('P1:Watch Dog:AWRQAAIABQQUAhAAAQICAQ==')"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Arrow Cell -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.pentan.arrowcell.name">Arrow Cell</span>
+        </div>
+        <img
+          src="images/pentan-arrow-cell.png"
+          alt="Arrow Cell"
+          class="showcase-card-image"
+        />
+        <video class="showcase-card-video" src="movies/preview-arrow-cell.mov" controls playsinline preload="metadata">
+          Your browser does not support the video tag.
+        </video>
+        <div class="showcase-card-meta">5 genes &middot; E:100</div>
+        <div
+          class="showcase-card-desc"
+          data-i18n="showcase.pentan.arrowcell.desc"
+        >
+          Uses COPY and JUMP in a loop to shoot child PENTANs forward like
+          arrows, attacking enemies on contact. Place on an energy field to
+          continuously release arrows and break through the enemy front.
+        </div>
+        <button
+          class="import-btn"
+          onclick="importPentan('P1:Arrow Cell:AWQZAAAABQURAwEBAwAUChAA')"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Pipeline Cell -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name">Pipeline Cell</span>
+        </div>
+        <img
+          src="images/pentan-pipeline-cell.png"
+          alt="Pipeline Cell"
+          class="showcase-card-image"
+        />
+        <video class="showcase-card-video" src="movies/preview-pipeline.mov" controls playsinline preload="metadata">
+          Your browser does not support the video tag.
+        </video>
+        <div class="showcase-card-meta">2 genes &middot; E:100</div>
+        <div
+          class="showcase-card-desc"
+          data-i18n="showcase.pentan.pipeline.desc"
+        >
+          Simple COPY 0 and GIVE 0: multiplies allies ahead and transports
+          energy like a pipeline, continuously sending energy forward. Place on
+          an energy field to use as a supply line for allies on the front.
+        </div>
+        <button
+          class="import-btn"
+          onclick="importPentan('P1:Pipeline:AWQAAAAABQIRAA8A')"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Energy Finder -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.pentan.energyfinder.name">Energy Finder</span>
+        </div>
+        <img
+          src="images/pentan-energy-finder.png"
+          alt="Energy Finder"
+          class="showcase-card-image"
+        />
+        <video
+          class="showcase-card-video"
+          src="movies/preview-energy-finder.mov"
+          controls
+          playsinline
+          preload="metadata"
+        >
+          Your browser does not support the video tag.
+        </video>
+        <div class="showcase-card-meta">14 genes &middot; E:100</div>
+        <div
+          class="showcase-card-desc"
+          data-i18n="showcase.pentan.energyfinder.desc"
+        >
+          Moves in a zigzag while searching for energy fields. When found, uses
+          that spot as a base and launches new Energy Finders in all four
+          directions. Serves as a base for creating exploratory PENTAN genomes
+          for various tactical purposes.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importPentan(
+              'P1:Energy Finder:AWQPAAAABQ8GAAsBBwEDAAMGAAURAAEFDwACAQMAFAECARQBAgA=',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Cancer Cell (enemy) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.pentan.cancer.name">Cancer Cell</span>
+        </div>
+        <img
+          src="images/pentan-cancer.png"
+          alt="Cancer Cell"
+          class="showcase-card-image"
+        />
+        <video class="showcase-card-video" src="movies/preview-cancer-cell.mov" controls playsinline preload="metadata">
+          Your browser does not support the video tag.
+        </video>
+        <div class="showcase-card-meta">3 genes &middot; E:100</div>
+        <div class="showcase-card-desc" data-i18n="showcase.pentan.cancer.desc">
+          An enemy PENTAN that keeps multiplying like cancer cells. Becomes a
+          nuisance when placed on energy fields. Important to take it out before
+          the numbers grow.
+        </div>
+        <button
+          class="import-btn"
+          onclick="importPentan('P1:Cancer Cell:AWRGAAAEBQQCAREAAQUPAA==')"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <div class="spacer"></div>
+    </div>
+  </body>
+</html>

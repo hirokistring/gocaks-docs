@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="base-path" content="." />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/i18n.js" defer></script>
+    <script src="js/showcase.js" defer></script>
+    <title>GoCAKs - Grid Showcase</title>
+    <style>
+      .showcase-card {
+        background: var(--bg-card);
+        border-radius: var(--radius-md);
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-md);
+      }
+      .showcase-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--spacing-sm);
+      }
+      .showcase-card-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      .showcase-card-meta {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin-bottom: var(--spacing-sm);
+      }
+      .showcase-card-desc {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        line-height: 1.5;
+        margin-bottom: var(--spacing-md);
+      }
+      .import-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: var(--accent);
+        color: #fff;
+        border: none;
+        border-radius: var(--radius-sm);
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .import-btn:active {
+        opacity: 0.7;
+      }
+      .showcase-toast {
+        position: fixed;
+        bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--bg-card);
+        color: var(--text-primary);
+        padding: 10px 24px;
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+        transition: opacity 0.3s;
+      }
+      .showcase-toast.fade-out {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <nav class="nav-bar">
+        <a href="index.html" class="nav-back">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+          <span data-i18n="help.title">Help</span>
+        </a>
+      </nav>
+
+      <h1 class="page-title" data-i18n="showcase.grid.title">Grid Showcase</h1>
+      <p class="content-text" data-i18n="showcase.grid.intro">
+        Official grid scenarios for Creative Mode. Import replaces your current
+        creative grid.
+      </p>
+
+      <!-- Goban -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.goban.name"
+            >碁盤</span
+          >
+        </div>
+        <img
+          src="images/grid-goban.png"
+          alt="Goban"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.goban.desc">
+          Energy fields and poison fields are arranged in a grid pattern like a
+          Go board. A grid where territory battles unfold, similar to Go.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:Fc4HjgIxDAXQZCAUU0IJxbRTcQTuf4Z9q9HTl/UtT+rn8y1lXioTM/6/xoIlK9YEG7bs2NM5cOTEmcGFKzfuJA+evHhTKhMz5jT/bfUXbYreagyZ5rLQLVmxJuzFFBE1uhwyZdnotuzY0+31GtHd6/U3ZJrLQXfkxJlhb7g33JNDpiwX3ZUbd9Jeel+6l94n01weuicv3vwB',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+        <div
+          class="showcase-card-subsection"
+          style="
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-md);
+            border-top: 1px solid var(--separator);
+          "
+        >
+          <div
+            class="showcase-card-meta"
+            data-i18n="showcase.grid.goban.enemy_label"
+          >
+            敵ペンタン配置例
+          </div>
+          <div
+            class="showcase-card-desc"
+            data-i18n="showcase.grid.goban.enemy_desc"
+          >
+            敵ペンタンが大量に増殖してしまう前に抑え込みましょう。
+          </div>
+          <button
+            class="import-btn"
+            onclick="
+              importGrid(
+                'G1:VdCNDYJADIbh9qAi9ecED7H+DeEMxgkcwVEczcF8TTTGkCfflTblgp5ON5FaFAkV3o9hggZTtHDMMMcCS2Ss0KHHGgUDNhixRWCHPQ44QhQJFWoY3zW9uyXPpl7IoJYJvQZTtHDmPLm7eiYLGaTM6M2xwBKZuazumX1Z74UMalnR69BjjcJcYV9hH1nIIGWgt8GILYK54H7BvuB+ZFDLjt4eBxz5b+eryNNGU5H38WFhddJO1PL3RfPp1Wbj7xh/Yxdrgt4L',
+              )
+            "
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            <span data-i18n="showcase.import">Import</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Fortress -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span
+            class="showcase-card-name"
+            data-i18n="showcase.grid.fortress.name"
+            >堅牢な城</span
+          >
+        </div>
+        <img
+          src="images/grid-castle.png"
+          alt="Castle"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.fortress.desc">
+          A sturdy castle that's easy to defend and hard to attack. The keep is
+          surrounded by multiple walls, with outposts and poison moats around
+          it.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:HdJBsqMgEIBhmgZFRBGDxmdIlrOYpZtZzhneHbz/5l1g/ppKfdUNDTYY5fP5MUYuh4wNb2PvXZyx1t6DlRgxYrfOnFZuUestVJ1x8OjQIyBhwoyMBQUrex6oam9xPAPq2Ofo4fR7IhbGlfnmNIi3/3/q6eHlGogjMnkhVmoHuXSsQuyY7+jTSayMT/IXpKcO7emFgIiECQWV+kmUwFpooGeQqyfGIHEiZsaFWKlv2IO9v4L+PQPvZGAfdKAHJhRUbNiptYGzRtahi6p95CyRu0e5EnFiPEf9U8hXPLBR21nfotzvKB8Z2Q8d6YMJBRUbdmptpE9iHTRxj8Q9iDHRg5gZF2KlvmFP/B8T66ETz0VARMKEgkpdZtahzLznmfdMfsziX5BMDZrpmblX5psiVuZa5h0t1KELPRbN06K/C3llTgo1aOGbgkfAAD4KMyIhY0FBZf1RuOvK3tXe3Sq+R0BiPDE/I2NBwYoHKvUT9mF9gqly2UqOQr5XZxresBvngoPfOBMi+YiEedOvjbkdfuduO98qse7iT/LuyV2QnvLJT/H1Kbc5+A8Oex/E85C7EeWUy5+cHcsp98m4f8nn8eK/fYk3TX/5JvfQeE4T/2jOPMnfxPbmrDD/AA==',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+        <div
+          class="showcase-card-subsection"
+          style="
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-md);
+            border-top: 1px solid var(--separator);
+          "
+        >
+          <div
+            class="showcase-card-meta"
+            data-i18n="showcase.grid.fortress.enemy_label"
+          >
+            敵ペンタン配置例
+          </div>
+          <div
+            class="showcase-card-desc"
+            data-i18n="showcase.grid.fortress.enemy_desc"
+          >
+            Cancer Cells in the keep are protected by guard PENTANs patrolling
+            the castle and enemy PENTANs shooting arrows from outposts. Find the
+            castle's weak point and aim for a breakthrough.
+          </div>
+          <button
+            class="import-btn"
+            onclick="
+              importGrid(
+                'G1:XdQ7ctswEIBhLIAlIQgkCAqkZIpSmSKlmpRpPKmTO/AoPlpulAvkt5WJLY/mmwWwixfJkVyvf4yRm0fGhIux2yzeWGu3nZUYscdsvVmsbOKsWjjnjYeiQYuAhA49MgYUjMw5oDq7iWcNOM88zx7e/eqIhX5lfPUuiNq3n1P2ULntiHtk2oVYyZ1oS0MVYsN4wz6NxEp/oX2GtOThWvZCQERCh4JKfiFKoBYusGeQW0uMQWJHzPQLsZKfMAe7PQX3fQk8kx3z4HbsgQ4FFRNmcuuOs0bq0ETn2shZInePckvEjn4f3bdCe8QBE7mZ+jXKdolylT3z4fbsgw4FFRNmcuuefRJ1cIl7JO5BjIk9iJl+IVbyE+bE++ioh+tYFwERCR0KKnnpqUPpec49z5n2qRc9QzI5uMyemXtlviliZWzNPKOBPNzAHoPL3eC+FtqVMSnk4ArfFBQBO/BRmD0SMgYUVOpPhbuOzB3t1oyiLQIS/Y7xHhkDCkYcUMkvsAerCabKzVbaKLTn6s2KC+zEueChE2dCpL1HQj+5p4mxGTpzt5lvlVhn0YV2c+QuSEe55qNoPcpmTryDk91OxOUk20qURW66cHYMi2wL/fYs18OZd3sWNav7oqtsu5V1VtHD6s2R9oW4Xjgrnm4/jPEarR2MldfOs7b+f+e3du+dF1W9d34a6zWrrzLwZ3DPskhD1pj7IuO/zluphs+lwVspRjSb+8o5fNiziR86IT6UMvdx4FnT54Hxw8D1dWCKTXEiztQ4GPd2KC6THg71ojG9T7vf8LGChfsPN9T8/2EwN7+Xvg3k/Gn1dnw4FAPzw6H+Ag==',
+              )
+            "
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+          <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+            <span data-i18n="showcase.import">Import</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Level 1 (Speed Run) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.level1.name"
+            >Level 1</span
+          >
+        </div>
+        <img
+          src="images/grid-level1.png"
+          alt="Level 1"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.level1.desc">
+          Speed Run mode level 1. Let's learn the basics of the commands.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:DcoxEQAgDAPAJG2A64wSlCACKQiH4bdnVTMTFmt8DpUbj3tCawPXVgCT0jpA+q/JBw==',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Level 2 (Speed Run) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.level2.name"
+            >Level 2</span
+          >
+        </div>
+        <img
+          src="images/grid-level2.png"
+          alt="Level 2"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.level2.desc">
+          Speed Run mode level 2. From which direction should you attack?
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:FYvJCcAwEAOlvWwWQvLw20W4EhfhUlJ4No9Bg2CYeSlktkIp02kI8m7lXZim9RXxrxs8eHpoytrA6wEHhjwAhOsA5lUNfg==',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Level 3 (Speed Run) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.level3.name"
+            >Level 3</span
+          >
+        </div>
+        <img
+          src="images/grid-level3.png"
+          alt="Level 3"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.level3.desc">
+          Speed Run mode level 3. Let's go for a pincer attack.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:FYzLDcAgDEPzARGHQ1oJdRBmYv8Zag5Pz7Is61qfux6Quh6WEU0Qlkkb5Dj0DLAngO6kJyn2kdwmt9fT0osfpIhuEWkdiLcXo6nL0kdcfg==',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Level 4 (Speed Run) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.level4.name"
+            >Level 4</span
+          >
+        </div>
+        <img
+          src="images/grid-level4.png"
+          alt="Level 4"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.level4.desc">
+          Speed Run mode level 4. How to strike the center of the whirlpool?
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:Vc8xbsMwDIVhkaIciVJCW/DcO9RzD9Cxc2cfpUfrwfoXDYpk+PD4TAmQZd/fNVvKMFxQs+6NdAxcEdhMDy1y1iIlyFnYL+TC3SpnqZYWXKp+VrLBmTs5EFV8ktbYNfGOwWyun4vLizudOTz7dHXrnOucw2CesJFfL0OPOtjB0TEQg7eQduX7Vd8maTf+5ybFgreFHD3kI0LKpNtqqWy6LxtvRkPHQGDF3PRsx5GSlVqyiMp6/tWoD/W7tPa07f81/Vb3ulkwquS8y5pyul/rz9ce61ept6caca8/',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Level 5 (Speed Run) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.level5.name"
+            >Level 5</span
+          >
+        </div>
+        <img
+          src="images/grid-level5.png"
+          alt="Level 5"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.level5.desc">
+          Speed Run mode level 5. Let's strike the center of the enemy
+          scattering in all directions.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:bYwxbgMxDAS5pHjyybIoyUIAN9ekCdwYuDcYfome4qf5YWHa4IoBuQMuMcYDgCnwtYB3A8/mmTnQiTGvLC8R3JNgFAeBNtJAUO8oZva9+lyWQNG5OiFiW6PcSsRLVp55hfWVv2viyWdspzMsZe86PUuKl0BcMEvxvxZIDdOMRjPsuWJw45kabrX5fcNP6N7vgbqjOxF9VCQ2sZ0hNARa6U+/VfVAf7Qe6beWeKCfmvI//Qs=',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Level 6 (Speed Run) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.level6.name"
+            >Level 6</span
+          >
+        </div>
+        <img
+          src="images/grid-level6.png"
+          alt="Level 6"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.level6.desc">
+          Speed Run mode level 6. Let's confine the enemy in a tight space.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:fZC7jiMhEEXrhRvTD5o2Nk231ckmjh1vstJqk/kNpPnR+bC5o43t4OgWxaEE8HF8ntioBwNIYGE5bsy1sn7sWAfBvnAbhY8JtamRU45eufXKeVI5EuqKfjC4IJkeGXkF7Iw8mMHNad4cNzvxYzgZTSCBU2d07rgFMKGeO36mjn8Fz8/JG128PIqXtnkLy5n/ceB2D0ba4z7g3EtLyNLDH7TxaJRHfm6j/u4mHcpkNEajCGzm1s1G2ywtJPQT55TkwYv+8YvkuPCRFqMKwgV+xv2ytBEZwXTFO27Yv3EOhWMucuwF/7dqLiu3fcWbK85Ubh6ZquQLcgOywQMVdDvny67xumMeKGDdMQv9/i413Tm4JxH9db0MRCJEyUViFXJRKetMQj/Cl/P6QlD6P2FMb4UvF5e3grmyvhS+AQ==',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <!-- Level 7 (Speed Run) -->
+      <div class="showcase-card">
+        <div class="showcase-card-header">
+          <span class="showcase-card-name" data-i18n="showcase.grid.level7.name"
+            >Level 7</span
+          >
+        </div>
+        <img
+          src="images/grid-level7.png"
+          alt="Level 7"
+          class="showcase-card-image"
+        />
+        <div class="showcase-card-desc" data-i18n="showcase.grid.level7.desc">
+          Speed Run mode level 7. Keep enemy PENTANs in check before they
+          multiply too much.
+        </div>
+        <button
+          class="import-btn"
+          onclick="
+            importGrid(
+              'G1:fdPZkdwgEIBhmkMHSBxCmtE18+ByBI5hy5Eo1I1jY/E/4/Lj+uGrRnTTqBCS5/NLKfECreQyRAuHBi069PAIGDAiIrEmEwsmVMxYmL8R71ixYWfuIJ54vPYzVhkMGFEwYcEKsVZZBERkVCy448AJcVa16BCQUbHghh3SsBcsGvQIyCiYULHgjgPSUo8GPQIiMioWrDihO/qjRYcBIzIqFqzYcSB5zjBwhkjIKDCDXBbDYPwEPfJNYOEQRuMrtlFfOyTKpWFg4dAgROPHKL8LKuM16mvDjgOSWAcDC4cGIRk/JH2lxJkQK88rccOOAzqzDhYOIRufsnpW4papgynkEQrvizDRFyMiEjIKJlSok3sIDQMLhwYtOvTwCBgwIiIhIyCCRUzFtxwx4oNOw6ceLz6/foh6sNp5WfdSJBWjDK2qKQ0o1fSuvR98tMt/0vu3ySVUqfj+qn3cHbcwn/DGKzMWih8T3y4FPj5e2lVMHQRY+Znp1p5JX+6THXS77Z/J8qr0x8=',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span data-i18n="showcase.import">Import</span>
+        </button>
+      </div>
+
+      <p
+        class="content-text"
+        style="color: var(--text-tertiary); font-style: italic"
+        data-i18n="showcase.grid.coming_soon"
+      >
+        More grids coming soon!
+      </p>
+
+      <div class="spacer"></div>
+    </div>
+  </body>
+</html>

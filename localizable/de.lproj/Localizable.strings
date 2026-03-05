@@ -1,7 +1,7 @@
-/* 
-  Localizable.strings
-  GoCAKs 
-*/
+/*
+ Localizable.strings
+ GoCAKs
+ */
 
 "roots.games" = "Spiele";
 "roots.help" = "Hilfe";
@@ -12,7 +12,7 @@
 
 "games.speedrun" = "Speed Run";
 "games.creative" = "Kreativmodus";
-"games.version" = "ver. 1.3";
+"games.version" = "ver. 1.2";
 
 "game.grid" = "Gitter";
 "game.library" = "Bibliothek";
@@ -27,6 +27,7 @@
 "settings.sfx" = "Soundeffekte";
 "settings.timespeed" = "Zeitgeschwindigkeit";
 "settings.autorotate" = "Automatische Ansichtsdrehung";
+"settings.usewebhelp" = "Web-Handbuch anzeigen";
 
 "languages.en-US" = "Englisch";
 "languages.ja-JP" = "Japanisch";
@@ -36,6 +37,13 @@
 "languages.hi-IN" = "Hindi";
 "languages.de-DE" = "Deutsch";
 "languages.fr-FR" = "Französisch";
+"languages.es-ES" = "Spanisch";
+"languages.pl-PL" = "Polnisch";
+"languages.it-IT" = "Italienisch";
+"languages.ko-KR" = "Koreanisch";
+"languages.ru-RU" = "Russisch";
+"languages.ar-SA" = "Arabisch";
+"languages.he-IL" = "Hebräisch";
 
 "timespeeds.faster3" = "Schneller +3";
 "timespeeds.faster2" = "Schneller +2";
@@ -141,6 +149,11 @@
 "dialog.youwon" = "Sie haben gewonnen!";
 "dialog.timeup" = "Zeit ist um!";
 "button.ok" = "OK";
+"button.yes" = "Ja";
+"button.no" = "Nein";
+"dialog.randomize" = "Zufällig initialisieren?";
+"creative.randomize" = "Zufällig initialisieren";
+"creative.reset" = "Gitter zurücksetzen";
 
 "help.title" = "Hilfe";
 "help.story" = "Die Geschichte";

@@ -1,7 +1,7 @@
-/* 
-  Localizable.strings
-  GoCAKs 
-*/
+/*
+ Localizable.strings
+ GoCAKs
+ */
 
 "roots.games" = "खेल";
 "roots.help" = "मदद";
@@ -12,7 +12,7 @@
 
 "games.speedrun" = "स्पीड रन";
 "games.creative" = "रचनात्मक मोड";
-"games.version" = "संस्करण 1.3";
+"games.version" = "संस्करण 1.2";
 
 "game.grid" = "ग्रिड";
 "game.library" = "पुस्तकालय";
@@ -27,6 +27,7 @@
 "settings.sfx" = "ध्वनि प्रभाव";
 "settings.timespeed" = "समय की गति";
 "settings.autorotate" = "स्वत: दृश्य परिवर्तन";
+"settings.usewebhelp" = "वेब मैनुअल दिखाएं";
 
 "languages.en-US" = "अंग्रेज़ी";
 "languages.ja-JP" = "जापानी";
@@ -36,6 +37,13 @@
 "languages.hi-IN" = "हिंदी";
 "languages.de-DE" = "जर्मन";
 "languages.fr-FR" = "फ्रेंच";
+"languages.es-ES" = "स्पैनिश";
+"languages.pl-PL" = "पोलिश";
+"languages.it-IT" = "इतालवी";
+"languages.ko-KR" = "कोरियाई";
+"languages.ru-RU" = "रूसी";
+"languages.ar-SA" = "अरबी";
+"languages.he-IL" = "हिब्रू";
 
 "timespeeds.faster3" = "तीव्र +3";
 "timespeeds.faster2" = "तीव्र +2";
@@ -141,6 +149,11 @@
 "dialog.youwon" = "आप जीते!";
 "dialog.timeup" = "समय समाप्त!";
 "button.ok" = "ठीक है";
+"button.yes" = "हाँ";
+"button.no" = "नहीं";
+"dialog.randomize" = "रैंडम आरंभ करें?";
+"creative.randomize" = "रैंडम आरंभ";
+"creative.reset" = "ग्रिड रीसेट";
 
 "help.title" = "मदद";
 "help.story" = "कहानी";

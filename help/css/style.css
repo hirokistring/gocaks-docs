@@ -1,0 +1,330 @@
+:root {
+  --bg-primary: #000000;
+  --bg-card: #1c1c1e;
+  --bg-card-hover: #2c2c2e;
+  --bg-grouped: #1c1c1e;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-tertiary: rgba(255, 255, 255, 0.4);
+  --accent: #007AFF;
+  --separator: rgba(255, 255, 255, 0.15);
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-primary: #f2f2f7;
+    --bg-card: #ffffff;
+    --bg-card-hover: #e5e5ea;
+    --bg-grouped: #ffffff;
+    --text-primary: #000000;
+    --text-secondary: rgba(0, 0, 0, 0.6);
+    --text-tertiary: rgba(0, 0, 0, 0.4);
+    --separator: rgba(0, 0, 0, 0.15);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+  padding-bottom: calc(var(--spacing-xl) + env(safe-area-inset-bottom, 0px));
+}
+
+/* Navigation bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-sm) 0;
+  margin-bottom: var(--spacing-md);
+}
+
+.nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-back svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Page title */
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+  letter-spacing: -0.02em;
+}
+
+/* Section title */
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Hero card (index page) */
+.hero-card {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 160px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: var(--spacing-md);
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+div.hero-card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+
+img.hero-card-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.hero-card-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: italic;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+/* Content text */
+.content-text {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+}
+
+.content-text strong {
+  font-weight: 600;
+}
+
+/* Content image */
+.content-image {
+  width: 100%;
+  max-width: 320px;
+  border-radius: var(--radius-md);
+  margin: var(--spacing-md) auto;
+  display: block;
+}
+
+
+/* Hero banner (content pages) */
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: var(--spacing-lg);
+}
+
+div.hero-banner-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+
+img.hero-banner-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.hero-banner-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: italic;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Disclosure group (collapsible) */
+.disclosure-list {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: var(--spacing-md) 0;
+}
+
+.disclosure-item {
+  border-bottom: 1px solid var(--separator);
+}
+
+.disclosure-item:last-child {
+  border-bottom: none;
+}
+
+.disclosure-item summary {
+  padding: var(--spacing-md);
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.disclosure-item summary::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--text-secondary);
+  border-bottom: 2px solid var(--text-secondary);
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+  margin-left: var(--spacing-sm);
+}
+
+.disclosure-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.disclosure-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.disclosure-content {
+  padding: 0 var(--spacing-md) var(--spacing-md);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+/* Inline link for Episodes from Story page */
+.inline-hero-link {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  height: 150px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin: var(--spacing-lg) auto;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.inline-hero-link .hero-card-bg {
+  opacity: 0.4;
+}
+
+.inline-hero-link .hero-card-text {
+  font-size: 2rem;
+}
+
+
+/* Video CTA button */
+.video-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: var(--radius-md);
+  margin: var(--spacing-md) 0;
+  transition: opacity 0.2s ease;
+}
+
+.video-cta:hover,
+.video-cta:focus {
+  opacity: 0.9;
+}
+
+.video-cta-icon {
+  font-size: 0.9em;
+}
+
+/* Spacer */
+.spacer {
+  height: 50px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .page {
+    padding: var(--spacing-sm);
+    padding-bottom: calc(var(--spacing-xl) + env(safe-area-inset-bottom, 0px));
+  }
+
+  .page-title {
+    font-size: 1.7rem;
+  }
+
+  .hero-card {
+    height: 140px;
+  }
+
+  .hero-card-text {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,370 @@
+/*
+ Localizable.strings
+ GoCAKs
+ */
+
+"roots.games" = "ألعاب";
+"roots.help" = "مساعدة";
+"roots.settings" = "الإعدادات";
+
+"games.title" = "**GoCAKs**";
+"games.abbrev" = "**G**ame **o**f **C**ellular **A**utomata for **K**id**s**";
+
+"games.speedrun" = "السباق السريع";
+"games.creative" = "الوضع الإبداعي";
+"games.version" = "الإصدار 1.2";
+
+"game.grid" = "الشبكة";
+"game.library" = "المكتبة";
+"game.help" = "مساعدة";
+"game.settings" = "الإعدادات";
+
+"settings.title" = "الإعدادات";
+"settings.language" = "اللغة المفضلة";
+"settings.showgrid" = "إظهار خطوط الشبكة";
+"settings.showzoom" = "إظهار ";
+"settings.bgm" = "الموسيقى";
+"settings.sfx" = "المؤثرات الصوتية";
+"settings.timespeed" = "سرعة الوقت";
+"settings.autorotate" = "تدوير العرض التلقائي";
+"settings.usewebhelp" = "عرض الدليل على الويب";
+
+"languages.en-US" = "الإنجليزية";
+"languages.ja-JP" = "اليابانية";
+"languages.zh-CN" = "الصينية المبسطة";
+"languages.zh-TW" = "الصينية التقليدية";
+"languages.zh-HK" = "الصينية (هونغ كونغ)";
+"languages.hi-IN" = "الهندية";
+"languages.de-DE" = "الألمانية";
+"languages.fr-FR" = "الفرنسية";
+"languages.es-ES" = "الإسبانية";
+"languages.pl-PL" = "البولندية";
+"languages.it-IT" = "الإيطالية";
+"languages.ko-KR" = "الكورية";
+"languages.ru-RU" = "الروسية";
+"languages.ar-SA" = "العربية";
+"languages.he-IL" = "العبرية";
+
+"timespeeds.faster3" = "أسرع +3";
+"timespeeds.faster2" = "أسرع +2";
+"timespeeds.faster1" = "أسرع +1";
+"timespeeds.default" = "افتراضي";
+"timespeeds.slow1" = "أبطأ +1";
+
+"speedrun.back"  = "العودة إلى القائمة";
+"speedrun.title" = "**السباق السريع**";
+"speedrun.help.title" = "السباق السريع";
+"speedrun.text1" = "إنها لعبة تتنافس فيها على الوقت المطلوب لهزيمة العدو.\n\nلنقم بإنشاء برنامج فعال يمكنه هزيمة العدو بعدد أقل من الحركات.\n\nالعمليات مثل ترتيب أو إزالة أو تغيير PENTAN ستقلل من ميزانيتك. بمجرد نفاد الميزانية بالكامل، لن تتمكن من تشغيل PENTAN.\n\nفي حدود الوقت والميزانية المحدودين، حاول القضاء على جميع الأعداء بكفاءة.";
+
+"speedrun.level1"  = "المستوى 1";
+"speedrun.level2"  = "المستوى 2";
+"speedrun.level3"  = "المستوى 3";
+"speedrun.level4"  = "المستوى 4";
+"speedrun.level5"  = "المستوى 5";
+"speedrun.level6"  = "المستوى 6";
+"speedrun.level7"  = "المستوى 7";
+"speedrun.level8"  = "المستوى 8";
+"speedrun.level9"  = "المستوى 9";
+"speedrun.level10" = "المستوى 10";
+
+"speedrun.enabled.codes"  = "الأوامر المتاحة في هذه المرحلة هي:\n\n";
+
+"speedrun.help.score" = "أعلى نتيجة\n\n";
+"speedrun.help.fastest" = "أسرع إنجاز:\n";
+"speedrun.help.least" = "إنجاز بأقل ميزانية:\n";
+"speedrun.help.gen" = "الوقت: ";
+"speedrun.help.budget" = "الميزانية: ";
+
+"speedrun.level1.description" = "لنتعلم أساسيات الأوامر.\n\n";
+"speedrun.level2.description" = "من أي اتجاه يجب أن تهاجم؟\n\n";
+"speedrun.level3.description" = "لنقم بهجوم كماشة.\n\n";
+"speedrun.level4.description" = "كيف تضرب مركز الدوامة؟\n\n";
+"speedrun.level5.description" = "لنضرب مركز العدو المتفرق في جميع الاتجاهات.\n\n";
+"speedrun.level6.description" = "لنحصر العدو في مساحة ضيقة.\n\n";
+"speedrun.level7.description" = "لنقمعهم قبل أن يصبح الأعداء كثيرين جداً.\n\n";
+"speedrun.level8.description"  = "";
+"speedrun.level9.description"  = "";
+"speedrun.level10.description" = "";
+
+"localspace.creative" = "إبداعي";
+"localspace.level1" = "المستوى 1";
+"localspace.level2" = "المستوى 2";
+"localspace.level3" = "المستوى 3";
+"localspace.level4" = "المستوى 4";
+"localspace.level5" = "المستوى 5";
+"localspace.level6" = "المستوى 6";
+"localspace.level7" = "المستوى 7";
+"localspace.level8" = "المستوى 8";
+"localspace.level9" = "المستوى 9";
+"localspace.level10" = "المستوى 10";
+
+"grid.you" = "أنت";
+"grid.enemy" = "عدو";
+"grid.play" = "تشغيل";
+"grid.stop" = "إيقاف";
+"grid.step" = "خطوة";
+"grid.done" = "تم";
+"grid.edit" = "تحرير";
+
+"detail.cell" = "خلية";
+"detail.field" = "حقل";
+"detail.codes" = "الجينوم";
+"detail.deploy" = "نشر";
+
+"gene.editor.reset" = "إعادة تعيين";
+
+"cell.name" = "الاسم : ";
+"cell.xy" = "x, y :";
+"cell.namefield" = "الاسم";
+"cell.energy" = "الطاقة";
+"cell.state" = "الحالة";
+"cell.color" = "اللون";
+"cell.memory" = "الذاكرة";
+
+"cell.properties.energy" = "الطاقة";
+"cell.properties.state" = "الحالة";
+"cell.properties.color" = "اللون";
+"cell.properties.memory" = "الذاكرة";
+
+"cell.editor.reset" = "إعادة تعيين";
+
+"field.type" = "النوع";
+"field.value" = "القيمة";
+
+"field.editor.field" = "نوع الحقل";
+"field.editor.value" = "القيمة";
+"field.editor.reset" = "إعادة تعيين";
+
+"library.title" = "مكتبة PENTAN";
+"library.help.title" = "مكتبة PENTAN";
+"library.help.description" = "مكتبة PENTAN هي المكان الذي تخزن فيه أجهزة PENTAN التي صممتها أو جمعتها من الشبكة.\n\nلنقم بإنشاء PENTAN جديد ونعطيه اسماً.";
+"library.add" = "إضافة";
+
+"deploy.help.title" = "مكتبة PENTAN";
+"deploy.help.description" = "لنختر PENTAN لوضعه من مكتبة PENTAN.\n\nقبل وضع PENTAN، يمكنك أيضاً إجراء تعديلات. أي تغييرات يتم إجراؤها قبل الوضع ستنطبق فقط على هذا النسخة ولن تؤثر على PENTAN المخزن في المكتبة.";
+
+"dialog.nobudget" = "لا ميزانية متبقية.\nلا يمكنك فعل شيء.";
+"dialog.reset" = "إعادة تعيين؟";
+"dialog.cancel" = "إلغاء";
+"dialog.youwon" = "لقد فزت!";
+"dialog.timeup" = "انتهى الوقت!";
+"button.ok" = "موافق";
+"button.yes" = "نعم";
+"button.no" = "لا";
+"dialog.randomize" = "عشوائي؟";
+"creative.randomize" = "عشوائي";
+"creative.reset" = "إعادة تعيين الشبكة";
+
+"help.title" = "مساعدة";
+"help.story" = "القصة";
+"help.game" = "اللعبة";
+"help.codes" = "الأكواد";
+"help.episodes" = "الحلقات";
+"help.faq" = "الأسئلة الشائعة";
+
+/// Help - Story
+
+"help.story.title" = "**القصة**";
+
+"help.story.1" = "في عام 2300، حققت البشرية التكنولوجيا اللازمة لتشكيل كواكب النظام الشمسي. قاد المهمة فريق من العلماء والمهندسين اللامعين الذين كرسوا حياتهم لهذا الهدف الطموح.";
+
+"help.story.2" = "كان آخر كوكب يتم تشكيله هو Neptune، الذي اعتُبر لفترة طويلة المرشح الأكثر واعدية لبناء مستعمرات بشرية لاستكشاف النظام الشمسي الخارجي. استخدم الفريق آلات نانوية ذاتية التكاثر لتغيير سطح الكوكب وغلافه الجوي في مجال علم الأحياء الفلكي.";
+
+"help.story.section1.title" = "مشروع EvE-PALMA";
+
+"help.story.3" = "سُمي مشروع تصميم الآلات النانوية **EvE-PALMA**، وهو اختصار لـ **Ev**olutionary **E**xperiments of **P**rogrammable **A**rtificial **L**ife by **M**olecular **A**utomata.";
+
+"help.story.section2.title" = "PENTAN";
+
+"help.story.4" = "سُميت الآلة النانوية المطورة من المشروع **PENTAN**، أو **P**rogrammable and **E**volvable **N**anomachines for **T**erraforming the **A**strobiology of **N**eptune.";
+
+"help.story.5" = "أطلق الفريق العديد من أجهزة PENTAN عن طريق تضمينها في جليد صغير وإرسالها من حلقات Saturn إلى سحب الميثان الزرقاء في Neptune.";
+
+"help.story.6" = "ومع ذلك، أصبحت جميع أجهزة PENTAN المنشورة تقريباً برية ولا يمكن السيطرة عليها في غضون عقود، رغم التصميم الدقيق للفريق. شيء ما أثر على أجهزة PENTAN وعدّلها، مما يشير بقوة إلى وجود حياة على Neptune.";
+
+"help.story.section3.title" = "مهمتك";
+
+"help.story.7" = "أنت عالم في علم الأحياء الفلكي في مشروع EvE-PALMA. مهمتك هي تصميم جيل جديد من أجهزة PENTAN لتحل محل القديمة التي أصبحت برية ولتشكيل Neptune!";
+
+"help.story.episodes.title" = "الحلقات";
+
+/// Help - Episodes
+
+"help.episodes.title" = "**الحلقات**";
+
+"help.episodes.subtitle" = "إعادة تصميم **PENTAN**";
+
+"help.episodes.1" = "وفرت عزلة مختبره طنيناً مريحاً، وكان الأزيز الخافت للآلات هو الموسيقى التصويرية الوحيدة التي يحتاجها Tony*Theta7*. بصفته عالم أحياء فلكي، كان دائماً مفتوناً بأسرار الكون. والآن، كان في طليعة أحد أكثر المشاريع طموحاً التي قامت بها البشرية: **EvE-PALMA**.";
+"help.episodes.2" = "كان اختصاراً يغني بالوعد والطموح: **Ev**olutionary **E**xperiments of **P**rogrammable **A**rtificial **L**ife by **M**olecular **A**utomata. مهمته؟ بناء آلات نانوية قادرة على تشكيل آخر جوهرة لم تُمس في النظام الشمسي، Neptune.";
+"help.episodes.3" = "تحفته الفنية، PENTAN، صُممت لهذا الغرض بالذات. **P**rogrammable and **E**volvable **N**anomachines for **T**erraforming the **A**strobiology of **N**eptune - ابتكار يحمل في بنيته المجهرية إمكانية تحويل كوكب بأكمله. ";
+"help.episodes.4" = "لكن النجاح كان بعيد المنال. الجيل الأول من أجهزة PENTAN، الذي كان واعداً جداً، خرج عن السيطرة. تم إطلاقها في سحب الميثان في Neptune، مسافرة على الجسيمات الجليدية في حلقات Saturn. لكن بدلاً من بدء عملية التشكيل، أصبحت لا يمكن السيطرة عليها، برية.";
+"help.episodes.5" = "الآن وجد Tony*Theta7* نفسه في نقطة محورية. كان تحديه تصميم جيل جديد من أجهزة PENTAN، جيل لا يكرر إخفاقات سابقيه. أشار التصميم السابق إلى احتمال وجود حياة على Neptune، وهو أمر كان اكتشافاً مثيراً وعقبة في مهمتهم في آن واحد.";
+"help.episodes.6" = "جلس توني منحنياً فوق عمله، وحاجباه مقطبان في تركيز. صور السحب الميثانية الدوارة والسماوات الزرقاء ملأت شاشاته. كل سطر من الكود كتبه كان حلاً محتملاً، قيداً جديداً على أجهزة PENTAN البرية.";
+"help.episodes.7" = "كانت أصابعه تطير فوق لوحة المفاتيح، وأصبح النقر الإيقاعي للمفاتيح جزءاً من الضوضاء المحيطة بالمختبر. على الشاشة، عاشت المخططات المعقدة للأوتوماتا الجزيئية. كان كل تصميم أكثر تقدماً وقدرة وتحكماً.";
+"help.episodes.8" = "كان يجب أن تكون أجهزة PENTAN الجديدة مختلفة. كان يجب تصميمها مع العلم أن Neptune قد يحتضن بالفعل حياة، وهو عامل لم يُؤخذ في الاعتبار في التصميم السابق. كان على Tony*Theta7* ضمان أن هذه الآلات النانوية يمكن أن تعمل في انسجام مع أشكال الحياة الموجودة.";
+"help.episodes.9" = "بينما كان يُدخل السطور الأخيرة من الكود، شعر بموجة من الترقب. بأمر بسيط، دبت الحياة في الطابعة، مُنشئة نموذجاً ثلاثي الأبعاد لـ PENTAN المُحسّن. كان تعقيده مذهلاً - شهادة على الابتكار البشري والرغبة الثابتة في استكشاف المجهول.";
+"help.episodes.10" = "بالنسبة لـ Tony*Theta7*، كان ذلك تتويجاً لجهود دؤوبة، خطوة أقرب إلى تحقيق الهدف السامي المتمثل في تشكيل Neptune. لكن الاختبار الحقيقي لابتكاره لا يزال ينتظر، في الأعماق الباردة لغلاف الكوكب الأزرق الجوي، حيث ستقوم أجهزة PENTAN الجديدة إما بترويض بريّة سابقاتها أو تستسلم لنفس المصير.";
+"help.episodes.11" = "كان فصل تشكيل Neptune لا يزال يُكتب، وكان Tony*Theta7* يمسك بالقلم.";
+
+/// Help - The Game
+
+"help.games.title" = "الألعاب";
+
+"help.games.1" = "GoCAKs";
+"help.games.1-1" = "GoCAKs /goʊ-kɜrks/ هي\n***G***ame of ***C***ellular ***A***utomaton for ***K***id***s***";
+"help.games.1-2" = "**الأوتوماتا الخلوية** المذكورة هنا هي شيء مشابه لبرنامج حاسوبي.";
+"help.games.1-3" = "في هذه النسخة من GoCAKs، تلعب عن طريق التحكم في قطعة تُسمى **PENTAN** (أوتوماتون خلوي) في عالم ممثل على شبكة ثنائية الأبعاد مثل رقعة الشطرنج. يتحرك PENTAN وفقاً لبرنامج مُعطى مسبقاً.";
+
+"help.games.2" = "GoCAKs كأداة أساسية لتعلم البرمجة";
+"help.games.2-1" = "يتم إنشاء برنامج PENTAN عن طريق دمج عدة تعليمات.";
+"help.games.2-2" = "من خلال دمج التعليمات، يمكنك إنشاء حركات وظواهر متنوعة.";
+"help.games.2-3" = "لعب GoCAKs هو في حد ذاته برمجة.";
+"help.games.2-4" = "أثناء لعب GoCAKs، يمكنك تعلم مفاهيم البرمجة الأساسية بشكل طبيعي مثل الحلقات والتفرع الشرطي والمتغيرات.";
+
+"help.games.3" = "**PENTAN** كشكل حياة مبرمج";
+"help.games.3-1" = "في عالم GoCAKs، يُسمى الأوتوماتون الخلوي **PENTAN**.";
+"help.games.3-2" = "PENTAN، آلة نانوية ذاتية التكاثر، يتصرف أحياناً كخلية واحدة وأحياناً أخرى ككائن متعدد الخلايا يتعاون مع بعضه البعض.";
+"help.games.3-3" = "يمتلك PENTAN الخصائص التالية.";
+
+"help.games.pentan.title.1" = "الطاقة";
+"help.games.pentan.description.1" = "الطاقة هي مصدر نشاط PENTAN.\n\nمع نقصان الطاقة، يصبح لون PENTAN باهتاً. عندما تصل الطاقة إلى الصفر، يختفي PENTAN.";
+"help.games.pentan.title.2" = "الحالة";
+"help.games.pentan.description.2" = "يمتلك PENTAN حالة.\n\nالحالة هي رقم يمثل موقع الكود الذي ينفذه PENTAN. عندما ينفذ PENTAN كوداً معيناً، تتغير الحالة وتشير إلى موقع الكود التالي المراد تنفيذه. لا يمكن لـ PENTAN معرفة حالة أجهزة PENTAN الأخرى.";
+"help.games.pentan.title.3" = "الذاكرة";
+"help.games.pentan.description.3" = "يمكن لـ PENTAN تذكر رقم واحد فقط. بعض الأكواد تغير سلوكها حسب الرقم الذي يتذكره PENTAN.";
+"help.games.pentan.title.4" = "الاتجاه";
+"help.games.pentan.description.4" = "يمتلك PENTAN اتجاهاً. يمكن لـ PENTAN تغيير اتجاهه. كود معين يؤثر على PENTAN المجاور في الاتجاه الذي يواجهه PENTAN.";
+"help.games.pentan.title.5" = "اتجاه اليد";
+"help.games.pentan.description.5" = "يمتلك PENTAN يداً واحدة فقط.\n\nلليد اتجاه، ويمكن لـ PENTAN تغيير اتجاه اليد. يمكن لـ PENTAN استخدام يده للالتصاق بـ PENTAN المجاور. عندما يتحرك PENTAN الموجود في نهاية اليد الممتدة، يمكنه أيضاً التحرك معه.";
+"help.games.pentan.title.6" = "اللون";
+"help.games.pentan.description.6" = "يمتلك PENTAN لوناً. \n\nيمكن تغيير اللون. يمكن لـ PENTAN رؤية لون أجهزة PENTAN الأخرى.";
+"help.games.pentan.title.7" = "الجينوم";
+"help.games.pentan.description.7" = "يُسمى برنامج PENTAN بالجينوم.\n\nالجينوم هو مجموعة من الأكواد مربوطة ببعضها بالترتيب.\n\nكلما كان الجينوم أطول، كلما استطاع التعبير عن برنامج أكثر تعقيداً.\n\nومع ذلك، هناك تعليمات تتطلب الكثير من الطاقة لتنفيذها، مثل تعليمات تكاثر PENTAN، وكلما كان الجينوم أطول.\n\nلذلك، اعتبر أنه كلما كان الجينوم أقصر، كان من الأسهل على PENTAN التكاثر، وكلما كان الجينوم أطول، كان التكاثر أصعب.";
+
+"help.games.4" = "الحقول";
+
+"help.games.4-1" = "في عالم الشبكة ثنائية الأبعاد حيث يعمل PENTAN، توجد أماكن ذات خصائص مختلفة.";
+
+"help.games.fields.title.1" = "حقل الطاقة";
+"help.games.fields.description.1" = "هذا مكان تتدفق منه الطاقة الحرارية التي تعمل كطاقة لـ PENTAN. يمكن لـ PENTAN تجديد طاقته هنا.";
+"help.games.fields.title.2" = "حقل السم";
+"help.games.fields.description.2" = "هذا مكان يحتوي على العديد من المواد السامة لـ PENTAN. ستستنزف هذه المواد طاقة PENTAN. إذا بقي PENTAN في هذا المكان لفترة طويلة جداً، ستنخفض طاقته تدريجياً ويختفي في النهاية.";
+"help.games.fields.title.3" = "حقل الإشعاع";
+"help.games.fields.description.3" = "هذا مكان يوجد فيه إشعاع. بسبب تأثيرات الإشعاع، تتضرر البنية النانوية الدقيقة لـ PENTAN، مما يسبب تغييرات في حالة وكود PENTAN.";
+"help.games.fields.title.4" = "حقل الإشعاع";
+"help.games.fields.description.4" = "هذا مكان لا يمكن لـ PENTAN الدخول إليه.";
+"help.games.fields.title.5" = "";
+"help.games.fields.description.5" = "";
+
+"help.games.timeandbudget" = "الوقت والميزانية";
+"help.games.timeandbudget.description" = "في وضع السباق السريع، هناك قيود على الوقت والميزانية التي يمكنك استخدامها في كل مرحلة.";
+
+"help.games.time.title" = "الوقت";
+"help.games.time.description" = "في وضع السباق السريع، هناك حد للوقت يمكنك استخدامه في كل مرحلة. خلال الوقت المحدد، يجب عليك القضاء على جميع الأعداء. عندما تصل إلى الحد الزمني، تنتهي اللعبة وتحتاج إلى إعادة بدء المرحلة من البداية.";
+
+"help.games.budget.title" = "الميزانية";
+"help.games.budget.description" = "في وضع السباق السريع، هناك حد للميزانية يمكنك استخدامها في كل مرحلة. وضع أو إزالة أو تعديل أجهزة PENTAN يستهلك ميزانيتك. بمجرد نفاد ميزانيتك، لا يمكنك تشغيل أجهزة PENTAN في تلك المرحلة. عند إعادة التعيين، يعود الوقت إلى 0 والميزانية المستخدمة تُعاد إلى 0 أيضاً.";
+
+"help.games.howtoplay" = "كيفية اللعب";
+"help.games.speedrun.title" = "وضع السباق السريع";
+"help.games.speedrun.description" = "هذه لعبة تتنافس فيها للقضاء على الأعداء في أقل وقت وبأقل موارد ممكنة.\n\nهناك مراحل من المستوى 1 إلى المستوى 7. خلال الوقت والميزانية المحددين، حاول إنشاء أجهزة PENTAN بكفاءة للقضاء على جميع الأعداء.";
+"help.games.creative.title" = "الوضع الإبداعي";
+"help.games.creative.description" = "هذا وضع يمكنك فيه إنشاء أجهزة PENTAN بحرية وإجراء تجارب مختلفة.\n\nأطلق إبداعك وأنشئ أجهزة PENTAN تحدث حركات وظواهر مثيرة للاهتمام.";
+
+/// Help - FAQ
+
+"help.faq.title" = "الأسئلة الشائعة";
+
+"faqs.item1.title" = "الاستخدام في المدارس";
+"faqs.item1.description" = "س. هل يمكن استخدام GoCAKs في الفصول الدراسية؟\n\nج. نعم، يمكن استخدام GoCAKs في الفصول الدراسية. يمكنك إنشاء وتوزيع مواد مثل لقطات الشاشة بحرية. كما يُسمح باستخدامه في دروس البرمجة التي تُدار بهدف الربح.";
+
+"faqs.item2.title" = "إنشاء مقاطع الفيديو";
+"faqs.item2.description" = "س. هل يمكنني إنشاء ومشاركة مقاطع فيديو لي أثناء لعب GoCAKs؟\n\nج. نعم، يمكنك إنشاء مقاطع فيديو ومشاركتها على منصات مثل YouTube. يُسمح لك أيضاً بتحقيق الدخل من هذه المقاطع.";
+
+/// Codes
+
+"help.codes.title" = "الأكواد";
+"help.codes.code.title" = "الكود";
+"help.codes.code.description" = "يتكون كود واحد من أمر ومعامل.\n\nيُمثَّل المعامل برقم، وبعض الأوامر تستخدم المعامل بينما لا تستخدمه أوامر أخرى.\n\nالتعليمات في GoCAKs مختارة بعناية ومصممة بشكل ممتاز.\n\nعلى الرغم من أن كل تعليمة بسيطة وسهلة الفهم، فإن الإمكانيات في الحركات والظواهر التي يمكن إنشاؤها من مجموعاتها لا حصر لها.\n\nمشهد أجهزة PENTAN المصممة بعناية وهي تتنافس على البقاء سيخلق على الأرجح ظاهرة مشابهة لنظام بيئي.";
+
+///
+/// Fields
+///
+
+"fields.none" = "لا شيء";
+"fields.energy" = "طاقة";
+"fields.poison" = "سم";
+"fields.radiation" = "إشعاع";
+"fields.prohibited" = "محظور";
+
+///
+/// Codes
+///
+
+"codes.nop" = "NOP";
+"codes.turn" = "TURN";
+"codes.color" = "COLOR";
+"codes.add" = "ADD";
+"codes.minus" = "MINUS";
+"codes.end" = "END";
+"codes.jump" = "JUMP";
+"codes.look" = "LOOK";
+"codes.field" = "FIELD";
+"codes.stick" = "STICK";
+"codes.read" = "READ";
+"codes.write" = "WRITE";
+"codes.give" = "GIVE";
+"codes.eat" = "EAT";
+"codes.cross" = "CROSS";
+"codes.copy" = "COPY";
+"codes.split" = "SPLIT";
+"codes.move" = "MOVE";
+"codes.sleep" = "SLEEP";
+"codes.append" = "CODE";
+"codes.memory" = "MEMORY";
+"codes.equal" = "EQUAL";
+
+"codes.nop.text" = "NOP";
+"codes.nop.description" = "لا عملية. هذا أمر لا يفعل شيئاً.\n\nلا يوجد استهلاك للطاقة.\n\nعلى عكس أمر SLEEP، يبقى PENTAN نشطاً. لذلك، حتى لو هاجمته أجهزة PENTAN أخرى، لن يخسر أمام خصوم بطاقة أقل.";
+"codes.move.text" = "MOVE";
+"codes.move.description" = "هذا أمر لتحريك PENTAN في الاتجاه الذي يواجهه وفقاً لرقم وإشارة المعاملات.\n\nعندما يكون المعامل رقماً موجباً، يتحرك للأمام. عندما يكون سالباً، يتحرك للخلف. في كل وحدة زمنية، يتحرك خطوة واحدة، مستمراً في الحركة بعدد مرات المعامل.\n\nيتذكر أولاً رقم المعامل ثم يقلل هذا الرقم المتذكر بمقدار 1 لكل خطوة يتحركها.\n\nتتوقف الحركة عندما يصل الرقم المتذكر إلى 0، أو إذا كان هناك PENTAN آخر في اتجاه الحركة، أو إذا كان هناك مكان لا يمكن الوصول إليه.";
+"codes.turn.text" = "TURN";
+"codes.turn.description" = "هذا أمر لتغيير اتجاه PENTAN وفقاً لرقم وإشارة المعاملات.\n\nعندما يكون المعامل رقماً موجباً، يدور في اتجاه عقارب الساعة. عندما يكون سالباً، يدور عكس اتجاه عقارب الساعة. على سبيل المثال، عندما يكون المعامل +4، يدور دورة كاملة، لذلك لا يتغير اتجاه PENTAN. أيضاً، عندما يكون رقم المعامل 0، يُعاد تعيين اتجاه PENTAN للواجهة الشمالية.";
+"codes.jump.text" = "JUMP";
+"codes.jump.description" = "هذا أمر لتغيير حالة PENTAN (التي تمثل موضع تنفيذ البرنامج) بناءً على رقم وإشارة المعاملات.\n\nعندما يكون المعامل رقماً موجباً، تنتقل الحالة إلى قيمة أكبر، وعندما يكون سالباً، تنتقل إلى قيمة أصغر. على سبيل المثال، إذا كان رقم المعامل -1، يعود إلى الحالة السابقة. إذا كان رقم المعامل 0، تنتقل الحالة ببساطة إلى الكود التالي. إذا كان رقم المعامل +1، يتخطى الكود التالي ويتقدم بالحالة للأمام.";
+"codes.sleep.text" = "SLEEP";
+"codes.sleep.description" = "هذا أمر لجعل PENTAN ينام.\n\nيستمر في النوم لنفس مقدار الوقت المحدد في المعامل.\n\nأثناء النوم، تزداد طاقة PENTAN تدريجياً.\n\nومع ذلك، إذا تعرض للهجوم أثناء النوم، ستُسرق كل طاقته ويموت.";
+"codes.give.text" = "GIVE";
+"codes.give.description" = "يقسم ويعطي نصف طاقته لـ PENTAN المجاور في الاتجاه الذي يواجهه.\n\nإذا لم يكن هناك PENTAN آخر أمامه، تنخفض طاقته بمقدار 1.";
+"codes.eat.text" = "EAT";
+"codes.eat.description" = "يهاجم PENTAN المجاور في الاتجاه الذي يواجهه.\n\nالذي لديه طاقة أكثر يبقى والذي لديه طاقة أقل يختفي. في ذلك الوقت، تنخفض طاقة PENTAN المتبقي بنفس مقدار طاقة PENTAN المختفي. ومع ذلك، إذا كان PENTAN المجاور في حالة نوم، حتى لو كان لدى الخصم طاقة أكثر، يمكنك الفوز دون تقليل طاقتك.";
+"codes.color.text" = "COLOR";
+"codes.color.description" = "هذا أمر لتغيير لون PENTAN.\n\nيتغير إلى اللون المقابل للرقم في المعامل.";
+"codes.look.text" = "LOOK";
+"codes.look.description" = "هذا أمر لقراءة وتذكر لون PENTAN المجاور لك في الاتجاه الذي يشير إليه PENTAN.";
+"codes.field.text" = "FIELD";
+"codes.field.description" = "هذا أمر للتحقيق في نوع المربع الذي يوجد فيه PENTAN، وحفظ الرقم الذي يمثل نوع ذلك المربع.";
+"codes.add.text" = "ADD";
+"codes.add.description" = "هذا أمر لإضافة رقم المعامل إلى الرقم الذي يتذكره PENTAN.\n\nإذا كان رقم المعامل سالباً، سينخفض الرقم الذي يتذكره PENTAN بمقدار رقم المعامل.";
+"codes.minus.text" = "MINUS";
+"codes.minus.description" = "هذا أمر لطرح رقم المعامل من الرقم الذي يتذكره PENTAN.";
+"codes.memory.text" = "MEMORY";
+"codes.memory.description" = "هذا أمر لتذكر الرقم في المعامل.";
+"codes.read.text" = "READ";
+"codes.read.description" = "هذا أمر يمكّن PENTAN من قراءة وتذكر معامل الكود الموجود في الموضع الذي يساوي مجموع حالته الحالية والمعامل، من PENTAN المجاور في الاتجاه الذي يواجهه.\n\nعلى سبيل المثال، إذا كانت الحالة الحالية 5 والمعامل +1، سيقرأ ويتذكر معامل الكود في الموضع 6 من PENTAN المجاور.";
+"codes.write.text" = "WRITE";
+"codes.write.description" = "هذا أمر يمكّن PENTAN من كتابة الرقم الذي يتذكره في معامل الكود الموجود في الموضع الذي يساوي مجموع حالته الحالية والمعامل.\n\nعلى سبيل المثال، إذا كان المعامل +1، سيكتب الرقم الذي يتذكره PENTAN في معامل الكود التالي.";
+"codes.split.text" = "SPLIT";
+"codes.split.description" = "هذا أمر يمكّن PENTAN من إنتاج PENTAN جديد عن طريق استخراج قسم كود محدد من جينومه الخاص.\n\nيبدأ قسم الكود المراد استخراجه من الكود الموجود في الموضع الذي يساوي مجموع حالته الحالية والمعامل ويمتد في كلا الاتجاهين حتى يُحدّ بكود 'NOP' (يُشار إلى هذا القسم بقسم NOP).\n\nتنفيذ هذا الأمر يستهلك كمية من الطاقة تساوي طول الجينوم. أيضاً، بمجرد تنفيذ الأمر، يُعطى نصف الطاقة المتبقية لـ PENTAN المُنتَج حديثاً.\n\nستكون الحالة الأولية لـ PENTAN المُنتَج حديثاً هي رقم الكود الموجود في موضع بداية قسم NOP.";
+"codes.copy.text" = "COPY";
+"codes.copy.description" = "هذا أمر يمكّن PENTAN من نسخ نفسه إلى المكان المجاور في الاتجاه الذي يواجهه.\n\nيجب أن يكون المكان أمام PENTAN متاحاً ولا يحتوي على PENTAN آخر.\n\nتنفيذ هذا الأمر يتطلب كمية من الطاقة تساوي طول جينومه الخاص. أيضاً، بمجرد تنفيذ الأمر، يُعطى نصف الطاقة المتبقية لـ PENTAN الجديد المنسوخ.\n\nيتم تعيين الحالة الأولية لـ PENTAN المنسوخ على الرقم الذي يساوي مجموع حالته الحالية والمعامل.";
+"codes.end.text" = "END";
+"codes.end.description" = "هذا أمر للتدمير الذاتي لـ PENTAN. ومع ذلك، يُنفَّذ الأمر فقط عندما يكون الرقم الذي يتذكره PENTAN هو نفس رقم المعامل.";
+"codes.cross.text" = "CROSS";
+"codes.cross.description" = "هذا أمر يمكّن PENTAN من تبادل قسم كود معين مع PENTAN آخر موجود أمامه.\n\nيبدأ قسم الكود المراد تبادله من الكود الموجود في الموضع الذي يساوي مجموع حالته الحالية والمعامل، ويمتد في كلا الاتجاهين حتى يُحدّ بكود 'wait' (يُشار إلى هذا القسم بقسم NOP).\n\nإذا لم يكن لدى كلا الطرفين أقسام NOP متطابقة، فلن يتم تبادل الكود.\n\nتنفيذ هذا الأمر يتطلب كمية من الطاقة تساوي طول جينومه الخاص.";
+"codes.code.text" = "CODE";
+"codes.code.description" = "هذا أمر لإضافة كود إلى نهاية جينوم PENTAN. ستتوافق تعليمة الكود المُضاف مع رقم المعامل. سيكون معامل الكود المُضاف هو الرقم في الذاكرة.";
+"codes.equal.text" = "EQUAL";
+"codes.equal.description" = "هذا أمر يخزن 1 عندما تتطابق قيمة المعامل مع القيمة المخزنة بواسطة PENTAN، ويخزن 0 عندما لا تتطابق.";
+"codes.stick.text" = "STICK";
+"codes.stick.description" = "هذا أمر لتغيير اتجاه يد PENTAN أو سحبها، وفقاً لرقم وإشارة المعاملات.\n\nعندما يكون المعامل رقماً موجباً، تدور اليد في اتجاه عقارب الساعة. عندما يكون سالباً، تدور عكس اتجاه عقارب الساعة. على سبيل المثال، عندما يكون المعامل +4، تدور اليد دورة كاملة، لذلك لا يتغير اتجاه يد PENTAN. إذا كان رقم المعامل 0، يتم سحب يد PENTAN.";

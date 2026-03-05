@@ -1,7 +1,7 @@
-/* 
-  Localizable.strings
-  GoCAKs 
-*/
+/*
+ Localizable.strings
+ GoCAKs
+ */
 
 "roots.games" = "Jeux";
 "roots.help" = "Aide";
@@ -12,7 +12,7 @@
 
 "games.speedrun" = "Course Rapide";
 "games.creative" = "Mode Créatif";
-"games.version" = "ver. 1.3";
+"games.version" = "ver. 1.2";
 
 "game.grid" = "Grille";
 "game.library" = "Bibliothèque";
@@ -22,11 +22,12 @@
 "settings.title" = "Paramètres";
 "settings.language" = "Langue Préférée";
 "settings.showgrid" = "Afficher les Lignes de la Grille";
-"settings.showzoom" = "Afficher "; 
+"settings.showzoom" = "Afficher ";
 "settings.bgm" = "Musique de Fond";
 "settings.sfx" = "Effets Sonores";
 "settings.timespeed" = "Vitesse du Temps";
 "settings.autorotate" = "Rotation automatique de la vue";
+"settings.usewebhelp" = "Afficher le manuel Web";
 
 "languages.en-US" = "Anglais";
 "languages.ja-JP" = "Japonais";
@@ -36,6 +37,13 @@
 "languages.hi-IN" = "Hindi";
 "languages.de-DE" = "Allemand";
 "languages.fr-FR" = "Français";
+"languages.es-ES" = "Espagnol";
+"languages.pl-PL" = "Polonais";
+"languages.it-IT" = "Italien";
+"languages.ko-KR" = "Coréen";
+"languages.ru-RU" = "Russe";
+"languages.ar-SA" = "Arabe";
+"languages.he-IL" = "Hébreu";
 
 "timespeeds.faster3" = "Plus rapide +3";
 "timespeeds.faster2" = "Plus rapide +2";
@@ -141,6 +149,11 @@
 "dialog.youwon" = "Vous avez gagné!";
 "dialog.timeup" = "Le temps est écoulé!";
 "button.ok" = "OK";
+"button.yes" = "Oui";
+"button.no" = "Non";
+"dialog.randomize" = "Initialisation aléatoire ?";
+"creative.randomize" = "Aléatoire";
+"creative.reset" = "Réinitialiser la grille";
 
 "help.title" = "Aide";
 "help.story" = "L'Histoire";

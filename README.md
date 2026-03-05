@@ -1,5 +1,7 @@
 # GoCAKs Game Documentation Repository
 
+![Title Logo](pics/gocaks-logo.png)
+
 > **GoCAKs** - **G**ame **o**f **C**ellular **A**utomata for **K**id**s**
 >
 > **_Coding Battle Game_**
@@ -48,15 +50,15 @@ Help Menu
 
 ### AppStore
 
-[NEWS! GoCAKs 1.0 is now available on the AppStore. Check it out and dive into the action!](https://apps.apple.com/app/GoCAKs/id6462423363)
+[GoCAKs is now available on the AppStore. Check it out and dive into the action!](https://apps.apple.com/us/app/gocaks/id6462423363)
 
 ### YouTube
 
 [@GoCAKs](https://www.youtube.com/@GoCAKs)
 
-### Twitter
+### X (ex. Twitter)
 
-[@gocaks_game](https://twitter.com/gocaks_game)
+[@gocaks_game](https://x.com/gocaks_game)
 
 ## Privacy Policy
 
@@ -68,7 +70,7 @@ This repository is licensed under:
 
 CC BY-ND 4.0
 
-https://creativecommons.org/licenses/by-nd/4.0/
+<https://creativecommons.org/licenses/by-nd/4.0/>
 
 ## Release Notes
 

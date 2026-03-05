@@ -1,7 +1,7 @@
-/* 
-  Localizable.strings
-  GoCAKs 
-*/
+/*
+ Localizable.strings
+ GoCAKs
+ */
 
 "roots.games" = "Games";
 "roots.help" = "Help";
@@ -12,7 +12,7 @@
 
 "games.speedrun" = "Speed Run";
 "games.creative" = "Creative Mode";
-"games.version" = "ver. 1.3";
+"games.version" = "ver. 1.2";
 
 "game.grid" = "Grid";
 "game.library" = "Library";
@@ -27,6 +27,7 @@
 "settings.sfx" = "Sound Effects";
 "settings.timespeed" = "Speed of Time";
 "settings.autorotate" = "Automatic View Rotation";
+"settings.usewebhelp" = "Show Web Manual";
 
 "languages.en-US" = "English";
 "languages.ja-JP" = "Japanese";
@@ -36,6 +37,13 @@
 "languages.hi-IN" = "Hindi";
 "languages.de-DE" = "German";
 "languages.fr-FR" = "French";
+"languages.es-ES" = "Spanish";
+"languages.pl-PL" = "Polish";
+"languages.it-IT" = "Italian";
+"languages.ko-KR" = "Korean";
+"languages.ru-RU" = "Russian";
+"languages.ar-SA" = "Arabic";
+"languages.he-IL" = "Hebrew";
 
 "timespeeds.faster3" = "Faster +3";
 "timespeeds.faster2" = "Faster +2";
@@ -127,13 +135,13 @@
 "field.editor.value" = "value";
 "field.editor.reset" = "Reset";
 
-"library.title" = "Cell Library";
-"library.help.title" = "The Cell Library";
-"library.help.description" = "The Cell Library is the place where you store PENTANs that you've designed or collected from the grid.\n\nLet's create a new PENTAN and assign a name to each one.";
+"library.title" = "PENTAN Library";
+"library.help.title" = "The PENTAN Library";
+"library.help.description" = "The PENTAN Library is the place where you store PENTANs that you've designed or collected from the grid.\n\nLet's create a new PENTAN and assign a name to each one.";
 "library.add" = "Add";
 
-"deploy.help.title" = "The Cell Library";
-"deploy.help.description" = "Let's choose a PENTAN to place from the Cell Library.\n\nBefore placing the PENTAN, you can also make modifications. Any changes made to the PENTAN prior to placement will only apply in this instance and will not affect the PENTAN stored in the Cell Library.";
+"deploy.help.title" = "The PENTAN Library";
+"deploy.help.description" = "Let's choose a PENTAN to place from the PENTAN Library.\n\nBefore placing the PENTAN, you can also make modifications. Any changes made to the PENTAN prior to placement will only apply in this instance and will not affect the PENTAN stored in the Cell Library.";
 
 "dialog.nobudget" = "No budget left.\nYou can do nothing.";
 "dialog.reset" = "Reset?";
@@ -141,6 +149,11 @@
 "dialog.youwon" = "You won!";
 "dialog.timeup" = "Time's up!";
 "button.ok" = "OK";
+"button.yes" = "Yes";
+"button.no" = "No";
+"dialog.randomize" = "Randomize?";
+"creative.randomize" = "Randomize";
+"creative.reset" = "Reset Grid";
 
 "help.title" = "Help";
 "help.story" = "The Story";

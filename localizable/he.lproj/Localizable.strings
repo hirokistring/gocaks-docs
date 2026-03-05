@@ -1,0 +1,370 @@
+/*
+ Localizable.strings
+ GoCAKs
+ */
+
+"roots.games" = "משחקים";
+"roots.help" = "עזרה";
+"roots.settings" = "הגדרות";
+
+"games.title" = "**GoCAKs**";
+"games.abbrev" = "**G**ame **o**f **C**ellular **A**utomata for **K**id**s**";
+
+"games.speedrun" = "ריצת מהירות";
+"games.creative" = "מצב יצירתי";
+"games.version" = "גרסה 1.2";
+
+"game.grid" = "רשת";
+"game.library" = "ספרייה";
+"game.help" = "עזרה";
+"game.settings" = "הגדרות";
+
+"settings.title" = "הגדרות";
+"settings.language" = "שפה מועדפת";
+"settings.showgrid" = "הצג קווי רשת";
+"settings.showzoom" = "הצג ";
+"settings.bgm" = "מוזיקת רקע";
+"settings.sfx" = "אפקטים קוליים";
+"settings.timespeed" = "מהירות הזמן";
+"settings.autorotate" = "סיבוב תצוגה אוטומטי";
+"settings.usewebhelp" = "הצג מדריך אינטרנטי";
+
+"languages.en-US" = "אנגלית";
+"languages.ja-JP" = "יפנית";
+"languages.zh-CN" = "סינית מפושטת";
+"languages.zh-TW" = "סינית מסורתית";
+"languages.zh-HK" = "סינית (הונג קונג)";
+"languages.hi-IN" = "הינדית";
+"languages.de-DE" = "גרמנית";
+"languages.fr-FR" = "צרפתית";
+"languages.es-ES" = "ספרדית";
+"languages.pl-PL" = "פולנית";
+"languages.it-IT" = "איטלקית";
+"languages.ko-KR" = "קוריאנית";
+"languages.ru-RU" = "רוסית";
+"languages.ar-SA" = "ערבית";
+"languages.he-IL" = "עברית";
+
+"timespeeds.faster3" = "מהיר יותר +3";
+"timespeeds.faster2" = "מהיר יותר +2";
+"timespeeds.faster1" = "מהיר יותר +1";
+"timespeeds.default" = "ברירת מחדל";
+"timespeeds.slow1" = "איטי יותר +1";
+
+"speedrun.back"  = "חזרה לתפריט";
+"speedrun.title" = "**ריצת מהירות**";
+"speedrun.help.title" = "ריצת מהירות";
+"speedrun.text1" = "זהו משחק שבו אתה מתחרה על הזמן הדרוש לנצח את האויב.\n\nבוא ניצור תוכנית יעילה שיכולה לנצח את האויב בפחות מהלכים.\n\nפעולות כגון סידור, הסרה או שינוי PENTAN יקטינו את התקציב שלך. ברגע שכל התקציב יתרוקן, לא תוכל יותר להפעיל PENTAN.\n\nבמסגרת זמן ותקציב מוגבלים, נסה לחסל את כל האויבים ביעילות.";
+
+"speedrun.level1"  = "שלב 1";
+"speedrun.level2"  = "שלב 2";
+"speedrun.level3"  = "שלב 3";
+"speedrun.level4"  = "שלב 4";
+"speedrun.level5"  = "שלב 5";
+"speedrun.level6"  = "שלב 6";
+"speedrun.level7"  = "שלב 7";
+"speedrun.level8"  = "שלב 8";
+"speedrun.level9"  = "שלב 9";
+"speedrun.level10" = "שלב 10";
+
+"speedrun.enabled.codes"  = "הפקודות הזמינות בשלב זה הן:\n\n";
+
+"speedrun.help.score" = "שיא\n\n";
+"speedrun.help.fastest" = "השלמה מהירה ביותר:\n";
+"speedrun.help.least" = "השלמה בתקציב מינימלי:\n";
+"speedrun.help.gen" = "זמן: ";
+"speedrun.help.budget" = "תקציב: ";
+
+"speedrun.level1.description" = "בואו נלמד את יסודות הפקודות.\n\n";
+"speedrun.level2.description" = "מאיזה כיוון כדאי לתקוף?\n\n";
+"speedrun.level3.description" = "בואו נבצע מתקפת צבת.\n\n";
+"speedrun.level4.description" = "איך לפגוע במרכז המערבולת?\n\n";
+"speedrun.level5.description" = "בואו נפגע במרכז האויב המתפזר לכל הכיוונים.\n\n";
+"speedrun.level6.description" = "בואו נכלא את האויב במרחב צר.\n\n";
+"speedrun.level7.description" = "בואו נדכא אותם לפני שיהיו יותר מדי אויבים.\n\n";
+"speedrun.level8.description"  = "";
+"speedrun.level9.description"  = "";
+"speedrun.level10.description" = "";
+
+"localspace.creative" = "יצירתי";
+"localspace.level1" = "שלב 1";
+"localspace.level2" = "שלב 2";
+"localspace.level3" = "שלב 3";
+"localspace.level4" = "שלב 4";
+"localspace.level5" = "שלב 5";
+"localspace.level6" = "שלב 6";
+"localspace.level7" = "שלב 7";
+"localspace.level8" = "שלב 8";
+"localspace.level9" = "שלב 9";
+"localspace.level10" = "שלב 10";
+
+"grid.you" = "אתה";
+"grid.enemy" = "אויב";
+"grid.play" = "הפעל";
+"grid.stop" = "עצור";
+"grid.step" = "צעד";
+"grid.done" = "סיום";
+"grid.edit" = "עריכה";
+
+"detail.cell" = "תא";
+"detail.field" = "שדה";
+"detail.codes" = "גנום";
+"detail.deploy" = "מיקום";
+
+"gene.editor.reset" = "איפוס";
+
+"cell.name" = "שם : ";
+"cell.xy" = "x, y :";
+"cell.namefield" = "שם";
+"cell.energy" = "אנרגיה";
+"cell.state" = "מצב";
+"cell.color" = "צבע";
+"cell.memory" = "זיכרון";
+
+"cell.properties.energy" = "אנרגיה";
+"cell.properties.state" = "מצב";
+"cell.properties.color" = "צבע";
+"cell.properties.memory" = "זיכרון";
+
+"cell.editor.reset" = "איפוס";
+
+"field.type" = "סוג";
+"field.value" = "ערך";
+
+"field.editor.field" = "סוג שדה";
+"field.editor.value" = "ערך";
+"field.editor.reset" = "איפוס";
+
+"library.title" = "ספריית PENTAN";
+"library.help.title" = "ספריית PENTAN";
+"library.help.description" = "ספריית PENTAN היא המקום שבו אתה מאחסן PENTANים שעיצבת או אספת מהרשת.\n\nבוא ניצור PENTAN חדש וניתן לו שם.";
+"library.add" = "הוסף";
+
+"deploy.help.title" = "ספריית PENTAN";
+"deploy.help.description" = "בואו נבחר PENTAN למיקום מספריית PENTAN.\n\nלפני מיקום ה-PENTAN, ניתן גם לבצע שינויים. כל שינוי שנעשה לפני המיקום יחול רק על מופע זה ולא ישפיע על ה-PENTAN המאוחסן בספרייה.";
+
+"dialog.nobudget" = "אין תקציב נותר.\nאינך יכול לעשות דבר.";
+"dialog.reset" = "לאפס?";
+"dialog.cancel" = "ביטול";
+"dialog.youwon" = "ניצחת!";
+"dialog.timeup" = "הזמן נגמר!";
+"button.ok" = "אישור";
+"button.yes" = "כן";
+"button.no" = "לא";
+"dialog.randomize" = "לערבב?";
+"creative.randomize" = "ערבוב";
+"creative.reset" = "איפוס רשת";
+
+"help.title" = "עזרה";
+"help.story" = "הסיפור";
+"help.game" = "המשחק";
+"help.codes" = "הקודים";
+"help.episodes" = "הפרקים";
+"help.faq" = "שאלות נפוצות";
+
+/// Help - Story
+
+"help.story.title" = "**הסיפור**";
+
+"help.story.1" = "בשנת 2300, האנושות השיגה את הטכנולוגיה הנדרשת לטרפורמציה של כוכבי מערכת השמש. את המשימה הובילה קבוצת מדענים ומהנדסים מבריקים שהקדישו את חייהם למטרה שאפתנית זו.";
+
+"help.story.2" = "הכוכב האחרון לטרפורמציה היה Neptune, שנחשב מזמן למועמד המבטיח ביותר לבניית מושבות אנושיות לחקירת מערכת השמש החיצונית. הצוות השתמש בננו-מכונות בעלות שכפול עצמי לשינוי פני השטח והאטמוספירה של הכוכב בתחום האסטרוביולוגיה.";
+
+"help.story.section1.title" = "פרויקט EvE-PALMA";
+
+"help.story.3" = "הפרויקט לעיצוב הננו-מכונות נקרא **EvE-PALMA**, שמשמעותו **Ev**olutionary **E**xperiments of **P**rogrammable **A**rtificial **L**ife by **M**olecular **A**utomata.";
+
+"help.story.section2.title" = "PENTAN";
+
+"help.story.4" = "הננו-מכונה שפותחה מהפרויקט נקראה **PENTAN**, או **P**rogrammable and **E**volvable **N**anomachines for **T**erraforming the **A**strobiology of **N**eptune.";
+
+"help.story.5" = "הצוות שיגר PENTANים רבים על ידי שיבוצם בקרחונים זעירים ושליחתם מהטבעות של Saturn לעננות המתאן הכחולות של Neptune.";
+
+"help.story.6" = "עם זאת, כמעט כל ה-PENTANים שהוצבו השתוללו ונעשו בלתי נשלטים תוך עשורים, למרות התכנון הקפדני של הצוות. משהו השפיע על ה-PENTANים ושינה אותם, מה שהצביע בחוזקה על נוכחות חיים ב-Neptune.";
+
+"help.story.section3.title" = "המשימה שלך";
+
+"help.story.7" = "אתה מדען אסטרוביולוגיה בפרויקט EvE-PALMA. המשימה שלך היא לעצב דור חדש של PENTANים שיחליפו את הישנים שהשתוללו ולבצע טרפורמציה של Neptune!";
+
+"help.story.episodes.title" = "הפרקים";
+
+/// Help - Episodes
+
+"help.episodes.title" = "**הפרקים**";
+
+"help.episodes.subtitle" = "עיצוב מחדש של **PENTAN**";
+
+"help.episodes.1" = "הבדידות של המעבדה שלו סיפקה זמזום מרגיע, והרחש החלש של המכונות היה פסקול היחיד ש-Tony*Theta7* היה צריך. כאסטרוביולוג, הוא תמיד היה מוקסם מתעלומות היקום. כעת, הוא עמד בחזית אחד הפרויקטים השאפתניים ביותר שהאנושות ביצעה: **EvE-PALMA**.";
+"help.episodes.2" = "זה היה ראשי תיבות שהדהדו הבטחה ושאיפה: **Ev**olutionary **E**xperiments of **P**rogrammable **A**rtificial **L**ife by **M**olecular **A**utomata. המשימה שלו? לבנות ננו-מכונות המסוגלות לבצע טרפורמציה של הפנינה האחרונה שלא נוגעה במערכת השמש, Neptune.";
+"help.episodes.3" = "יצירת המופת שלו, PENTAN, עוצבה בדיוק למטרה זו. **P**rogrammable and **E**volvable **N**anomachines for **T**erraforming the **A**strobiology of **N**eptune - יצירה שהחזיקה במבנה המיקרוסקופי שלה את הפוטנציאל להפוך כוכב שלם. ";
+"help.episodes.4" = "עם זאת, ההצלחה הייתה חמקמקה. הדור הראשון של PENTANים, שהיה כה מבטיח, יצא משליטה. הם שוחררו בעננות המתאן של Neptune, נוסעים על חלקיקי קרח בטבעות של Saturn. אך במקום להתחיל בתהליך הטרפורמציה, הם נעשו בלתי נשלטים, פראים.";
+"help.episodes.5" = "כעת Tony*Theta7* מצא את עצמו בנקודת מפנה. האתגר שלו היה לעצב דור חדש של PENTANים, כאלה שלא יחזרו על כישלונות קודמיהם. העיצוב הקודם הצביע על נוכחות אפשרית של חיים ב-Neptune, דבר שהיה גם גילוי מרגש וגם מכשול במשימתם.";
+"help.episodes.6" = "טוני ישב כפוף מעל עבודתו, גבותיו מכורכמות בריכוז. תמונות של עננות מתאן מסתחררות ושמיים כחולים מילאו את מסכיו. כל שורת קוד שכתב הייתה פתרון פוטנציאלי, רסן חדש על ה-PENTANים הפראים.";
+"help.episodes.7" = "אצבעותיו עפו על המקלדת, והקליקים הקצביים של המקשים נעשו חלק מרעש הרקע של המעבדה. על המסך, תוכניות מורכבות של אוטומטים מולקולריים קמו לתחייה. כל עיצוב היה מתקדם יותר, יכול יותר, מבוקר יותר.";
+"help.episodes.8" = "ה-PENTANים החדשים צריכים היו להיות שונים. הם צריכים היו להיות מעוצבים עם הידיעה ש-Neptune עשוי כבר לאכלס חיים, גורם שלא נלקח בחשבון בעיצוב הקודם. Tony*Theta7* היה צריך להבטיח שהננו-מכונות הללו יוכלו לפעול בהרמוניה עם צורות החיים הקיימות.";
+"help.episodes.9" = "כשהזין את שורות הקוד האחרונות, הרגיש גל של ציפייה. בפקודה פשוטה, המדפסת קמה לתחייה ויצרה מודל תלת-ממדי של ה-PENTAN המשופר. המורכבות שלו הייתה מהפנטת - עדות לחדשנות האנושית ולרצון הבלתי מעורער לחקור את הלא נחקר.";
+"help.episodes.10" = "עבור Tony*Theta7*, זו הייתה שיא של מאמצים בלתי נלאים, צעד קרוב יותר להשגת המטרה הנשגבת של טרפורמציה של Neptune. אך המבחן האמיתי של יצירתו עדיין היה מלפנים, במעמקים הקרים של אטמוספירת הכוכב הכחול, שם ה-PENTANים החדשים יאלפו את פראות קודמיהם או ייכנעו לאותו גורל.";
+"help.episodes.11" = "הפרק של טרפורמציה של Neptune עדיין נכתב, ו-Tony*Theta7* אחז בעט.";
+
+/// Help - The Game
+
+"help.games.title" = "המשחקים";
+
+"help.games.1" = "GoCAKs";
+"help.games.1-1" = "GoCAKs /goʊ-kɜrks/ הוא\n***G***ame of ***C***ellular ***A***utomaton for ***K***id***s***";
+"help.games.1-2" = "**האוטומט התאי** המוזכר כאן הוא משהו כמו תוכנית מחשב.";
+"help.games.1-3" = "בגרסה זו של GoCAKs, אתה משחק על ידי שליטה בחלק שנקרא **PENTAN** (אוטומט תאי) בעולם המוצג על רשת דו-ממדית כמו לוח שחמט. ה-PENTAN נע בהתאם לתוכנית שניתנה מראש.";
+
+"help.games.2" = "GoCAKs ככלי לימוד תכנות בסיסי";
+"help.games.2-1" = "התוכנית של PENTAN נוצרת על ידי שילוב מספר הוראות.";
+"help.games.2-2" = "על ידי שילוב הוראות, ניתן ליצור תנועות ותופעות מגוונות.";
+"help.games.2-3" = "משחק ב-GoCAKs הוא כשלעצמו תכנות.";
+"help.games.2-4" = "בזמן משחק GoCAKs, ניתן ללמוד באופן טבעי מושגי תכנות בסיסיים כגון לולאות, הסתעפות מותנית ומשתנים.";
+
+"help.games.3" = "**PENTAN** כצורת חיים מתוכנתת";
+"help.games.3-1" = "בעולם GoCAKs, האוטומט התאי נקרא **PENTAN**.";
+"help.games.3-2" = "PENTAN, ננו-מכונה בעלת שכפול עצמי, מתנהג לפעמים כתא בודד ולפעמים כאורגניזם רב-תאי המשתף פעולה עם אחרים.";
+"help.games.3-3" = "ל-PENTAN יש את התכונות הבאות.";
+
+"help.games.pentan.title.1" = "האנרגיה";
+"help.games.pentan.description.1" = "אנרגיה היא מקור הפעילות של PENTAN.\n\nככל שהאנרגיה יורדת, צבע ה-PENTAN נעשה חיוור יותר. כשהאנרגיה מגיעה לאפס, PENTAN נעלם.";
+"help.games.pentan.title.2" = "המצב";
+"help.games.pentan.description.2" = "ל-PENTAN יש מצב.\n\nהמצב הוא מספר המייצג את מיקום הקוד ש-PENTAN מבצע. כש-PENTAN מבצע קוד מסוים, המצב משתנה ומצביע על מיקום הקוד הבא לביצוע. PENTAN אינו יכול לדעת את מצבם של PENTANים אחרים.";
+"help.games.pentan.title.3" = "הזיכרון";
+"help.games.pentan.description.3" = "PENTAN יכול לזכור רק מספר אחד. חלק מהקודים משנים את התנהגותם בהתאם למספר ש-PENTAN זוכר.";
+"help.games.pentan.title.4" = "הכיוון";
+"help.games.pentan.description.4" = "ל-PENTAN יש כיוון. PENTAN יכול לשנות את כיוונו. קוד מסוים משפיע על ה-PENTAN השכן בכיוון שאליו PENTAN פונה.";
+"help.games.pentan.title.5" = "כיוון היד";
+"help.games.pentan.description.5" = "ל-PENTAN יש רק יד אחת.\n\nליד יש כיוון, ו-PENTAN יכול לשנות את כיוון היד. PENTAN יכול להשתמש ביד שלו כדי להיצמד ל-PENTAN השכן. כש-PENTAN שנמצא בקצה היד המושטת זז, הוא יכול גם לזוז איתו.";
+"help.games.pentan.title.6" = "הצבע";
+"help.games.pentan.description.6" = "ל-PENTAN יש צבע. \n\nאפשר לשנות את הצבע. PENTAN יכול לראות את הצבע של PENTANים אחרים.";
+"help.games.pentan.title.7" = "הגנום";
+"help.games.pentan.description.7" = "התוכנית של PENTAN נקראת גנום.\n\nגנום הוא אוסף של קודים המחוברים יחד בסדר.\n\nככל שהגנום ארוך יותר, כך הוא יכול לבטא תוכנית מורכבת יותר.\n\nעם זאת, ישנן הוראות שדורשות הרבה אנרגיה לביצוע, כמו הוראות לשכפול PENTAN, וככל שהגנום ארוך יותר.\n\nלכן, קח בחשבון שככל שהגנום קצר יותר, כך קל יותר ל-PENTAN להתרבות, וככל שהגנום ארוך יותר, כך קשה יותר להתרבות.";
+
+"help.games.4" = "השדות";
+
+"help.games.4-1" = "בעולם הרשת הדו-ממדית שבו PENTAN פועל, ישנם מקומות עם מאפיינים שונים.";
+
+"help.games.fields.title.1" = "שדה אנרגיה";
+"help.games.fields.description.1" = "זהו מקום שבו אנרגיה תרמית, המשמשת כאנרגיה ל-PENTAN, מפכה. PENTAN יכול לחדש את אנרגייתו כאן.";
+"help.games.fields.title.2" = "שדה רעל";
+"help.games.fields.description.2" = "זהו מקום שמכיל חומרים רבים רעילים ל-PENTAN. חומרים אלה ירוקנו את האנרגיה של PENTAN. אם PENTAN יישאר במקום זה זמן רב מדי, אנרגייתו תפחת בהדרגה והוא ייעלם בסופו של דבר.";
+"help.games.fields.title.3" = "שדה קרינה";
+"help.games.fields.description.3" = "זהו מקום שבו יש קרינה. עקב השפעות הקרינה, המבנה הננו העדין של PENTAN ניזוק, מה שגורם לשינויים במצב ובקוד של PENTAN.";
+"help.games.fields.title.4" = "שדה קרינה";
+"help.games.fields.description.4" = "זהו מקום שלתוכו PENTAN אינו יכול להיכנס.";
+"help.games.fields.title.5" = "";
+"help.games.fields.description.5" = "";
+
+"help.games.timeandbudget" = "זמן ותקציב";
+"help.games.timeandbudget.description" = "במצב ריצת מהירות, ישנן מגבלות על הזמן והתקציב שניתן להשתמש בהם בכל שלב.";
+
+"help.games.time.title" = "זמן";
+"help.games.time.description" = "במצב ריצת מהירות, יש הגבלת זמן לכל שלב. בזמן הנתון, עליך לחסל את כל האויבים. כשמגיעים למגבלת הזמן, המשחק נגמר ותצטרך להתחיל את השלב מההתחלה.";
+
+"help.games.budget.title" = "תקציב";
+"help.games.budget.description" = "במצב ריצת מהירות, יש הגבלת תקציב לכל שלב. מיקום, הסרה או שינוי של PENTANים צורך תקציב. ברגע שהתקציב נגמר, אינך יכול עוד להפעיל PENTANים בשלב זה. באיפוס, הזמן חוזר ל-0 והתקציב שנוצל גם מתאפס ל-0.";
+
+"help.games.howtoplay" = "איך לשחק";
+"help.games.speedrun.title" = "מצב ריצת מהירות";
+"help.games.speedrun.description" = "זהו משחק שבו אתה מתחרה לחסל אויבים בזמן הקצר ביותר ובמשאבים המעטים ביותר.\n\nישנם שלבים משלב 1 עד שלב 7. בזמן ובתקציב הנתונים, נסה ליצור PENTANים ביעילות כדי לחסל את כל האויבים.";
+"help.games.creative.title" = "מצב יצירתי";
+"help.games.creative.description" = "זהו מצב שבו אתה יכול ליצור PENTANים בחופשיות ולערוך ניסויים שונים.\n\nשחרר את היצירתיות שלך וצור PENTANים שיוצרים תנועות ותופעות מעניינות.";
+
+/// Help - FAQ
+
+"help.faq.title" = "שאלות נפוצות";
+
+"faqs.item1.title" = "שימוש בבתי ספר";
+"faqs.item1.description" = "ש. האם ניתן להשתמש ב-GoCAKs בשיעורים בבית הספר?\n\nת. כן, ניתן להשתמש ב-GoCAKs בשיעורים בבית הספר. אתה חופשי ליצור ולהפיץ חומרים כגון צילומי מסך. גם מותר להשתמש בו בשיעורי תכנות המנוהלים למטרות רווח.";
+
+"faqs.item2.title" = "יצירת סרטונים";
+"faqs.item2.description" = "ש. האם אפשר ליצור ולשתף סרטונים של עצמי משחק GoCAKs?\n\nת. כן, אפשר ליצור סרטונים ולשתף אותם בפלטפורמות כמו YouTube. גם מותר להרוויח מסרטונים אלה.";
+
+/// Codes
+
+"help.codes.title" = "הקודים";
+"help.codes.code.title" = "קוד";
+"help.codes.code.description" = "קוד אחד מורכב מפקודה ופרמטר.\n\nהפרמטר מיוצג על ידי מספר, וחלק מהפקודות משתמשות בפרמטר ואחרות לא.\n\nההוראות ב-GoCAKs נבחרו בקפידה ומעוצבות היטב.\n\nלמרות שכל הוראה פשוטה וקלה להבנה, האפשרויות בתנועות ובתופעות שניתן ליצור מהשילובים שלהן אינסופיות.\n\nהמחזה של PENTANים מעוצבים בקפידה המתחרים על הישרדות ככל הנראה ייצור תופעה דומה למערכת אקולוגית.";
+
+///
+/// Fields
+///
+
+"fields.none" = "ללא";
+"fields.energy" = "אנרגיה";
+"fields.poison" = "רעל";
+"fields.radiation" = "קרינה";
+"fields.prohibited" = "אסור";
+
+///
+/// Codes
+///
+
+"codes.nop" = "NOP";
+"codes.turn" = "TURN";
+"codes.color" = "COLOR";
+"codes.add" = "ADD";
+"codes.minus" = "MINUS";
+"codes.end" = "END";
+"codes.jump" = "JUMP";
+"codes.look" = "LOOK";
+"codes.field" = "FIELD";
+"codes.stick" = "STICK";
+"codes.read" = "READ";
+"codes.write" = "WRITE";
+"codes.give" = "GIVE";
+"codes.eat" = "EAT";
+"codes.cross" = "CROSS";
+"codes.copy" = "COPY";
+"codes.split" = "SPLIT";
+"codes.move" = "MOVE";
+"codes.sleep" = "SLEEP";
+"codes.append" = "CODE";
+"codes.memory" = "MEMORY";
+"codes.equal" = "EQUAL";
+
+"codes.nop.text" = "NOP";
+"codes.nop.description" = "אין פעולה. זוהי פקודה שלא עושה כלום.\n\nאין צריכת אנרגיה.\n\nבניגוד לפקודת SLEEP, ה-PENTAN נשאר פעיל. לכן, גם אם הותקף על ידי PENTANים אחרים, הוא לא יפסיד ליריבים עם פחות אנרגיה.";
+"codes.move.text" = "MOVE";
+"codes.move.description" = "זוהי פקודה להזיז את PENTAN בכיוון שאליו הוא פונה בהתאם למספר ולסימן של הפרמטרים.\n\nכשהפרמטר הוא מספר חיובי, הוא נע קדימה. כשהוא שלילי, הוא נע אחורה. בכל פעימת זמן, הוא נע משבצת אחת, וממשיך לנוע מספר פעמים כערך הפרמטר.\n\nהוא קודם זוכר את מספר הפרמטר ואז מקטין את המספר הזכור ב-1 על כל משבצת שהוא נע.\n\nהתנועה נעצרת כשהמספר הזכור מגיע ל-0, או אם יש PENTAN אחר בכיוון התנועה, או אם יש משבצת בלתי נגישה.";
+"codes.turn.text" = "TURN";
+"codes.turn.description" = "זוהי פקודה לשנות את כיוון PENTAN בהתאם למספר ולסימן של הפרמטרים.\n\nכשהפרמטר הוא מספר חיובי, הוא מסתובב בכיוון השעון. כשהוא שלילי, הוא מסתובב נגד כיוון השעון. לדוגמה, כשהפרמטר הוא +4, הוא מבצע סיבוב שלם, כך שכיוון PENTAN אינו משתנה. כמו כן, כשמספר הפרמטר הוא 0, כיוון PENTAN מתאפס לצפון.";
+"codes.jump.text" = "JUMP";
+"codes.jump.description" = "זוהי פקודה לשנות את מצב PENTAN (המייצג את מיקום הביצוע של התוכנית) על סמך המספר והסימן של הפרמטרים.\n\nכשהפרמטר הוא מספר חיובי, המצב עובר לערך גדול יותר, וכשהוא שלילי, המצב עובר לערך קטן יותר. לדוגמה, אם מספר הפרמטר הוא -1, הוא חוזר למצב הקודם. אם מספר הפרמטר הוא 0, המצב פשוט מתקדם לקוד הבא. אם מספר הפרמטר הוא +1, הוא מדלג על הקוד הבא ומקדם את המצב קדימה.";
+"codes.sleep.text" = "SLEEP";
+"codes.sleep.description" = "זוהי פקודה לגרום ל-PENTAN לישון.\n\nהוא ממשיך לישון למשך אותו פרק זמן כמו המספר בפרמטר.\n\nבזמן השינה, האנרגיה של PENTAN עולה בהדרגה.\n\nעם זאת, אם הוא מותקף בזמן השינה, כל האנרגיה שלו תיגנב והוא ימות.";
+"codes.give.text" = "GIVE";
+"codes.give.description" = "הוא מחלק ונותן חצי מהאנרגיה שלו ל-PENTAN השכן בכיוון שאליו הוא פונה.\n\nאם אין PENTAN אחר מולו, האנרגיה שלו יורדת ב-1.";
+"codes.eat.text" = "EAT";
+"codes.eat.description" = "הוא תוקף את ה-PENTAN השכן בכיוון שאליו הוא פונה.\n\nזה שיש לו יותר אנרגיה נשאר וזה שיש לו פחות אנרגיה נעלם. באותו זמן, האנרגיה של ה-PENTAN שנשאר יורדת בכמות שווה לאנרגיה של ה-PENTAN שנעלם. עם זאת, אם ה-PENTAN השכן במצב שינה, גם אם ליריב יש יותר אנרגיה, אתה יכול לנצח מבלי להפחית את האנרגיה שלך.";
+"codes.color.text" = "COLOR";
+"codes.color.description" = "זוהי פקודה לשנות את הצבע של PENTAN.\n\nהוא משתנה לצבע המתאים למספר בפרמטר.";
+"codes.look.text" = "LOOK";
+"codes.look.description" = "זוהי פקודה לקרוא ולזכור את הצבע של ה-PENTAN שלידך, בכיוון שאליו PENTAN מצביע.";
+"codes.field.text" = "FIELD";
+"codes.field.description" = "זוהי פקודה לחקור את סוג המשבצת שבה PENTAN נמצא, ולשנן את המספר המייצג את סוג המשבצת.";
+"codes.add.text" = "ADD";
+"codes.add.description" = "זוהי פקודה להוסיף את מספר הפרמטר למספר ש-PENTAN זוכר.\n\nאם מספר הפרמטר שלילי, המספר ש-PENTAN זוכר יקטן בכמות של מספר הפרמטר.";
+"codes.minus.text" = "MINUS";
+"codes.minus.description" = "זוהי פקודה להחסיר את מספר הפרמטר מהמספר ש-PENTAN זוכר.";
+"codes.memory.text" = "MEMORY";
+"codes.memory.description" = "זוהי פקודה לזכור את המספר בפרמטר.";
+"codes.read.text" = "READ";
+"codes.read.description" = "זוהי פקודה ש-PENTAN קורא וזוכר את הפרמטר של הקוד הנמצא במיקום שהוא סכום מצבו הנוכחי והפרמטר, מה-PENTAN השכן בכיוון שאליו הוא פונה.\n\nלדוגמה, אם המצב הנוכחי הוא 5 והפרמטר הוא +1, הוא יקרא ויזכור את הפרמטר של הקוד במיקום 6 מה-PENTAN השכן.";
+"codes.write.text" = "WRITE";
+"codes.write.description" = "זוהי פקודה ש-PENTAN כותב את המספר שהוא זוכר לפרמטר של הקוד הנמצא במיקום שהוא סכום מצבו הנוכחי והפרמטר.\n\nלדוגמה, אם הפרמטר הוא +1, הוא יכתוב את המספר ש-PENTAN זוכר לפרמטר של הקוד הבא.";
+"codes.split.text" = "SPLIT";
+"codes.split.description" = "זוהי פקודה ש-PENTAN מייצר PENTAN חדש על ידי חילוץ קטע קוד מסוים מהגנום שלו.\n\nקטע הקוד לחילוץ מתחיל מהקוד הנמצא במיקום שהוא סכום מצבו הנוכחי והפרמטר ומשתרע בשני הכיוונים עד שהוא מוגבל על ידי קוד 'NOP' (קטע זה מכונה קטע NOP).\n\nביצוע פקודה זו צורך כמות אנרגיה השווה לאורך הגנום. כמו כן, לאחר ביצוע הפקודה, חצי מהאנרגיה הנותרת ניתנת ל-PENTAN שנוצר.\n\nהמצב ההתחלתי של ה-PENTAN שנוצר יהיה מספר הקוד במיקום ההתחלתי של קטע ה-NOP.";
+"codes.copy.text" = "COPY";
+"codes.copy.description" = "זוהי פקודה ש-PENTAN משכפל את עצמו למיקום השכן בכיוון שאליו הוא פונה.\n\nהמשבצת שמול PENTAN צריכה להיות נגישה ולא יכול להיות בה PENTAN אחר.\n\nביצוע פקודה זו דורש כמות אנרגיה השווה לאורך הגנום שלו. כמו כן, לאחר ביצוע הפקודה, חצי מהאנרגיה הנותרת ניתנת ל-PENTAN החדש המשוכפל.\n\nהמצב ההתחלתי של ה-PENTAN המשוכפל מוגדר למספר שהוא סכום מצבו הנוכחי והפרמטר.";
+"codes.end.text" = "END";
+"codes.end.description" = "זוהי פקודה להשמדה עצמית של PENTAN. עם זאת, הפקודה מתבצעת רק כשהמספר ש-PENTAN זוכר זהה למספר הפרמטר.";
+"codes.cross.text" = "CROSS";
+"codes.cross.description" = "זוהי פקודה ש-PENTAN מחליף קטע קוד מסוים עם PENTAN אחר הנמצא מולו.\n\nקטע הקוד להחלפה מתחיל מהקוד הנמצא במיקום שהוא סכום מצבו הנוכחי והפרמטר, ומשתרע בשני הכיוונים עד שהוא מוגבל על ידי קוד 'wait' (קטע זה מכונה קטע NOP).\n\nאם לשני הצדדים אין קטעי NOP תואמים, החלפת הקוד לא תתבצע.\n\nביצוע פקודה זו דורש כמות אנרגיה השווה לאורך הגנום שלו.";
+"codes.code.text" = "CODE";
+"codes.code.description" = "זוהי פקודה להוספת קוד לסוף הגנום של PENTAN. ההוראה של הקוד המוסף תתאים למספר הפרמטר. הפרמטר של הקוד המוסף יהיה המספר בזיכרון.";
+"codes.equal.text" = "EQUAL";
+"codes.equal.description" = "זוהי פקודה שמאחסנת 1 כשערך הפרמטר תואם את הערך המאוחסן על ידי PENTAN, ומאחסנת 0 כשהוא אינו תואם.";
+"codes.stick.text" = "STICK";
+"codes.stick.description" = "זוהי פקודה לשנות את כיוון היד של PENTAN או לכווץ אותה, בהתאם למספר ולסימן של הפרמטרים.\n\nכשהפרמטר הוא מספר חיובי, היד מסתובבת בכיוון השעון. כשהוא שלילי, היא מסתובבת נגד כיוון השעון. לדוגמה, כשהפרמטר הוא +4, היד מבצעת סיבוב שלם, כך שכיוון היד של PENTAN אינו משתנה. אם מספר הפרמטר הוא 0, היד של PENTAN נכווצת.";
