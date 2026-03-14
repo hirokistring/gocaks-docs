@@ -48,6 +48,7 @@
         font-size: 0.9rem;
         font-weight: 500;
         cursor: pointer;
+        text-decoration: none;
         -webkit-tap-highlight-color: transparent;
       }
       .import-btn:active {
@@ -112,7 +113,7 @@
           Energy fields and poison fields are arranged in a grid pattern like a
           Go board. A grid where territory battles unfold, similar to Go.
         </div>
-        <button class="import-btn" onclick="importGrid('grids/grid-goban.g1')">
+        <a class="import-btn" href="grids/grid-goban.g1" download>
           <svg
             width="16"
             height="16"
@@ -128,7 +129,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
         <div
           class="showcase-card-subsection"
           style="
@@ -149,10 +150,7 @@
           >
             敵ペンタンが大量に増殖してしまう前に抑え込みましょう。
           </div>
-          <button
-            class="import-btn"
-            onclick="importGrid('grids/grid-goban-enemies.g1')"
-          >
+          <a class="import-btn" href="grids/grid-goban-enemies.g1" download>
             <svg
               width="16"
               height="16"
@@ -168,7 +166,7 @@
               <line x1="12" y1="15" x2="12" y2="3" />
             </svg>
             <span data-i18n="showcase.download">Download</span>
-          </button>
+          </a>
         </div>
       </div>
 
@@ -191,7 +189,7 @@
           surrounded by multiple walls, with outposts and poison moats around
           it.
         </div>
-        <button class="import-btn" onclick="importGrid('grids/grid-castle.g1')">
+        <a class="import-btn" href="grids/grid-castle.g1" download>
           <svg
             width="16"
             height="16"
@@ -207,7 +205,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
         <div
           class="showcase-card-subsection"
           style="
@@ -230,10 +228,7 @@
             the castle and enemy PENTANs shooting arrows from outposts. Find the
             castle's weak point and aim for a breakthrough.
           </div>
-          <button
-            class="import-btn"
-            onclick="importGrid('grids/grid-castle-enemies.g1')"
-          >
+          <a class="import-btn" href="grids/grid-castle-enemies.g1" download>
             <svg
               width="16"
               height="16"
@@ -249,7 +244,7 @@
               <line x1="12" y1="15" x2="12" y2="3" />
             </svg>
             <span data-i18n="showcase.download">Download</span>
-          </button>
+          </a>
         </div>
       </div>
 
@@ -268,10 +263,7 @@
         <div class="showcase-card-desc" data-i18n="showcase.grid.level1.desc">
           Speed Run mode level 1. Let's learn the basics of the commands.
         </div>
-        <button
-          class="import-btn"
-          onclick="importGrid('grids/speedrun-stage-1.g1')"
-        >
+        <a class="import-btn" href="grids/speedrun-stage-1.g1" download>
           <svg
             width="16"
             height="16"
@@ -287,7 +279,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
       </div>
 
       <!-- Level 2 (Speed Run) -->
@@ -305,10 +297,7 @@
         <div class="showcase-card-desc" data-i18n="showcase.grid.level2.desc">
           Speed Run mode level 2. From which direction should you attack?
         </div>
-        <button
-          class="import-btn"
-          onclick="importGrid('grids/speedrun-stage-2.g1')"
-        >
+        <a class="import-btn" href="grids/speedrun-stage-2.g1" download>
           <svg
             width="16"
             height="16"
@@ -324,7 +313,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
       </div>
 
       <!-- Level 3 (Speed Run) -->
@@ -342,10 +331,7 @@
         <div class="showcase-card-desc" data-i18n="showcase.grid.level3.desc">
           Speed Run mode level 3. Let's go for a pincer attack.
         </div>
-        <button
-          class="import-btn"
-          onclick="importGrid('grids/speedrun-stage-3.g1')"
-        >
+        <a class="import-btn" href="grids/speedrun-stage-3.g1" download>
           <svg
             width="16"
             height="16"
@@ -361,7 +347,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
       </div>
 
       <!-- Level 4 (Speed Run) -->
@@ -379,10 +365,7 @@
         <div class="showcase-card-desc" data-i18n="showcase.grid.level4.desc">
           Speed Run mode level 4. How to strike the center of the whirlpool?
         </div>
-        <button
-          class="import-btn"
-          onclick="importGrid('grids/speedrun-stage-4.g1')"
-        >
+        <a class="import-btn" href="grids/speedrun-stage-4.g1" download>
           <svg
             width="16"
             height="16"
@@ -398,7 +381,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
       </div>
 
       <!-- Level 5 (Speed Run) -->
@@ -417,10 +400,7 @@
           Speed Run mode level 5. Let's strike the center of the enemy
           scattering in all directions.
         </div>
-        <button
-          class="import-btn"
-          onclick="importGrid('grids/speedrun-stage-5.g1')"
-        >
+        <a class="import-btn" href="grids/speedrun-stage-5.g1" download>
           <svg
             width="16"
             height="16"
@@ -436,7 +416,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
       </div>
 
       <!-- Level 6 (Speed Run) -->
@@ -454,10 +434,7 @@
         <div class="showcase-card-desc" data-i18n="showcase.grid.level6.desc">
           Speed Run mode level 6. Let's confine the enemy in a tight space.
         </div>
-        <button
-          class="import-btn"
-          onclick="importGrid('grids/speedrun-stage-6.g1')"
-        >
+        <a class="import-btn" href="grids/speedrun-stage-6.g1" download>
           <svg
             width="16"
             height="16"
@@ -473,7 +450,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
       </div>
 
       <!-- Level 7 (Speed Run) -->
@@ -492,10 +469,7 @@
           Speed Run mode level 7. Keep enemy PENTANs in check before they
           multiply too much.
         </div>
-        <button
-          class="import-btn"
-          onclick="importGrid('grids/speedrun-stage-7.g1')"
-        >
+        <a class="import-btn" href="grids/speedrun-stage-7.g1" download>
           <svg
             width="16"
             height="16"
@@ -511,7 +485,7 @@
             <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           <span data-i18n="showcase.download">Download</span>
-        </button>
+        </a>
       </div>
 
       <p

@@ -12,15 +12,6 @@
     }
   };
 
-  window.importGrid = function (filePath) {
-    var a = document.createElement("a");
-    a.href = filePath;
-    a.download = filePath.split("/").pop();
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  };
-
   function copyToClipboard(text) {
     if (navigator.clipboard) {
       navigator.clipboard.writeText(text).then(function () {
