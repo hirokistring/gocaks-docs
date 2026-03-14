@@ -158,6 +158,7 @@
   "showcase.pentan.cancer.name": "Cancer Cell",
   "showcase.pentan.cancer.desc": "An enemy PENTAN that keeps multiplying like cancer cells. Becomes a nuisance when placed on energy fields. Important to take it out before the numbers grow.",
   "showcase.import": "Import",
+  "showcase.download": "Download",
   "showcase.grid.title": "Grid Showcase",
   "showcase.grid.intro": "Official grid scenarios for Creative Mode. Import replaces your current creative grid.",
   "showcase.grid.goban.name": "Goban",
