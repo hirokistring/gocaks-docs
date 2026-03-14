@@ -48,6 +48,10 @@ Help Menu
 
 ## References
 
+### Help
+
+[GoCAKs Help](https://hirokistring.github.io/gocaks-docs/help/)
+
 ### AppStore
 
 [GoCAKs is now available on the AppStore. Check it out and dive into the action!](https://apps.apple.com/us/app/gocaks/id6462423363)
