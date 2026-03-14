@@ -3,6 +3,50 @@
 
   var isInApp = !!(window.webkit && window.webkit.messageHandlers);
 
+  // WKWebView does not support the `download` attribute on <a> tags.
+  // Intercept clicks and trigger download via fetch + Blob URL, or via a
+  // native message handler if the host app provides one.
+  document.querySelectorAll("a.import-btn[download]").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      // Native handler takes priority (host app can save directly to sandbox)
+      if (isInApp && window.webkit.messageHandlers.downloadGrid) {
+        e.preventDefault();
+        window.webkit.messageHandlers.downloadGrid.postMessage(
+          link.getAttribute("href")
+        );
+        return;
+      }
+
+      // In-app without a native handler: fetch the file and trigger a Blob download
+      if (isInApp) {
+        e.preventDefault();
+        var href = link.href;
+        var fileName = href.split("/").pop();
+        fetch(href)
+          .then(function (res) {
+            if (!res.ok) throw new Error("fetch failed: " + res.status);
+            return res.blob();
+          })
+          .then(function (blob) {
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement("a");
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function () {
+              URL.revokeObjectURL(url);
+            }, 1000);
+          })
+          .catch(function (err) {
+            console.error("Grid download failed:", err);
+          });
+      }
+      // Normal browser: let the default `download` attribute handle it
+    });
+  });
+
   window.importPentan = function (p1Text) {
     if (isInApp && window.webkit.messageHandlers.importPentan) {
       window.webkit.messageHandlers.importPentan.postMessage(p1Text);
