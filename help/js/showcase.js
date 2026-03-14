@@ -11,9 +11,8 @@
       // Native handler takes priority (host app can save directly to sandbox)
       if (isInApp && window.webkit.messageHandlers.downloadGrid) {
         e.preventDefault();
-        window.webkit.messageHandlers.downloadGrid.postMessage(
-          link.getAttribute("href")
-        );
+        // Pass the absolute URL so the native side can fetch it directly
+        window.webkit.messageHandlers.downloadGrid.postMessage(link.href);
         return;
       }
 
