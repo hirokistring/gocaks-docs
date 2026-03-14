@@ -163,6 +163,7 @@
   "showcase.pentan.cancer.name": "癌細胞",
   "showcase.pentan.cancer.desc": "癌細胞のように増殖し続ける敵ペンタンです。エネルギーフィールドに配置されると厄介な存在になります。数が増える前にやっつけるのが大切です。",
   "showcase.import": "取り込む",
+  "showcase.download": "ダウンロード",
   "showcase.grid.title": "グリッド ショーケース",
   "showcase.grid.intro": "クリエイティブモード用の公式グリッドシナリオです。取り込むと現在のクリエイティブグリッドが置き換えられます。",
   "showcase.grid.goban.name": "碁盤",

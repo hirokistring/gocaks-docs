@@ -12,13 +12,13 @@
     }
   };
 
-  window.importGrid = function (g1Text) {
-    if (isInApp && window.webkit.messageHandlers.importGrid) {
-      window.webkit.messageHandlers.importGrid.postMessage(g1Text);
-      showToast("Imported!");
-    } else {
-      copyToClipboard(g1Text);
-    }
+  window.importGrid = function (filePath) {
+    var a = document.createElement("a");
+    a.href = filePath;
+    a.download = filePath.split("/").pop();
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   };
 
   function copyToClipboard(text) {
