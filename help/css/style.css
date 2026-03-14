@@ -258,9 +258,9 @@ img.hero-banner-bg {
 
 .instruction-video {
   display: block;
-  width: 100%;
+  width: calc(100% - var(--spacing-md) * 2);
+  margin: var(--spacing-md) var(--spacing-md) var(--spacing-md);
   border-radius: var(--radius-md);
-  margin-top: var(--spacing-md);
 }
 
 /* Inline link for Episodes from Story page */
