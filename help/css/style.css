@@ -304,6 +304,17 @@ img.hero-banner-bg {
   font-size: 0.9em;
 }
 
+/* Field image inside disclosure accordion */
+.field-image {
+  width: calc(100% - 32px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-sm);
+  margin: 0 var(--spacing-md) var(--spacing-md);
+  display: block;
+}
+
 /* Spacer */
 .spacer {
   height: 50px;
