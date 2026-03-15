@@ -160,6 +160,8 @@
   "showcase.pentan.energyfinder.desc": "在寻找能量场时以之字形移动。找到后以该位置为基地，向四个方向发射新的 Energy Finder。可作为创建各种战术用途的探索性 PENTAN 基因组的基础。",
   "showcase.pentan.cancer.name": "癌细胞",
   "showcase.pentan.cancer.desc": "像癌细胞一样不断增殖的敌 PENTAN。放置在能量场上时会造成麻烦。在数量增长之前消灭很重要。",
+  "showcase.pentan.stemcell.name": "干细胞",
+  "showcase.pentan.stemcell.desc": "像干细胞一样，产生各种类型的PENTAN。",
   "showcase.pentan.fleet.name": "舰队",
   "showcase.pentan.fleet.desc": "就像包围航母的舰队一样，先在自己周围创建护卫，然后作为一个群体一起移动。",
   "showcase.grid.title": "网格展示",

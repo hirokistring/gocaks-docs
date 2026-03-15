@@ -160,6 +160,8 @@
   "showcase.pentan.energyfinder.desc": "Se déplace en zigzag tout en cherchant des champs d'énergie. Une fois trouvé, utilise cet endroit comme base et lance de nouveaux Energy Finders dans les quatre directions. Sert de base pour créer des génomes PENTAN exploratoires à diverses fins tactiques.",
   "showcase.pentan.cancer.name": "Cellule cancéreuse",
   "showcase.pentan.cancer.desc": "Un PENTAN ennemi qui continue de se multiplier comme des cellules cancéreuses. Devient une nuisance lorsqu'il est placé sur des champs d'énergie. Important de l'éliminer avant que le nombre n'augmente.",
+  "showcase.pentan.stemcell.name": "Cellule souche",
+  "showcase.pentan.stemcell.desc": "Comme les cellules souches, elle génère différents types de PENTANs.",
   "showcase.pentan.fleet.name": "Flotte",
   "showcase.pentan.fleet.desc": "Comme une flotte entourant un porte-avions, il crée d'abord une escorte autour de lui, puis se déplace en groupe.",
   "showcase.grid.title": "Vitrine Grille",

@@ -160,6 +160,8 @@
   "showcase.pentan.energyfinder.desc": "Se mueve en zigzag mientras busca campos de energía. Cuando encuentra uno, usa ese lugar como base y lanza nuevos Energy Finders en las cuatro direcciones. Sirve como base para crear genomas PENTAN exploratorios para diversos propósitos tácticos.",
   "showcase.pentan.cancer.name": "Célula cancerosa",
   "showcase.pentan.cancer.desc": "Un PENTAN enemigo que sigue multiplicándose como células cancerosas. Se vuelve una molestia cuando se coloca en campos de energía. Importante eliminarlo antes de que crezca el número.",
+  "showcase.pentan.stemcell.name": "Célula madre",
+  "showcase.pentan.stemcell.desc": "Como las células madre, genera varios tipos de PENTANs.",
   "showcase.pentan.fleet.name": "Flota",
   "showcase.pentan.fleet.desc": "Como una flota rodeando un portaaviones, primero crea una escolta a su alrededor y luego se mueve en grupo.",
   "showcase.grid.title": "Vitrina de Grid",

@@ -171,6 +171,8 @@
   "showcase.pentan.energyfinder.desc": "Bewegt sich im Zickzack auf der Suche nach Energiefeldern. Wenn gefunden, nutzt es den Ort als Basis und startet neue Energy Finder in alle vier Richtungen. Dient als Basis für die Erstellung explorativer PENTAN-Genome für verschiedene taktische Zwecke.",
   "showcase.pentan.cancer.name": "Krebszelle",
   "showcase.pentan.cancer.desc": "Ein feindlicher PENTAN, der sich wie Krebszellen weiter vermehrt. Wird zur Belästigung, wenn auf Energiefeldern platziert. Wichtig, ihn auszuschalten, bevor die Zahl wächst.",
+  "showcase.pentan.stemcell.name": "Stammzelle",
+  "showcase.pentan.stemcell.desc": "Wie Stammzellen erzeugt es verschiedene Arten von PENTANs.",
   "showcase.pentan.fleet.name": "Flotte",
   "showcase.pentan.fleet.desc": "Wie eine Flotte, die einen Flugzeugträger umgibt, bildet es zunächst eine Eskorte um sich herum und bewegt sich dann als Gruppe.",
   "faqs.item1.title": "Nutzung in Schulen",

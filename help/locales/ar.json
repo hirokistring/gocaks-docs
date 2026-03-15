@@ -171,6 +171,8 @@
   "showcase.pentan.energyfinder.desc": "يتحرك متعرجاً أثناء البحث عن حقول الطاقة. عند العثور عليها، يستخدم ذلك الموقع كقاعدة ويطلق Energy Finders جديدة في الاتجاهات الأربعة. يخدم كأساس لإنشاء جينومات PENTAN استكشافية لأغراض تكتيكية متنوعة.",
   "showcase.pentan.cancer.name": "خلية سرطانية",
   "showcase.pentan.cancer.desc": "PENTAN عدوي يستمر بالتكاثر كالخلايا السرطانية. يصبح مزعجاً عند وضعه على حقول الطاقة. من المهم التخلص منه قبل نمو العدد.",
+  "showcase.pentan.stemcell.name": "الخلية الجذعية",
+  "showcase.pentan.stemcell.desc": "مثل الخلايا الجذعية، تولد أنواعاً مختلفة من PENTANs.",
   "showcase.pentan.fleet.name": "الأسطول",
   "showcase.pentan.fleet.desc": "مثل أسطول يحيط بحاملة طائرات، يخلق أولاً حراسة حوله ثم ينتقل معاً كمجموعة.",
   "faqs.item1.title": "الاستخدام في المدارس",

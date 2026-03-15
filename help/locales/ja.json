@@ -167,6 +167,8 @@
   "showcase.pentan.energyfinder.desc": "エネルギーフィールドを探しながらジグザグに進み、見つけたら、そこを拠点にして、四方に新たなEnergy Finderを発射する。様々な戦術目的を持った、探索的なペンタンのゲノムを作るためのベースとなる。",
   "showcase.pentan.cancer.name": "癌細胞",
   "showcase.pentan.cancer.desc": "癌細胞のように増殖し続ける敵ペンタンです。エネルギーフィールドに配置されると厄介な存在になります。数が増える前にやっつけるのが大切です。",
+  "showcase.pentan.stemcell.name": "幹細胞",
+  "showcase.pentan.stemcell.desc": "幹細胞のように、様々な種類のペンタンを生み出します。",
   "showcase.pentan.fleet.name": "艦隊",
   "showcase.pentan.fleet.desc": "まるで空母を取り囲む艦隊のように、自分の周りに護衛を作ってから、集団で移動する。",
   "showcase.import": "取り込む",

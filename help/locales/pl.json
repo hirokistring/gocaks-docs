@@ -171,6 +171,8 @@
   "showcase.pentan.energyfinder.desc": "Porusza się zygzakiem w poszukiwaniu pól energii. Po znalezieniu używa tego miejsca jako bazy i uruchamia nowe Energy Findery we wszystkich czterech kierunkach. Służy jako baza do tworzenia eksploracyjnych genomów PENTAN do różnych celów taktycznych.",
   "showcase.pentan.cancer.name": "Komórka rakowa",
   "showcase.pentan.cancer.desc": "Wrogi PENTAN, który mnoży się jak komórki rakowe. Staje się uciążliwy na polach energii. Ważne, aby go wyeliminować, zanim liczba wzrośnie.",
+  "showcase.pentan.stemcell.name": "Komórka macierzysta",
+  "showcase.pentan.stemcell.desc": "Jak komórki macierzyste, generuje różne typy PENTANów.",
   "showcase.pentan.fleet.name": "Flota",
   "showcase.pentan.fleet.desc": "Jak flota otaczająca lotniskowiec, najpierw tworzy eskortę wokół siebie, a następnie porusza się razem jako grupa.",
   "faqs.item1.title": "Użycie w szkołach",

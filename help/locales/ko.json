@@ -160,6 +160,8 @@
   "showcase.pentan.energyfinder.desc": "에너지 필드를 찾으며 지그재그로 이동합니다. 찾으면 그 자리를 기지로 삼아 네 방향으로 새로운 Energy Finder를 발사합니다. 다양한 전술 목적을 위한 탐색적 PENTAN 게놈 생성의 기반이 됩니다.",
   "showcase.pentan.cancer.name": "암세포",
   "showcase.pentan.cancer.desc": "암세포처럼 계속 증식하는 적 PENTAN입니다. 에너지 필드에 배치되면 골칫거리가 됩니다. 수가 늘기 전에 제거하는 것이 중요합니다.",
+  "showcase.pentan.stemcell.name": "줄기세포",
+  "showcase.pentan.stemcell.desc": "줄기세포처럼 다양한 종류의 PENTAN을 생성합니다.",
   "showcase.pentan.fleet.name": "함대",
   "showcase.pentan.fleet.desc": "항공모함을 둘러싼 함대처럼, 먼저 자신의 주변에 호위대를 만든 다음 집단으로 함께 이동합니다.",
   "showcase.grid.title": "그리드 쇼케이스",
