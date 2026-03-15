@@ -162,7 +162,7 @@
   "showcase.pentan.arrowcell.name": "弓矢",
   "showcase.pentan.arrowcell.desc": "COPY と JUMP のループで子ペンタンを弓矢のように前方へ次々と放ち、敵にぶつかると攻撃します。エネルギーフィールドに配置すると矢を連射し、敵の前線に突破口を開けます。",
   "showcase.pentan.pipeline.name": "パイプライン細胞",
-  "showcase.pentan.pipeline.desc": "COPY 0 と GIVE 0 の単純な二命令で、前方に仲間を増やし、エネルギーを輸送するパイプラインのように前方へエネルギーを送り続ける。エネルギーフィールドに配置することで、前線の仲間に対する補給線として使える。",
+  "showcase.pentan.pipeline.desc": "COPY 0 と GIVE 0 の単純な二命令で、前方に仲間を増やし、エネルギーを輸送するパイプラインのように前方へエネルギーを送り続けます。エネルギーフィールドに配置することで、前線の仲間に対する補給線として使えます。",
   "showcase.pentan.energyfinder.name": "エネルギーファインダー",
   "showcase.pentan.energyfinder.desc": "エネルギーフィールドを探しながらジグザグに進み、見つけたら、そこを拠点にして、四方に新たなEnergy Finderを発射します。様々な戦術目的を持った、探索的なペンタンのゲノムを作るためのベースとなります。",
   "showcase.pentan.cancer.name": "癌細胞",
