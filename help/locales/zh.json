@@ -84,6 +84,8 @@
   "help.games.speedrun.description": "这是一个竞争用尽可能少的时间和资源消灭敌人的游戏。\n\n关卡从Level 1到Level 7。在给定的时间和预算内，尝试高效地创建PENTANs来消灭所有敌人。",
   "help.games.creative.title": "创意模式",
   "help.games.creative.description": "这是一个可以自由创建PENTANs并进行各种实验的模式。\n\n释放你的创造力，创建能引发有趣运动和现象的PENTANs。",
+  "help.games.network.title": "网络对战模式",
+  "help.games.network.description": "这是一个可以和朋友对战的游戏。每位玩家只需决定PENTANs的初始摆放位置，之后胜负由确定性模拟来决定。每位玩家最多可以初始放置5个PENTANs。由于每位玩家的初始摆放位置在游戏开始前都是保密的，因此需要战略性地决定初始摆放位置。\n\n要开始网络对战，首先自己创建一个对战空间，或者加入朋友创建的对战空间。\n\n通过社交媒体等方式将对战空间ID分享给朋友。可以同时参与最多5个空间。\n\n对战空间有初始配置的注册截止日期和空间保留期限。\n\n每位玩家必须在注册截止日期前注册初始配置。注册截止日期过后，就可以开始游戏模拟了。\n\n此外，当空间保留期限到期时，该空间将消失。",
   "help.codes.code.title": "代码",
   "help.codes.code.description": "一个代码由一条指令和一个参数组成。\n\n参数用数字表示，有些指令使用参数，有些则不使用。\n\nGoCAKs中的指令经过精心挑选，设计精良。\n\n虽然每条指令简单易懂，但通过组合可以创造出无限的运动和现象。\n\n精心设计的PENTANs争夺生存的壮观场面，可能会创造出类似生态系统的现象。",
   "codes.nop.text": "NOP",
