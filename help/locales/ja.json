@@ -146,6 +146,9 @@
   "codes.equal.description": "パラメータの数とペンタンが記憶する数が一致する時には 1 が、一致しないときには 0 が記憶される命令です。",
   "codes.stick.text": "接着",
   "codes.stick.description": "ペンタンの手の向きを変えたり、手を引っこめたりする命令です。パラメータの数と符号に沿って、手の向きを変えます。\n\nパラメータが正の数の時は時計回りに、負の数の時は反時計回りに向きを変えます。例えば、パラメータが +4 の時は一回転して元と同じになるため、ペンタンの手の向きは変わりません。また、パラメータの数が 0 の時は、ペンタンの手が引っ込められます。",
+  "codes.combinations.title": "組み合わせ",
+  "codes.combinations.rendezvous.text": "ランデブー",
+  "codes.combinations.rendezvous.description": "接着命令と移動命令を組み合わせると、複数のペンタンが手をつないで、一緒に移動することができます。",
 
   "help.faq.title": "よくある質問",
   "faqs.item1.title": "学校での使用",
@@ -164,6 +167,8 @@
   "showcase.pentan.energyfinder.desc": "エネルギーフィールドを探しながらジグザグに進み、見つけたら、そこを拠点にして、四方に新たなEnergy Finderを発射する。様々な戦術目的を持った、探索的なペンタンのゲノムを作るためのベースとなる。",
   "showcase.pentan.cancer.name": "癌細胞",
   "showcase.pentan.cancer.desc": "癌細胞のように増殖し続ける敵ペンタンです。エネルギーフィールドに配置されると厄介な存在になります。数が増える前にやっつけるのが大切です。",
+  "showcase.pentan.fleet.name": "艦隊",
+  "showcase.pentan.fleet.desc": "まるで空母を取り囲む艦隊のように、自分の周りに護衛を作ってから、集団で移動する。",
   "showcase.import": "取り込む",
   "showcase.download": "ダウンロード",
   "showcase.grid.title": "グリッド ショーケース",
