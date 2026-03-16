@@ -68,13 +68,9 @@ Help Menu
 
 [Our Privacy Policy](PRIVACY-POLICY.md)
 
-## License
+## Copyright
 
-This repository is licensed under:
-
-CC BY-ND 4.0
-
-<https://creativecommons.org/licenses/by-nd/4.0/>
+Copyright 2026 Hiroki Saito
 
 ## Release Notes
 
