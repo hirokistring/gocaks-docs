@@ -12,9 +12,11 @@
 
 "games.speedrun" = "Speed Run";
 "games.creative" = "Creative Mode";
-"games.version" = "ver. 1.2";
+"games.version" = "ver. 1.5";
 
 "game.grid" = "Grid";
+"grid.import" = "Import";
+"grid.export" = "Export";
 "game.library" = "Library";
 "game.help" = "Help";
 "game.settings" = "Settings";
@@ -152,6 +154,25 @@
 "button.yes" = "Yes";
 "button.no" = "No";
 "dialog.randomize" = "Randomize?";
+"dialog.importpentan.title" = "Import PENTAN";
+"dialog.importpentan.pastecode" = "Paste P1 code:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d genes, E:%d";
+"dialog.importpentan.invalid" = "Invalid format";
+"dialog.importpentan.import" = "Import";
+"dialog.sharepentan.title" = "Share PENTAN";
+"dialog.sharepentan.copy" = "Copy";
+"dialog.sharepentan.copied" = "Copied!";
+"dialog.sharepentan.close" = "Close";
+"dialog.sharegrid.title" = "Share Grid";
+"dialog.sharegrid.cells" = "%d pentans";
+"dialog.sharegrid.save" = "Save to File";
+"dialog.importgrid.loadfile" = "Load from File";
+"dialog.importgrid.title" = "Import Grid";
+"dialog.importgrid.pastecode" = "Paste G1 code:";
+"dialog.importgrid.cells" = "%d cells";
+"dialog.importgrid.invalid" = "Invalid format";
+"dialog.importgrid.import" = "Import";
 "creative.randomize" = "Randomize";
 "creative.reset" = "Reset Grid";
 
@@ -368,3 +389,70 @@
 "codes.equal.description" = "This is a command that stores 1 when the value of the parameter matches the value stored by PENTAN, and stores 0 when it does not match.";
 "codes.stick.text" = "STICK";
 "codes.stick.description" = "This is a command to change the direction of PENTAN's hand or to retract it, according to the number and sign of the parameters.\n\nWhen the parameter is a positive number, the hand turns clockwise. When it's a negative number, it turns counterclockwise. For example, when the parameter is +4, the hand rotates a full turn, so the direction of PENTAN's hand does not change. If the parameter number is 0, the hand of PENTAN is retracted.";
+
+///
+/// Network Battle Mode
+///
+
+"games.networkbattle" = "Network Battle";
+
+"networkbattle.title" = "**Network Battle**";
+"networkbattle.description" = "A sealed-move style battle where players exchange initial PENTAN placements, then watch the deterministic simulation unfold.\n\nShare the grid beforehand via SNS, think carefully about your placement, then register your sealed move!";
+
+"networkbattle.create" = "Create Space";
+"networkbattle.join" = "Join Space";
+
+"networkbattle.create.title" = "Create Battle Space";
+"networkbattle.create.grid" = "Grid";
+"networkbattle.create.grid.description" = "Select the grid for the battle. Cells will be removed — only the field layout is used.";
+"networkbattle.create.grid.current" = "Use Current Grid";
+"networkbattle.create.grid.ready" = "Grid ready";
+"networkbattle.create.deadline" = "Registration Period";
+"networkbattle.create.registration" = "Registration Period";
+"networkbattle.create.retention" = "Space Retention";
+"networkbattle.create.participants" = "Max Participants";
+"networkbattle.create.submit" = "Create Space";
+"networkbattle.create.success" = "Space Created!";
+"networkbattle.create.share" = "Share this Space ID with other players via SNS.";
+
+"networkbattle.join.title" = "Join Battle Space";
+"networkbattle.join.description" = "Enter the Space ID shared by the host.";
+"networkbattle.join.placeholder" = "Space ID";
+"networkbattle.join.submit" = "Join";
+"networkbattle.join.spaceid" = "Space:";
+"networkbattle.join.participants" = "Participants:";
+"networkbattle.join.deadline" = "Registration closes in:";
+"networkbattle.join.closed" = "Registration closed";
+"networkbattle.join.placement" = "Place Your PENTANs";
+"networkbattle.join.placement.count" = "%d / %d PENTANs placed";
+"networkbattle.join.placement.hint" = "Place your PENTANs on the grid, then upload your sealed move.";
+"networkbattle.join.upload" = "Upload Placement";
+"networkbattle.join.uploaded" = "Placement Uploaded!";
+"networkbattle.join.waiting" = "Waiting for registration deadline...";
+"networkbattle.join.play" = "Start Game";
+"networkbattle.join.ready" = "Game Ready!";
+"networkbattle.join.ready.description" = "All placements downloaded. The simulation will run on your device.";
+
+"networkbattle.you" = "You";
+"networkbattle.player" = "Player %d";
+
+"networkbattle.graph.tab" = "Graph";
+"networkbattle.graph.title" = "Population";
+"networkbattle.graph.gen" = "Gen %d";
+
+"networkbattle.result.title" = "Battle Result";
+"networkbattle.result.you" = "(You)";
+"networkbattle.result.count" = "%d PENTANs";
+
+"networkbattle.grid.title" = "Network Battle";
+"networkbattle.toolbar.upload" = "Upload Placement";
+"networkbattle.toolbar.submit" = "Submit";
+
+"networkbattle.spaces.title" = "Joined Spaces";
+"networkbattle.spaces.full" = "Maximum spaces reached";
+"networkbattle.spaces.phase.created" = "Awaiting placement";
+"networkbattle.spaces.phase.placed" = "Submitted";
+"networkbattle.spaces.phase.ready" = "Ready";
+"networkbattle.placement.limit.title" = "Placement Limit";
+"networkbattle.placement.limit.message" = "You can place up to 5 pentans for initial placement. Please reduce the number of pentans and try again.";
+"download.grid.alert.title" = "Download Complete";

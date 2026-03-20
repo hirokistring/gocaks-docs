@@ -12,9 +12,11 @@
 
 "games.speedrun" = "Course Rapide";
 "games.creative" = "Mode Créatif";
-"games.version" = "ver. 1.2";
+"games.version" = "ver. 1.5";
 
 "game.grid" = "Grille";
+"grid.import" = "Importer";
+"grid.export" = "Exporter";
 "game.library" = "Bibliothèque";
 "game.help" = "Aide";
 "game.settings" = "Paramètres";
@@ -152,6 +154,24 @@
 "button.yes" = "Oui";
 "button.no" = "Non";
 "dialog.randomize" = "Initialisation aléatoire ?";
+"dialog.importpentan.title" = "Importer PENTAN";
+"dialog.importpentan.pastecode" = "Coller le code P1 :";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d gènes, E:%d";
+"dialog.importpentan.invalid" = "Format invalide";
+"dialog.importpentan.import" = "Importer";
+"dialog.sharepentan.title" = "Partager PENTAN";
+"dialog.sharepentan.copy" = "Copier";
+"dialog.sharepentan.copied" = "Copié !";
+"dialog.sharepentan.close" = "Fermer";
+"dialog.sharegrid.title" = "Partager la grille";
+"dialog.sharegrid.cells" = "%d pentans";
+"dialog.importgrid.loadfile" = "Charger depuis un fichier";
+"dialog.importgrid.title" = "Importer la grille";
+"dialog.importgrid.pastecode" = "Coller le code G1 :";
+"dialog.importgrid.cells" = "%d cellules";
+"dialog.importgrid.invalid" = "Format invalide";
+"dialog.importgrid.import" = "Importer";
 "creative.randomize" = "Aléatoire";
 "creative.reset" = "Réinitialiser la grille";
 
@@ -368,3 +388,70 @@
 "codes.equal.description" = "C'est une commande qui stocke 1 lorsque la valeur du paramètre correspond à la valeur stockée par PENTAN, et stocke 0 lorsqu'elle ne correspond pas.";
 "codes.stick.text" = "BÂTON";
 "codes.stick.description" = "C'est une commande pour changer la direction de la main de PENTAN ou pour la rétracter, selon le nombre et le signe des paramètres.";
+
+///
+/// Mode Combat en réseau
+///
+
+"games.networkbattle" = "Combat en réseau";
+
+"networkbattle.title" = "**Combat en réseau**";
+"networkbattle.description" = "Un mode de combat à plis scellés où les joueurs échangent leurs placements initiaux de PENTAN, puis regardent la simulation déterministe se dérouler.\n\nPartagez la grille à l'avance via les réseaux sociaux, réfléchissez soigneusement à votre placement, puis enregistrez votre pli scellé !";
+
+"networkbattle.create" = "Créer un espace";
+"networkbattle.join" = "Rejoindre un espace";
+
+"networkbattle.create.title" = "Créer un espace de combat";
+"networkbattle.create.grid" = "Grille";
+"networkbattle.create.grid.description" = "Sélectionnez la grille pour le combat. Les cellules seront supprimées — seule la disposition du champ est utilisée.";
+"networkbattle.create.grid.current" = "Utiliser la grille actuelle";
+"networkbattle.create.grid.ready" = "Grille prête";
+"networkbattle.create.deadline" = "Période d'inscription";
+"networkbattle.create.registration" = "Période d'inscription";
+"networkbattle.create.retention" = "Conservation de l'espace";
+"networkbattle.create.participants" = "Participants max.";
+"networkbattle.create.submit" = "Créer l'espace";
+"networkbattle.create.success" = "Espace créé !";
+"networkbattle.create.share" = "Partagez cet ID d'espace avec d'autres joueurs via les réseaux sociaux.";
+
+"networkbattle.join.title" = "Rejoindre un espace de combat";
+"networkbattle.join.description" = "Entrez l'ID d'espace partagé par l'hôte.";
+"networkbattle.join.placeholder" = "ID d'espace";
+"networkbattle.join.submit" = "Rejoindre";
+"networkbattle.join.spaceid" = "Espace :";
+"networkbattle.join.participants" = "Participants :";
+"networkbattle.join.deadline" = "Inscription ferme dans :";
+"networkbattle.join.closed" = "Inscription fermée";
+"networkbattle.join.placement" = "Placez vos PENTANs";
+"networkbattle.join.placement.count" = "%d / %d PENTANs placés";
+"networkbattle.join.placement.hint" = "Placez vos PENTANs sur la grille, puis téléchargez votre pli scellé.";
+"networkbattle.join.upload" = "Télécharger le placement";
+"networkbattle.join.uploaded" = "Placement téléchargé !";
+"networkbattle.join.waiting" = "En attente de la fin des inscriptions...";
+"networkbattle.join.play" = "Démarrer le jeu";
+"networkbattle.join.ready" = "Jeu prêt !";
+"networkbattle.join.ready.description" = "Tous les placements téléchargés. La simulation s'exécutera sur votre appareil.";
+
+"networkbattle.you" = "Vous";
+"networkbattle.player" = "Joueur %d";
+
+"networkbattle.graph.tab" = "Graphique";
+"networkbattle.graph.title" = "Population";
+"networkbattle.graph.gen" = "Gén. %d";
+
+"networkbattle.result.title" = "Résultat du combat";
+"networkbattle.result.you" = "(Vous)";
+"networkbattle.result.count" = "%d PENTANs";
+
+"networkbattle.grid.title" = "Combat en réseau";
+"networkbattle.toolbar.upload" = "Télécharger le placement";
+"networkbattle.toolbar.submit" = "Soumettre";
+
+"networkbattle.spaces.title" = "Espaces rejoints";
+"networkbattle.spaces.full" = "Nombre maximum d'espaces atteint";
+"networkbattle.spaces.phase.created" = "En attente de placement";
+"networkbattle.spaces.phase.placed" = "Soumis";
+"networkbattle.spaces.phase.ready" = "Prêt";
+"networkbattle.placement.limit.title" = "Limite de placement";
+"networkbattle.placement.limit.message" = "Vous pouvez placer jusqu'à 5 pentans pour le placement initial. Veuillez réduire le nombre de pentans et réessayer.";
+"download.grid.alert.title" = "Téléchargement terminé";

@@ -12,9 +12,11 @@
 
 "games.speedrun" = "Speed Run";
 "games.creative" = "Kreativmodus";
-"games.version" = "ver. 1.2";
+"games.version" = "ver. 1.5";
 
 "game.grid" = "Gitter";
+"grid.import" = "Importieren";
+"grid.export" = "Exportieren";
 "game.library" = "Bibliothek";
 "game.help" = "Hilfe";
 "game.settings" = "Einstellungen";
@@ -152,6 +154,24 @@
 "button.yes" = "Ja";
 "button.no" = "Nein";
 "dialog.randomize" = "Zufällig initialisieren?";
+"dialog.importpentan.title" = "PENTAN importieren";
+"dialog.importpentan.pastecode" = "P1-Code einfügen:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d Gene, E:%d";
+"dialog.importpentan.invalid" = "Ungültiges Format";
+"dialog.importpentan.import" = "Importieren";
+"dialog.sharepentan.title" = "PENTAN teilen";
+"dialog.sharepentan.copy" = "Kopieren";
+"dialog.sharepentan.copied" = "Kopiert!";
+"dialog.sharepentan.close" = "Schließen";
+"dialog.sharegrid.title" = "Gitter teilen";
+"dialog.sharegrid.cells" = "%d Pentans";
+"dialog.importgrid.loadfile" = "Aus Datei laden";
+"dialog.importgrid.title" = "Gitter importieren";
+"dialog.importgrid.pastecode" = "G1-Code einfügen:";
+"dialog.importgrid.cells" = "%d Zellen";
+"dialog.importgrid.invalid" = "Ungültiges Format";
+"dialog.importgrid.import" = "Importieren";
 "creative.randomize" = "Zufällig initialisieren";
 "creative.reset" = "Gitter zurücksetzen";
 
@@ -369,3 +389,70 @@
 "codes.equal.description" = "Dies ist ein Befehl, der 1 speichert, wenn der Wert des Parameters dem von PENTAN gespeicherten Wert entspricht, und 0 speichert, wenn er nicht übereinstimmt.";
 "codes.stick.text" = "STAB";
 "codes.stick.description" = "Dies ist ein Befehl, um die Richtung der PENTAN-Hand zu ändern oder sie zurückzuziehen, entsprechend der Zahl und dem Vorzeichen der Parameter.\n\nWenn der Parameter eine positive Zahl ist, dreht sich die Hand im Uhrzeigersinn. Wenn es eine negative Zahl ist, dreht sie sich gegen den Uhrzeigersinn. Zum Beispiel, wenn der Parameter +4 ist, dreht die Hand eine volle Runde, sodass sich die Richtung der PENTAN-Hand nicht ändert. Wenn die Parameterzahl 0 ist, wird die Hand von PENTAN eingezogen.";
+
+///
+/// Netzwerk-Kampf-Modus
+///
+
+"games.networkbattle" = "Netzwerk-Kampf";
+
+"networkbattle.title" = "**Netzwerk-Kampf**";
+"networkbattle.description" = "Ein Kampfmodus mit verdeckten Zügen, bei dem Spieler ihre anfänglichen PENTAN-Platzierungen austauschen und dann die deterministische Simulation beobachten.\n\nTeile das Raster vorab über Social Media, überlege dir sorgfältig deine Platzierung und registriere dann deinen verdeckten Zug!";
+
+"networkbattle.create" = "Raum erstellen";
+"networkbattle.join" = "Raum beitreten";
+
+"networkbattle.create.title" = "Kampfraum erstellen";
+"networkbattle.create.grid" = "Raster";
+"networkbattle.create.grid.description" = "Wähle das Raster für den Kampf. Zellen werden entfernt – nur das Feldlayout wird verwendet.";
+"networkbattle.create.grid.current" = "Aktuelles Raster verwenden";
+"networkbattle.create.grid.ready" = "Raster bereit";
+"networkbattle.create.deadline" = "Registrierungszeitraum";
+"networkbattle.create.registration" = "Registrierungszeitraum";
+"networkbattle.create.retention" = "Raumaufbewahrung";
+"networkbattle.create.participants" = "Max. Teilnehmer";
+"networkbattle.create.submit" = "Raum erstellen";
+"networkbattle.create.success" = "Raum erstellt!";
+"networkbattle.create.share" = "Teile diese Raum-ID mit anderen Spielern über Social Media.";
+
+"networkbattle.join.title" = "Kampfraum beitreten";
+"networkbattle.join.description" = "Gib die vom Gastgeber geteilte Raum-ID ein.";
+"networkbattle.join.placeholder" = "Raum-ID";
+"networkbattle.join.submit" = "Beitreten";
+"networkbattle.join.spaceid" = "Raum:";
+"networkbattle.join.participants" = "Teilnehmer:";
+"networkbattle.join.deadline" = "Registrierung schließt in:";
+"networkbattle.join.closed" = "Registrierung geschlossen";
+"networkbattle.join.placement" = "Platziere deine PENTANs";
+"networkbattle.join.placement.count" = "%d / %d PENTANs platziert";
+"networkbattle.join.placement.hint" = "Platziere deine PENTANs auf dem Raster und lade dann deinen verdeckten Zug hoch.";
+"networkbattle.join.upload" = "Platzierung hochladen";
+"networkbattle.join.uploaded" = "Platzierung hochgeladen!";
+"networkbattle.join.waiting" = "Warte auf Registrierungsschluss...";
+"networkbattle.join.play" = "Spiel starten";
+"networkbattle.join.ready" = "Spiel bereit!";
+"networkbattle.join.ready.description" = "Alle Platzierungen heruntergeladen. Die Simulation wird auf deinem Gerät ausgeführt.";
+
+"networkbattle.you" = "Du";
+"networkbattle.player" = "Spieler %d";
+
+"networkbattle.graph.tab" = "Diagramm";
+"networkbattle.graph.title" = "Population";
+"networkbattle.graph.gen" = "Gen. %d";
+
+"networkbattle.result.title" = "Kampfergebnis";
+"networkbattle.result.you" = "(Du)";
+"networkbattle.result.count" = "%d PENTANs";
+
+"networkbattle.grid.title" = "Netzwerk-Kampf";
+"networkbattle.toolbar.upload" = "Platzierung hochladen";
+"networkbattle.toolbar.submit" = "Absenden";
+
+"networkbattle.spaces.title" = "Beigetretene Räume";
+"networkbattle.spaces.full" = "Maximale Raumanzahl erreicht";
+"networkbattle.spaces.phase.created" = "Warte auf Platzierung";
+"networkbattle.spaces.phase.placed" = "Eingereicht";
+"networkbattle.spaces.phase.ready" = "Bereit";
+"networkbattle.placement.limit.title" = "Platzierungslimit";
+"networkbattle.placement.limit.message" = "Du kannst bis zu 5 Pentans für die Anfangsplatzierung platzieren. Bitte reduziere die Anzahl der Pentans und versuche es erneut.";
+"download.grid.alert.title" = "Download abgeschlossen";

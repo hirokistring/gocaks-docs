@@ -8,13 +8,15 @@
 "roots.settings" = "設定";
 
 "games.title" = "**ゴーカックス**";
-"games.abbrev" = "- **GoCAKs** -\n**G**ame **o**f **C**ellular **A**utomata for **K**id**s**";
+"games.abbrev" = "**G**ame **o**f **C**ellular **A**utomata for **K**id**s**";
 
-"games.speedrun" = "タイムアタックモード";
-"games.creative" = "クリエイティブモード";
-"games.version" = "バージョン 1.2";
+"games.speedrun" = "タイムアタック";
+"games.creative" = "クリエイティブ";
+"games.version" = "バージョン 1.5";
 
 "game.grid" = "グリッド";
+"grid.import" = "インポート";
+"grid.export" = "エクスポート";
 "game.library" = "ライブラリ";
 "game.help" = "説明書";
 "game.settings" = "設定";
@@ -153,6 +155,25 @@
 "button.yes" = "はい";
 "button.no" = "いいえ";
 "dialog.randomize" = "ランダム初期化？";
+"dialog.importpentan.title" = "PENTAN をインポート";
+"dialog.importpentan.pastecode" = "P1 コードを貼り付け:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d 遺伝子、E:%d";
+"dialog.importpentan.invalid" = "形式が無効です";
+"dialog.importpentan.import" = "インポート";
+"dialog.sharepentan.title" = "PENTAN を共有";
+"dialog.sharepentan.copy" = "コピー";
+"dialog.sharepentan.copied" = "コピーしました！";
+"dialog.sharepentan.close" = "閉じる";
+"dialog.sharegrid.title" = "グリッドを共有";
+"dialog.sharegrid.cells" = "%d ペンタン";
+"dialog.sharegrid.save" = "ファイルに保存";
+"dialog.importgrid.loadfile" = "ファイルから読み込む";
+"dialog.importgrid.title" = "グリッドをインポート";
+"dialog.importgrid.pastecode" = "G1 コードを貼り付け:";
+"dialog.importgrid.cells" = "%d セル";
+"dialog.importgrid.invalid" = "形式が無効です";
+"dialog.importgrid.import" = "インポート";
 "creative.randomize" = "ランダム初期化";
 "creative.reset" = "グリッドリセット";
 
@@ -368,3 +389,70 @@
 "codes.stick.text" = "接着";
 "codes.stick.description" = "ペンタンの手の向きを変えたり、手を引っこめたりする命令です。パラメータの数と符号に沿って、手の向きを変えます。\n\nパラメータが正の数の時は時計回りに、負の数の時は反時計回りに向きを変えます。例えば、パラメータが +4 の時は一回転して元と同じになるため、ペンタンの手の向きは変わりません。また、パラメータの数が 0 の時は、ペンタンの手が引っ込められます。";
 
+///
+/// ネットワーク対戦モード
+///
+
+"games.networkbattle" = "ネットワーク対戦";
+
+"networkbattle.title" = "**ネットワーク対戦**";
+"networkbattle.description" = "封じ手方式の対戦モードです。各プレイヤーがペンタンの初期配置を登録し合い、決定論的なシミュレーションの結果で勝敗が決まります。\n\nグリッドを事前にSNSなどで共有し、じっくり配置を考えてから封じ手を登録しましょう！";
+
+"networkbattle.create" = "スペースを作成";
+"networkbattle.join" = "スペースに参加";
+
+"networkbattle.create.title" = "対戦スペースの作成";
+"networkbattle.create.grid" = "グリッド";
+"networkbattle.create.grid.description" = "対戦に使用するグリッドを選択します。ペンタンは除去され、フィールドの配置のみが使用されます。";
+"networkbattle.create.grid.current" = "現在のグリッドを使用";
+"networkbattle.create.grid.ready" = "グリッド準備完了";
+"networkbattle.create.deadline" = "登録期間";
+"networkbattle.create.registration" = "登録期間";
+"networkbattle.create.retention" = "スペース保持期間";
+"networkbattle.create.participants" = "最大参加人数";
+"networkbattle.create.submit" = "スペースを作成";
+"networkbattle.create.success" = "スペースが作成されました！";
+"networkbattle.create.share" = "このスペースIDをSNSなどで他のプレイヤーに共有してください。";
+
+"networkbattle.join.title" = "スペースに参加";
+"networkbattle.join.description" = "ホストから共有されたスペースIDを入力してください。";
+"networkbattle.join.placeholder" = "スペースID";
+"networkbattle.join.submit" = "参加";
+"networkbattle.join.spaceid" = "スペース:";
+"networkbattle.join.participants" = "参加者:";
+"networkbattle.join.deadline" = "登録締切まで:";
+"networkbattle.join.closed" = "登録は締め切られました";
+"networkbattle.join.placement" = "ペンタンを配置";
+"networkbattle.join.placement.count" = "%d / %d ペンタン配置済み";
+"networkbattle.join.placement.hint" = "グリッド上にペンタンを配置し、封じ手を登録してください。";
+"networkbattle.join.upload" = "配置を登録";
+"networkbattle.join.uploaded" = "配置が登録されました！";
+"networkbattle.join.waiting" = "登録締切を待っています...";
+"networkbattle.join.play" = "ゲーム開始";
+"networkbattle.join.ready" = "ゲーム準備完了！";
+"networkbattle.join.ready.description" = "全ての配置データをダウンロードしました。シミュレーションはお使いの端末で実行されます。";
+
+"networkbattle.you" = "あなた";
+"networkbattle.player" = "プレイヤー %d";
+
+"networkbattle.graph.tab" = "グラフ";
+"networkbattle.graph.title" = "生存数";
+"networkbattle.graph.gen" = "世代 %d";
+
+"networkbattle.result.title" = "対戦結果";
+"networkbattle.result.you" = "(あなた)";
+"networkbattle.result.count" = "%d ペンタン";
+
+"networkbattle.grid.title" = "ネットワーク対戦";
+"networkbattle.toolbar.upload" = "封じ手を登録";
+"networkbattle.toolbar.submit" = "登録";
+
+"networkbattle.spaces.title" = "参加中のスペース";
+"networkbattle.spaces.full" = "最大スペース数に達しています";
+"networkbattle.spaces.phase.created" = "配置待ち";
+"networkbattle.spaces.phase.placed" = "登録済み";
+"networkbattle.spaces.phase.ready" = "準備完了";
+"networkbattle.placement.limit.title" = "配置数の上限";
+"networkbattle.placement.limit.message" = "初期配置するペンタンの数は5体までにする必要があります。ペンタンを減らしてから再度登録してください。";
+
+"download.grid.alert.title" = "ダウンロード完了";

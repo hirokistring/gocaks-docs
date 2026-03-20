@@ -12,9 +12,11 @@
 
 "games.speedrun" = "스피드 런";
 "games.creative" = "크리에이티브 모드";
-"games.version" = "ver. 1.2";
+"games.version" = "ver. 1.5";
 
 "game.grid" = "그리드";
+"grid.import" = "가져오기";
+"grid.export" = "내보내기";
 "game.library" = "라이브러리";
 "game.help" = "도움말";
 "game.settings" = "설정";
@@ -152,6 +154,24 @@
 "button.yes" = "예";
 "button.no" = "아니오";
 "dialog.randomize" = "무작위 초기화?";
+"dialog.importpentan.title" = "PENTAN 가져오기";
+"dialog.importpentan.pastecode" = "P1 코드 붙여넣기:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d 유전자, E:%d";
+"dialog.importpentan.invalid" = "잘못된 형식";
+"dialog.importpentan.import" = "가져오기";
+"dialog.sharepentan.title" = "PENTAN 공유";
+"dialog.sharepentan.copy" = "복사";
+"dialog.sharepentan.copied" = "복사됨!";
+"dialog.sharepentan.close" = "닫기";
+"dialog.sharegrid.title" = "그리드 공유";
+"dialog.sharegrid.cells" = "%d 펜탄";
+"dialog.importgrid.loadfile" = "파일에서 불러오기";
+"dialog.importgrid.title" = "그리드 가져오기";
+"dialog.importgrid.pastecode" = "G1 코드 붙여넣기:";
+"dialog.importgrid.cells" = "%d 셀";
+"dialog.importgrid.invalid" = "잘못된 형식";
+"dialog.importgrid.import" = "가져오기";
 "creative.randomize" = "무작위 초기화";
 "creative.reset" = "그리드 초기화";
 
@@ -368,3 +388,70 @@
 "codes.equal.description" = "매개변수의 숫자와 PENTAN이 기억하는 숫자가 일치하면 1을, 일치하지 않으면 0을 기억하는 명령입니다.";
 "codes.stick.text" = "접착";
 "codes.stick.description" = "PENTAN의 손 방향을 바꾸거나 손을 거두는 명령입니다. 매개변수의 숫자와 부호에 따라 손의 방향을 바꿉니다.\n\n매개변수가 양수이면 시계 방향으로, 음수이면 반시계 방향으로 회전합니다. 예를 들어 매개변수가 +4이면 한 바퀴 돌아 원래와 같으므로 PENTAN의 손 방향은 변하지 않습니다. 또한 매개변수의 숫자가 0이면 PENTAN의 손이 거둬집니다.";
+
+///
+/// 네트워크 배틀 모드
+///
+
+"games.networkbattle" = "네트워크 배틀";
+
+"networkbattle.title" = "**네트워크 배틀**";
+"networkbattle.description" = "밀봉된 수 방식의 대전 모드로, 플레이어들이 PENTAN의 초기 배치를 교환하고 결정론적 시뮬레이션이 펼쳐지는 것을 관찰합니다.\n\nSNS를 통해 미리 그리드를 공유하고, 배치를 신중하게 생각한 후 밀봉된 수를 등록하세요!";
+
+"networkbattle.create" = "스페이스 만들기";
+"networkbattle.join" = "스페이스 참가";
+
+"networkbattle.create.title" = "배틀 스페이스 만들기";
+"networkbattle.create.grid" = "그리드";
+"networkbattle.create.grid.description" = "배틀에 사용할 그리드를 선택합니다. 셀은 제거되며 필드 레이아웃만 사용됩니다.";
+"networkbattle.create.grid.current" = "현재 그리드 사용";
+"networkbattle.create.grid.ready" = "그리드 준비 완료";
+"networkbattle.create.deadline" = "등록 기간";
+"networkbattle.create.registration" = "등록 기간";
+"networkbattle.create.retention" = "스페이스 유지 기간";
+"networkbattle.create.participants" = "최대 참가자 수";
+"networkbattle.create.submit" = "스페이스 만들기";
+"networkbattle.create.success" = "스페이스가 생성되었습니다!";
+"networkbattle.create.share" = "이 스페이스 ID를 SNS 등을 통해 다른 플레이어와 공유하세요.";
+
+"networkbattle.join.title" = "배틀 스페이스 참가";
+"networkbattle.join.description" = "호스트가 공유한 스페이스 ID를 입력하세요.";
+"networkbattle.join.placeholder" = "스페이스 ID";
+"networkbattle.join.submit" = "참가";
+"networkbattle.join.spaceid" = "스페이스:";
+"networkbattle.join.participants" = "참가자:";
+"networkbattle.join.deadline" = "등록 마감까지:";
+"networkbattle.join.closed" = "등록이 마감되었습니다";
+"networkbattle.join.placement" = "PENTAN 배치";
+"networkbattle.join.placement.count" = "%d / %d PENTAN 배치됨";
+"networkbattle.join.placement.hint" = "그리드에 PENTAN을 배치한 후 밀봉된 수를 등록하세요.";
+"networkbattle.join.upload" = "배치 등록";
+"networkbattle.join.uploaded" = "배치가 등록되었습니다!";
+"networkbattle.join.waiting" = "등록 마감을 기다리는 중...";
+"networkbattle.join.play" = "게임 시작";
+"networkbattle.join.ready" = "게임 준비 완료!";
+"networkbattle.join.ready.description" = "모든 배치 데이터를 다운로드했습니다. 시뮬레이션이 기기에서 실행됩니다.";
+
+"networkbattle.you" = "나";
+"networkbattle.player" = "플레이어 %d";
+
+"networkbattle.graph.tab" = "그래프";
+"networkbattle.graph.title" = "생존 수";
+"networkbattle.graph.gen" = "세대 %d";
+
+"networkbattle.result.title" = "대전 결과";
+"networkbattle.result.you" = "(나)";
+"networkbattle.result.count" = "%d PENTAN";
+
+"networkbattle.grid.title" = "네트워크 배틀";
+"networkbattle.toolbar.upload" = "배치 등록";
+"networkbattle.toolbar.submit" = "등록";
+
+"networkbattle.spaces.title" = "참가 중인 스페이스";
+"networkbattle.spaces.full" = "최대 스페이스 수에 도달했습니다";
+"networkbattle.spaces.phase.created" = "배치 대기 중";
+"networkbattle.spaces.phase.placed" = "등록됨";
+"networkbattle.spaces.phase.ready" = "준비 완료";
+"networkbattle.placement.limit.title" = "배치 수 제한";
+"networkbattle.placement.limit.message" = "초기 배치할 PENTAN의 수는 5개 이하여야 합니다. PENTAN 수를 줄이고 다시 등록하세요.";
+"download.grid.alert.title" = "다운로드 완료";

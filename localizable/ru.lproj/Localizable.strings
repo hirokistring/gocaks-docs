@@ -12,9 +12,11 @@
 
 "games.speedrun" = "Скоростной забег";
 "games.creative" = "Творческий режим";
-"games.version" = "вер. 1.2";
+"games.version" = "вер. 1.5";
 
 "game.grid" = "Сетка";
+"grid.import" = "Импорт";
+"grid.export" = "Экспорт";
 "game.library" = "Библиотека";
 "game.help" = "Помощь";
 "game.settings" = "Настройки";
@@ -152,6 +154,24 @@
 "button.yes" = "Да";
 "button.no" = "Нет";
 "dialog.randomize" = "Перемешать?";
+"dialog.importpentan.title" = "Импорт PENTAN";
+"dialog.importpentan.pastecode" = "Вставьте код P1:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d генов, E:%d";
+"dialog.importpentan.invalid" = "Неверный формат";
+"dialog.importpentan.import" = "Импорт";
+"dialog.sharepentan.title" = "Поделиться PENTAN";
+"dialog.sharepentan.copy" = "Копировать";
+"dialog.sharepentan.copied" = "Скопировано!";
+"dialog.sharepentan.close" = "Закрыть";
+"dialog.sharegrid.title" = "Поделиться сеткой";
+"dialog.sharegrid.cells" = "%d пентанов";
+"dialog.importgrid.loadfile" = "Загрузить из файла";
+"dialog.importgrid.title" = "Импорт сетки";
+"dialog.importgrid.pastecode" = "Вставьте код G1:";
+"dialog.importgrid.cells" = "%d ячеек";
+"dialog.importgrid.invalid" = "Неверный формат";
+"dialog.importgrid.import" = "Импорт";
 "creative.randomize" = "Перемешать";
 "creative.reset" = "Сбросить сетку";
 
@@ -368,3 +388,70 @@
 "codes.equal.description" = "Это команда, которая сохраняет 1, когда значение параметра совпадает со значением, хранимым PENTANом, и сохраняет 0, когда не совпадает.";
 "codes.stick.text" = "STICK";
 "codes.stick.description" = "Это команда для изменения направления руки PENTANа или для её втягивания, в соответствии с числом и знаком параметров.\n\nКогда параметр — положительное число, рука поворачивается по часовой стрелке. Когда отрицательное — против часовой стрелки. Например, когда параметр равен +4, рука совершает полный оборот, поэтому направление руки PENTANа не меняется. Если параметр равен 0, рука PENTANа втягивается.";
+
+///
+/// Режим сетевого боя
+///
+
+"games.networkbattle" = "Сетевой бой";
+
+"networkbattle.title" = "**Сетевой бой**";
+"networkbattle.description" = "Режим боя с закрытым ходом, где игроки обмениваются начальным расположением PENTAN, а затем наблюдают за детерминированной симуляцией.\n\nЗаранее поделитесь сеткой через социальные сети, тщательно продумайте расположение, затем зарегистрируйте закрытый ход!";
+
+"networkbattle.create" = "Создать пространство";
+"networkbattle.join" = "Присоединиться к пространству";
+
+"networkbattle.create.title" = "Создать боевое пространство";
+"networkbattle.create.grid" = "Сетка";
+"networkbattle.create.grid.description" = "Выберите сетку для боя. Ячейки будут удалены — используется только схема поля.";
+"networkbattle.create.grid.current" = "Использовать текущую сетку";
+"networkbattle.create.grid.ready" = "Сетка готова";
+"networkbattle.create.deadline" = "Период регистрации";
+"networkbattle.create.registration" = "Период регистрации";
+"networkbattle.create.retention" = "Хранение пространства";
+"networkbattle.create.participants" = "Макс. участников";
+"networkbattle.create.submit" = "Создать пространство";
+"networkbattle.create.success" = "Пространство создано!";
+"networkbattle.create.share" = "Поделитесь этим ID пространства с другими игроками через социальные сети.";
+
+"networkbattle.join.title" = "Присоединиться к боевому пространству";
+"networkbattle.join.description" = "Введите ID пространства, которым поделился хост.";
+"networkbattle.join.placeholder" = "ID пространства";
+"networkbattle.join.submit" = "Присоединиться";
+"networkbattle.join.spaceid" = "Пространство:";
+"networkbattle.join.participants" = "Участники:";
+"networkbattle.join.deadline" = "Регистрация закрывается через:";
+"networkbattle.join.closed" = "Регистрация закрыта";
+"networkbattle.join.placement" = "Расставьте PENTAN";
+"networkbattle.join.placement.count" = "Расставлено %d / %d PENTAN";
+"networkbattle.join.placement.hint" = "Расставьте PENTAN на сетке, затем загрузите закрытый ход.";
+"networkbattle.join.upload" = "Загрузить расстановку";
+"networkbattle.join.uploaded" = "Расстановка загружена!";
+"networkbattle.join.waiting" = "Ожидание окончания регистрации...";
+"networkbattle.join.play" = "Начать игру";
+"networkbattle.join.ready" = "Игра готова!";
+"networkbattle.join.ready.description" = "Все расстановки загружены. Симуляция будет запущена на вашем устройстве.";
+
+"networkbattle.you" = "Вы";
+"networkbattle.player" = "Игрок %d";
+
+"networkbattle.graph.tab" = "График";
+"networkbattle.graph.title" = "Популяция";
+"networkbattle.graph.gen" = "Поколение %d";
+
+"networkbattle.result.title" = "Результат боя";
+"networkbattle.result.you" = "(Вы)";
+"networkbattle.result.count" = "%d PENTAN";
+
+"networkbattle.grid.title" = "Сетевой бой";
+"networkbattle.toolbar.upload" = "Загрузить расстановку";
+"networkbattle.toolbar.submit" = "Отправить";
+
+"networkbattle.spaces.title" = "Присоединённые пространства";
+"networkbattle.spaces.full" = "Достигнут максимум пространств";
+"networkbattle.spaces.phase.created" = "Ожидание расстановки";
+"networkbattle.spaces.phase.placed" = "Отправлено";
+"networkbattle.spaces.phase.ready" = "Готово";
+"networkbattle.placement.limit.title" = "Лимит расстановки";
+"networkbattle.placement.limit.message" = "Для начального расположения можно расставить не более 5 пентанов. Пожалуйста, уменьшите количество пентанов и попробуйте снова.";
+"download.grid.alert.title" = "Загрузка завершена";

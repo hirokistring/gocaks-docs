@@ -12,9 +12,11 @@
 
 "games.speedrun" = "ריצת מהירות";
 "games.creative" = "מצב יצירתי";
-"games.version" = "גרסה 1.2";
+"games.version" = "גרסה 1.5";
 
 "game.grid" = "רשת";
+"grid.import" = "ייבוא";
+"grid.export" = "ייצוא";
 "game.library" = "ספרייה";
 "game.help" = "עזרה";
 "game.settings" = "הגדרות";
@@ -152,6 +154,24 @@
 "button.yes" = "כן";
 "button.no" = "לא";
 "dialog.randomize" = "לערבב?";
+"dialog.importpentan.title" = "ייבוא PENTAN";
+"dialog.importpentan.pastecode" = "הדבק קוד P1:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d גנים, E:%d";
+"dialog.importpentan.invalid" = "פורמט לא תקין";
+"dialog.importpentan.import" = "ייבוא";
+"dialog.sharepentan.title" = "שתף PENTAN";
+"dialog.sharepentan.copy" = "העתק";
+"dialog.sharepentan.copied" = "הועתק!";
+"dialog.sharepentan.close" = "סגור";
+"dialog.sharegrid.title" = "שתף רשת";
+"dialog.sharegrid.cells" = "%d פנטנים";
+"dialog.importgrid.loadfile" = "טען מקובץ";
+"dialog.importgrid.title" = "ייבוא רשת";
+"dialog.importgrid.pastecode" = "הדבק קוד G1:";
+"dialog.importgrid.cells" = "%d תאים";
+"dialog.importgrid.invalid" = "פורמט לא תקין";
+"dialog.importgrid.import" = "ייבוא";
 "creative.randomize" = "ערבוב";
 "creative.reset" = "איפוס רשת";
 
@@ -368,3 +388,70 @@
 "codes.equal.description" = "זוהי פקודה שמאחסנת 1 כשערך הפרמטר תואם את הערך המאוחסן על ידי PENTAN, ומאחסנת 0 כשהוא אינו תואם.";
 "codes.stick.text" = "STICK";
 "codes.stick.description" = "זוהי פקודה לשנות את כיוון היד של PENTAN או לכווץ אותה, בהתאם למספר ולסימן של הפרמטרים.\n\nכשהפרמטר הוא מספר חיובי, היד מסתובבת בכיוון השעון. כשהוא שלילי, היא מסתובבת נגד כיוון השעון. לדוגמה, כשהפרמטר הוא +4, היד מבצעת סיבוב שלם, כך שכיוון היד של PENTAN אינו משתנה. אם מספר הפרמטר הוא 0, היד של PENTAN נכווצת.";
+
+///
+/// מצב קרב ברשת
+///
+
+"games.networkbattle" = "קרב ברשת";
+
+"networkbattle.title" = "**קרב ברשת**";
+"networkbattle.description" = "מצב קרב מהלכים חתומים שבו השחקנים מחליפים את ההצבות הראשוניות של PENTAN, ואז צופים בסימולציה הדטרמיניסטית מתפתחת.\n\nשתף את הרשת מראש דרך רשתות החברתיות, חשוב היטב על ההצבה שלך, ואז רשום את המהלך החתום שלך!";
+
+"networkbattle.create" = "צור מרחב";
+"networkbattle.join" = "הצטרף למרחב";
+
+"networkbattle.create.title" = "צור מרחב קרב";
+"networkbattle.create.grid" = "רשת";
+"networkbattle.create.grid.description" = "בחר את הרשת לקרב. תאים יוסרו — רק פריסת השדה בשימוש.";
+"networkbattle.create.grid.current" = "השתמש ברשת הנוכחית";
+"networkbattle.create.grid.ready" = "הרשת מוכנה";
+"networkbattle.create.deadline" = "תקופת הרישום";
+"networkbattle.create.registration" = "תקופת הרישום";
+"networkbattle.create.retention" = "שמירת מרחב";
+"networkbattle.create.participants" = "מקסימום משתתפים";
+"networkbattle.create.submit" = "צור מרחב";
+"networkbattle.create.success" = "המרחב נוצר!";
+"networkbattle.create.share" = "שתף את מזהה המרחב הזה עם שחקנים אחרים דרך רשתות החברתיות.";
+
+"networkbattle.join.title" = "הצטרף למרחב קרב";
+"networkbattle.join.description" = "הזן את מזהה המרחב שהמארח שיתף.";
+"networkbattle.join.placeholder" = "מזהה מרחב";
+"networkbattle.join.submit" = "הצטרף";
+"networkbattle.join.spaceid" = "מרחב:";
+"networkbattle.join.participants" = "משתתפים:";
+"networkbattle.join.deadline" = "הרישום נסגר בעוד:";
+"networkbattle.join.closed" = "הרישום נסגר";
+"networkbattle.join.placement" = "הצב את ה-PENTAN שלך";
+"networkbattle.join.placement.count" = "%d / %d PENTAN הוצבו";
+"networkbattle.join.placement.hint" = "הצב את ה-PENTAN שלך ברשת, ואז העלה את המהלך החתום שלך.";
+"networkbattle.join.upload" = "העלה הצבה";
+"networkbattle.join.uploaded" = "ההצבה הועלתה!";
+"networkbattle.join.waiting" = "ממתין לסיום מועד הרישום...";
+"networkbattle.join.play" = "התחל משחק";
+"networkbattle.join.ready" = "המשחק מוכן!";
+"networkbattle.join.ready.description" = "כל ההצבות הורדו. הסימולציה תרוץ על המכשיר שלך.";
+
+"networkbattle.you" = "אתה";
+"networkbattle.player" = "שחקן %d";
+
+"networkbattle.graph.tab" = "גרף";
+"networkbattle.graph.title" = "אוכלוסייה";
+"networkbattle.graph.gen" = "דור %d";
+
+"networkbattle.result.title" = "תוצאת הקרב";
+"networkbattle.result.you" = "(אתה)";
+"networkbattle.result.count" = "%d PENTAN";
+
+"networkbattle.grid.title" = "קרב ברשת";
+"networkbattle.toolbar.upload" = "העלה הצבה";
+"networkbattle.toolbar.submit" = "שלח";
+
+"networkbattle.spaces.title" = "מרחבים שהצטרפת אליהם";
+"networkbattle.spaces.full" = "הגעת למספר המקסימלי של מרחבים";
+"networkbattle.spaces.phase.created" = "ממתין להצבה";
+"networkbattle.spaces.phase.placed" = "נשלח";
+"networkbattle.spaces.phase.ready" = "מוכן";
+"networkbattle.placement.limit.title" = "מגבלת הצבה";
+"networkbattle.placement.limit.message" = "ניתן להציב עד 5 פנטאנים להצבה הראשונית. אנא הפחת את מספר הפנטאנים ונסה שוב.";
+"download.grid.alert.title" = "ההורדה הושלמה";

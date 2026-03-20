@@ -12,9 +12,11 @@
 
 "games.speedrun" = "स्पीड रन";
 "games.creative" = "रचनात्मक मोड";
-"games.version" = "संस्करण 1.2";
+"games.version" = "संस्करण 1.5";
 
 "game.grid" = "ग्रिड";
+"grid.import" = "आयात";
+"grid.export" = "निर्यात";
 "game.library" = "पुस्तकालय";
 "game.help" = "मदद";
 "game.settings" = "सेटिंग्स";
@@ -152,6 +154,24 @@
 "button.yes" = "हाँ";
 "button.no" = "नहीं";
 "dialog.randomize" = "रैंडम आरंभ करें?";
+"dialog.importpentan.title" = "PENTAN आयात करें";
+"dialog.importpentan.pastecode" = "P1 कोड पेस्ट करें:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d जीन, E:%d";
+"dialog.importpentan.invalid" = "अमान्य प्रारूप";
+"dialog.importpentan.import" = "आयात करें";
+"dialog.sharepentan.title" = "PENTAN साझा करें";
+"dialog.sharepentan.copy" = "कॉपी करें";
+"dialog.sharepentan.copied" = "कॉपी हो गया!";
+"dialog.sharepentan.close" = "बंद करें";
+"dialog.sharegrid.title" = "ग्रिड साझा करें";
+"dialog.sharegrid.cells" = "%d पेंटान";
+"dialog.importgrid.loadfile" = "फ़ाइल से लोड करें";
+"dialog.importgrid.title" = "ग्रिड आयात करें";
+"dialog.importgrid.pastecode" = "G1 कोड पेस्ट करें:";
+"dialog.importgrid.cells" = "%d सेल";
+"dialog.importgrid.invalid" = "अमान्य प्रारूप";
+"dialog.importgrid.import" = "आयात करें";
 "creative.randomize" = "रैंडम आरंभ";
 "creative.reset" = "ग्रिड रीसेट";
 
@@ -369,3 +389,70 @@
 "codes.equal.description" = "यह एक कमांड है जो पैरामीटर की मान से मेल खाते हुए PENTAN द्वारा संग्रहीत मान को 1 में संग्रहित करता है, और मेल नहीं खाते हुए 0 में संग्रहित करता है।";
 "codes.stick.text" = "स्टिक";
 "codes.stick.description" = "यह PENTAN के हाथ की दिशा को बदलने या उसे वापस लेने के लिए एक कमांड है, पैरामीटर की संख्या और चिह्न के अनुसार।\n\nजब पैरामीटर एक सकारात्मक संख्या है, तो हाथ घड़ी की दिशा में घूमता है। जब यह एक नकारात्मक संख्या है, तो यह घड़ी की दिशा के विपरीत घूमता है। उदाहरण स्वरूप, जब पैरामीटर +4 है, तो हाथ पूरी तरह घूमता है, इसलिए PENTAN के हाथ की दिशा नहीं बदलती है। अगर पैरामीटर संख्या 0 है, तो PENTAN का हाथ वापस लिया जाता है।";
+
+///
+/// नेटवर्क युद्ध मोड
+///
+
+"games.networkbattle" = "नेटवर्क युद्ध";
+
+"networkbattle.title" = "**नेटवर्क युद्ध**";
+"networkbattle.description" = "एक बंद-चाल शैली का युद्ध जहाँ खिलाड़ी PENTAN के प्रारंभिक स्थान का आदान-प्रदान करते हैं, फिर निर्धारक सिमुलेशन देखते हैं।\n\nपहले सोशल मीडिया के माध्यम से ग्रिड साझा करें, अपनी व्यवस्था के बारे में ध्यान से सोचें, फिर अपनी बंद चाल दर्ज करें!";
+
+"networkbattle.create" = "स्पेस बनाएं";
+"networkbattle.join" = "स्पेस में शामिल हों";
+
+"networkbattle.create.title" = "युद्ध स्पेस बनाएं";
+"networkbattle.create.grid" = "ग्रिड";
+"networkbattle.create.grid.description" = "युद्ध के लिए ग्रिड चुनें। सेल हटा दी जाएंगी — केवल फील्ड लेआउट का उपयोग होगा।";
+"networkbattle.create.grid.current" = "वर्तमान ग्रिड का उपयोग करें";
+"networkbattle.create.grid.ready" = "ग्रिड तैयार";
+"networkbattle.create.deadline" = "पंजीकरण अवधि";
+"networkbattle.create.registration" = "पंजीकरण अवधि";
+"networkbattle.create.retention" = "स्पेस प्रतिधारण";
+"networkbattle.create.participants" = "अधिकतम प्रतिभागी";
+"networkbattle.create.submit" = "स्पेस बनाएं";
+"networkbattle.create.success" = "स्पेस बनाया गया!";
+"networkbattle.create.share" = "इस स्पेस ID को सोशल मीडिया के माध्यम से अन्य खिलाड़ियों के साथ साझा करें।";
+
+"networkbattle.join.title" = "युद्ध स्पेस में शामिल हों";
+"networkbattle.join.description" = "होस्ट द्वारा साझा किया गया स्पेस ID दर्ज करें।";
+"networkbattle.join.placeholder" = "स्पेस ID";
+"networkbattle.join.submit" = "शामिल हों";
+"networkbattle.join.spaceid" = "स्पेस:";
+"networkbattle.join.participants" = "प्रतिभागी:";
+"networkbattle.join.deadline" = "पंजीकरण बंद होने में:";
+"networkbattle.join.closed" = "पंजीकरण बंद";
+"networkbattle.join.placement" = "अपने PENTAN रखें";
+"networkbattle.join.placement.count" = "%d / %d PENTAN रखे गए";
+"networkbattle.join.placement.hint" = "ग्रिड पर अपने PENTAN रखें, फिर अपनी बंद चाल अपलोड करें।";
+"networkbattle.join.upload" = "व्यवस्था अपलोड करें";
+"networkbattle.join.uploaded" = "व्यवस्था अपलोड हो गई!";
+"networkbattle.join.waiting" = "पंजीकरण समय सीमा का इंतजार...";
+"networkbattle.join.play" = "गेम शुरू करें";
+"networkbattle.join.ready" = "गेम तैयार!";
+"networkbattle.join.ready.description" = "सभी व्यवस्थाएं डाउनलोड हो गईं। सिमुलेशन आपके डिवाइस पर चलेगा।";
+
+"networkbattle.you" = "आप";
+"networkbattle.player" = "खिलाड़ी %d";
+
+"networkbattle.graph.tab" = "ग्राफ";
+"networkbattle.graph.title" = "जनसंख्या";
+"networkbattle.graph.gen" = "पीढ़ी %d";
+
+"networkbattle.result.title" = "युद्ध परिणाम";
+"networkbattle.result.you" = "(आप)";
+"networkbattle.result.count" = "%d PENTAN";
+
+"networkbattle.grid.title" = "नेटवर्क युद्ध";
+"networkbattle.toolbar.upload" = "व्यवस्था अपलोड करें";
+"networkbattle.toolbar.submit" = "सबमिट करें";
+
+"networkbattle.spaces.title" = "शामिल स्पेस";
+"networkbattle.spaces.full" = "अधिकतम स्पेस सीमा पहुंच गई";
+"networkbattle.spaces.phase.created" = "व्यवस्था का इंतजार";
+"networkbattle.spaces.phase.placed" = "सबमिट किया गया";
+"networkbattle.spaces.phase.ready" = "तैयार";
+"networkbattle.placement.limit.title" = "व्यवस्था सीमा";
+"networkbattle.placement.limit.message" = "प्रारंभिक व्यवस्था के लिए आप अधिकतम 5 pentan रख सकते हैं। कृपया pentan की संख्या कम करें और फिर से प्रयास करें।";
+"download.grid.alert.title" = "डाउनलोड पूर्ण";

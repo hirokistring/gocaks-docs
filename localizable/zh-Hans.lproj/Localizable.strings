@@ -12,9 +12,11 @@
 
 "games.speedrun" = "速通模式";
 "games.creative" = "创造模式";
-"games.version" = "ver. 1.2";
+"games.version" = "ver. 1.5";
 
 "game.grid" = "网格";
+"grid.import" = "导入";
+"grid.export" = "导出";
 "game.library" = "细胞库";
 "game.help" = "文档";
 "game.settings" = "设置";
@@ -152,6 +154,24 @@
 "button.yes" = "是";
 "button.no" = "否";
 "dialog.randomize" = "随机初始化？";
+"dialog.importpentan.title" = "导入 PENTAN";
+"dialog.importpentan.pastecode" = "粘贴 P1 代码：";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d 基因，E:%d";
+"dialog.importpentan.invalid" = "格式无效";
+"dialog.importpentan.import" = "导入";
+"dialog.sharepentan.title" = "分享 PENTAN";
+"dialog.sharepentan.copy" = "复制";
+"dialog.sharepentan.copied" = "已复制！";
+"dialog.sharepentan.close" = "关闭";
+"dialog.sharegrid.title" = "分享网格";
+"dialog.sharegrid.cells" = "%d 个 PENTAN";
+"dialog.importgrid.loadfile" = "从文件加载";
+"dialog.importgrid.title" = "导入网格";
+"dialog.importgrid.pastecode" = "粘贴 G1 代码：";
+"dialog.importgrid.cells" = "%d 个单元";
+"dialog.importgrid.invalid" = "格式无效";
+"dialog.importgrid.import" = "导入";
 "creative.randomize" = "随机初始化";
 "creative.reset" = "重置网格";
 
@@ -366,3 +386,70 @@
 "codes.equal.description" = "这是一个命令, 当参数的值与 PENTAN 存储的值相匹配时, 将存储为 1, 当不匹配时, 存储为 0. ";
 "codes.stick.text" = "粘连";
 "codes.stick.description" = "这是一个根据参数的数字和符号来改变 PENTAN 手的方向或将其收回的命令. \n\n当参数是正数时, 手顺时针旋转. 当参数是负数时, 手逆时针旋转. 例如, 当参数为 +4 时, 手旋转一整圈, 因此 PENTAN 手的方向不会改变. 如果参数数字是 0, 则 PENTAN 的手会收回. ";
+
+///
+/// 网络对战模式
+///
+
+"games.networkbattle" = "网络对战";
+
+"networkbattle.title" = "**网络对战**";
+"networkbattle.description" = "一种封闭落子式对战模式，玩家互换PENTAN的初始布置，然后观看确定性模拟的展开。\n\n提前通过社交媒体分享棋盘，仔细思考你的布置，然后提交你的封闭落子！";
+
+"networkbattle.create" = "创建空间";
+"networkbattle.join" = "加入空间";
+
+"networkbattle.create.title" = "创建对战空间";
+"networkbattle.create.grid" = "棋盘";
+"networkbattle.create.grid.description" = "选择对战使用的棋盘。细胞将被移除——仅使用场地布局。";
+"networkbattle.create.grid.current" = "使用当前棋盘";
+"networkbattle.create.grid.ready" = "棋盘就绪";
+"networkbattle.create.deadline" = "报名期间";
+"networkbattle.create.registration" = "报名期间";
+"networkbattle.create.retention" = "空间保留期";
+"networkbattle.create.participants" = "最大参与人数";
+"networkbattle.create.submit" = "创建空间";
+"networkbattle.create.success" = "空间已创建！";
+"networkbattle.create.share" = "通过社交媒体将此空间ID分享给其他玩家。";
+
+"networkbattle.join.title" = "加入对战空间";
+"networkbattle.join.description" = "输入主机分享的空间ID。";
+"networkbattle.join.placeholder" = "空间ID";
+"networkbattle.join.submit" = "加入";
+"networkbattle.join.spaceid" = "空间：";
+"networkbattle.join.participants" = "参与者：";
+"networkbattle.join.deadline" = "报名截止于：";
+"networkbattle.join.closed" = "报名已截止";
+"networkbattle.join.placement" = "放置你的PENTAN";
+"networkbattle.join.placement.count" = "已放置 %d / %d 个PENTAN";
+"networkbattle.join.placement.hint" = "在棋盘上放置你的PENTAN，然后上传你的封闭落子。";
+"networkbattle.join.upload" = "上传布置";
+"networkbattle.join.uploaded" = "布置已上传！";
+"networkbattle.join.waiting" = "等待报名截止...";
+"networkbattle.join.play" = "开始游戏";
+"networkbattle.join.ready" = "游戏就绪！";
+"networkbattle.join.ready.description" = "所有布置已下载。模拟将在你的设备上运行。";
+
+"networkbattle.you" = "你";
+"networkbattle.player" = "玩家 %d";
+
+"networkbattle.graph.tab" = "图表";
+"networkbattle.graph.title" = "种群数量";
+"networkbattle.graph.gen" = "第 %d 代";
+
+"networkbattle.result.title" = "对战结果";
+"networkbattle.result.you" = "（你）";
+"networkbattle.result.count" = "%d 个PENTAN";
+
+"networkbattle.grid.title" = "网络对战";
+"networkbattle.toolbar.upload" = "上传布置";
+"networkbattle.toolbar.submit" = "提交";
+
+"networkbattle.spaces.title" = "已加入的空间";
+"networkbattle.spaces.full" = "已达到最大空间数";
+"networkbattle.spaces.phase.created" = "等待布置";
+"networkbattle.spaces.phase.placed" = "已提交";
+"networkbattle.spaces.phase.ready" = "就绪";
+"networkbattle.placement.limit.title" = "布置数量限制";
+"networkbattle.placement.limit.message" = "初始布置最多可放置5个pentan。请减少pentan数量后重试。";
+"download.grid.alert.title" = "下载完成";

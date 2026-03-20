@@ -12,9 +12,11 @@
 
 "games.speedrun" = "السباق السريع";
 "games.creative" = "الوضع الإبداعي";
-"games.version" = "الإصدار 1.2";
+"games.version" = "الإصدار 1.5";
 
 "game.grid" = "الشبكة";
+"grid.import" = "استيراد";
+"grid.export" = "تصدير";
 "game.library" = "المكتبة";
 "game.help" = "مساعدة";
 "game.settings" = "الإعدادات";
@@ -152,6 +154,24 @@
 "button.yes" = "نعم";
 "button.no" = "لا";
 "dialog.randomize" = "عشوائي؟";
+"dialog.importpentan.title" = "استيراد PENTAN";
+"dialog.importpentan.pastecode" = "لصق رمز P1:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d جينات، E:%d";
+"dialog.importpentan.invalid" = "تنسيق غير صالح";
+"dialog.importpentan.import" = "استيراد";
+"dialog.sharepentan.title" = "مشاركة PENTAN";
+"dialog.sharepentan.copy" = "نسخ";
+"dialog.sharepentan.copied" = "تم النسخ!";
+"dialog.sharepentan.close" = "إغلاق";
+"dialog.sharegrid.title" = "مشاركة الشبكة";
+"dialog.sharegrid.cells" = "%d بنتان";
+"dialog.importgrid.loadfile" = "تحميل من ملف";
+"dialog.importgrid.title" = "استيراد الشبكة";
+"dialog.importgrid.pastecode" = "لصق رمز G1:";
+"dialog.importgrid.cells" = "%d خلايا";
+"dialog.importgrid.invalid" = "تنسيق غير صالح";
+"dialog.importgrid.import" = "استيراد";
 "creative.randomize" = "عشوائي";
 "creative.reset" = "إعادة تعيين الشبكة";
 
@@ -368,3 +388,70 @@
 "codes.equal.description" = "هذا أمر يخزن 1 عندما تتطابق قيمة المعامل مع القيمة المخزنة بواسطة PENTAN، ويخزن 0 عندما لا تتطابق.";
 "codes.stick.text" = "STICK";
 "codes.stick.description" = "هذا أمر لتغيير اتجاه يد PENTAN أو سحبها، وفقاً لرقم وإشارة المعاملات.\n\nعندما يكون المعامل رقماً موجباً، تدور اليد في اتجاه عقارب الساعة. عندما يكون سالباً، تدور عكس اتجاه عقارب الساعة. على سبيل المثال، عندما يكون المعامل +4، تدور اليد دورة كاملة، لذلك لا يتغير اتجاه يد PENTAN. إذا كان رقم المعامل 0، يتم سحب يد PENTAN.";
+
+///
+/// وضع معركة الشبكة
+///
+
+"games.networkbattle" = "معركة الشبكة";
+
+"networkbattle.title" = "**معركة الشبكة**";
+"networkbattle.description" = "وضع معركة بالحركات المختومة حيث يتبادل اللاعبون مواضع PENTAN الأولية، ثم يشاهدون المحاكاة الحتمية تتكشف.\n\nشارك الشبكة مسبقاً عبر وسائل التواصل الاجتماعي، فكر بعناية في توضيعك، ثم سجل حركتك المختومة!";
+
+"networkbattle.create" = "إنشاء مساحة";
+"networkbattle.join" = "الانضمام إلى مساحة";
+
+"networkbattle.create.title" = "إنشاء مساحة معركة";
+"networkbattle.create.grid" = "الشبكة";
+"networkbattle.create.grid.description" = "اختر الشبكة للمعركة. سيتم إزالة الخلايا — يُستخدم تخطيط الحقل فقط.";
+"networkbattle.create.grid.current" = "استخدام الشبكة الحالية";
+"networkbattle.create.grid.ready" = "الشبكة جاهزة";
+"networkbattle.create.deadline" = "فترة التسجيل";
+"networkbattle.create.registration" = "فترة التسجيل";
+"networkbattle.create.retention" = "الاحتفاظ بالمساحة";
+"networkbattle.create.participants" = "الحد الأقصى للمشاركين";
+"networkbattle.create.submit" = "إنشاء مساحة";
+"networkbattle.create.success" = "تم إنشاء المساحة!";
+"networkbattle.create.share" = "شارك معرف المساحة هذا مع اللاعبين الآخرين عبر وسائل التواصل الاجتماعي.";
+
+"networkbattle.join.title" = "الانضمام إلى مساحة المعركة";
+"networkbattle.join.description" = "أدخل معرف المساحة الذي شاركه المضيف.";
+"networkbattle.join.placeholder" = "معرف المساحة";
+"networkbattle.join.submit" = "انضم";
+"networkbattle.join.spaceid" = "المساحة:";
+"networkbattle.join.participants" = "المشاركون:";
+"networkbattle.join.deadline" = "التسجيل يغلق خلال:";
+"networkbattle.join.closed" = "التسجيل مغلق";
+"networkbattle.join.placement" = "ضع PENTAN الخاص بك";
+"networkbattle.join.placement.count" = "تم وضع %d / %d PENTAN";
+"networkbattle.join.placement.hint" = "ضع PENTAN على الشبكة، ثم ارفع حركتك المختومة.";
+"networkbattle.join.upload" = "رفع التوضيع";
+"networkbattle.join.uploaded" = "تم رفع التوضيع!";
+"networkbattle.join.waiting" = "انتظار انتهاء موعد التسجيل...";
+"networkbattle.join.play" = "بدء اللعبة";
+"networkbattle.join.ready" = "اللعبة جاهزة!";
+"networkbattle.join.ready.description" = "تم تنزيل جميع التوضيعات. ستعمل المحاكاة على جهازك.";
+
+"networkbattle.you" = "أنت";
+"networkbattle.player" = "لاعب %d";
+
+"networkbattle.graph.tab" = "رسم بياني";
+"networkbattle.graph.title" = "عدد السكان";
+"networkbattle.graph.gen" = "جيل %d";
+
+"networkbattle.result.title" = "نتيجة المعركة";
+"networkbattle.result.you" = "(أنت)";
+"networkbattle.result.count" = "%d PENTAN";
+
+"networkbattle.grid.title" = "معركة الشبكة";
+"networkbattle.toolbar.upload" = "رفع التوضيع";
+"networkbattle.toolbar.submit" = "إرسال";
+
+"networkbattle.spaces.title" = "المساحات المنضمة";
+"networkbattle.spaces.full" = "تم الوصول إلى الحد الأقصى للمساحات";
+"networkbattle.spaces.phase.created" = "في انتظار التوضيع";
+"networkbattle.spaces.phase.placed" = "تم الإرسال";
+"networkbattle.spaces.phase.ready" = "جاهز";
+"networkbattle.placement.limit.title" = "حد التوضيع";
+"networkbattle.placement.limit.message" = "يمكنك وضع ما يصل إلى 5 بنتانات للتوضيع الأولي. يرجى تقليل عدد البنتانات والمحاولة مرة أخرى.";
+"download.grid.alert.title" = "اكتمل التنزيل";

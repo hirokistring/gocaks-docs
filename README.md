@@ -8,7 +8,7 @@
 
 Welcome to the official documentation repository for the **_GoCAKs_** game!
 
-![Game Icon](pics/game-icon.png)
+![Game Icon](help/images/grid.jpg)
 
 ## What is GoCAKs?
 

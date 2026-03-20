@@ -12,9 +12,11 @@
 
 "games.speedrun" = "Szybki Bieg";
 "games.creative" = "Tryb Kreatywny";
-"games.version" = "wer. 1.2";
+"games.version" = "wer. 1.5";
 
 "game.grid" = "Siatka";
+"grid.import" = "Importuj";
+"grid.export" = "Eksportuj";
 "game.library" = "Biblioteka";
 "game.help" = "Pomoc";
 "game.settings" = "Ustawienia";
@@ -152,6 +154,24 @@
 "button.yes" = "Tak";
 "button.no" = "Nie";
 "dialog.randomize" = "Losować?";
+"dialog.importpentan.title" = "Importuj PENTAN";
+"dialog.importpentan.pastecode" = "Wklej kod P1:";
+"dialog.importpentan.placeholder" = "P1:Name:...";
+"dialog.importpentan.genes" = "%d genów, E:%d";
+"dialog.importpentan.invalid" = "Nieprawidłowy format";
+"dialog.importpentan.import" = "Importuj";
+"dialog.sharepentan.title" = "Udostępnij PENTAN";
+"dialog.sharepentan.copy" = "Kopiuj";
+"dialog.sharepentan.copied" = "Skopiowano!";
+"dialog.sharepentan.close" = "Zamknij";
+"dialog.sharegrid.title" = "Udostępnij siatkę";
+"dialog.sharegrid.cells" = "%d pentanów";
+"dialog.importgrid.loadfile" = "Wczytaj z pliku";
+"dialog.importgrid.title" = "Importuj siatkę";
+"dialog.importgrid.pastecode" = "Wklej kod G1:";
+"dialog.importgrid.cells" = "%d komórek";
+"dialog.importgrid.invalid" = "Nieprawidłowy format";
+"dialog.importgrid.import" = "Importuj";
 "creative.randomize" = "Losuj";
 "creative.reset" = "Resetuj siatkę";
 
@@ -368,3 +388,70 @@
 "codes.equal.description" = "To polecenie, które zapisuje 1, gdy wartość parametru odpowiada wartości zapamiętanej przez PENTANa, i zapisuje 0, gdy nie odpowiada.";
 "codes.stick.text" = "STICK";
 "codes.stick.description" = "To polecenie zmieniające kierunek ręki PENTANa lub chowania jej, zgodnie z liczbą i znakiem parametrów.\n\nGdy parametr jest liczbą dodatnią, ręka obraca się zgodnie z ruchem wskazówek zegara. Gdy jest ujemny, obraca się w kierunku przeciwnym. Na przykład, gdy parametr wynosi +4, ręka wykonuje pełny obrót, więc kierunek ręki PENTANa się nie zmienia. Jeśli parametr wynosi 0, ręka PENTANa jest chowana.";
+
+///
+/// Tryb Bitwy sieciowej
+///
+
+"games.networkbattle" = "Bitwa sieciowa";
+
+"networkbattle.title" = "**Bitwa sieciowa**";
+"networkbattle.description" = "Tryb bitwy z zakrytymi ruchami, gdzie gracze wymieniają początkowe rozmieszczenie PENTAN, a następnie obserwują deterministyczną symulację.\n\nUdostępnij siatkę wcześniej za pośrednictwem mediów społecznościowych, dokładnie przemyśl rozmieszczenie, a następnie zarejestruj swój zakryty ruch!";
+
+"networkbattle.create" = "Utwórz przestrzeń";
+"networkbattle.join" = "Dołącz do przestrzeni";
+
+"networkbattle.create.title" = "Utwórz przestrzeń bitwy";
+"networkbattle.create.grid" = "Siatka";
+"networkbattle.create.grid.description" = "Wybierz siatkę do bitwy. Komórki zostaną usunięte — używany jest tylko układ pola.";
+"networkbattle.create.grid.current" = "Użyj bieżącej siatki";
+"networkbattle.create.grid.ready" = "Siatka gotowa";
+"networkbattle.create.deadline" = "Okres rejestracji";
+"networkbattle.create.registration" = "Okres rejestracji";
+"networkbattle.create.retention" = "Przechowywanie przestrzeni";
+"networkbattle.create.participants" = "Maks. uczestnicy";
+"networkbattle.create.submit" = "Utwórz przestrzeń";
+"networkbattle.create.success" = "Przestrzeń utworzona!";
+"networkbattle.create.share" = "Udostępnij ten identyfikator przestrzeni innym graczom za pośrednictwem mediów społecznościowych.";
+
+"networkbattle.join.title" = "Dołącz do przestrzeni bitwy";
+"networkbattle.join.description" = "Wprowadź identyfikator przestrzeni udostępniony przez hosta.";
+"networkbattle.join.placeholder" = "Identyfikator przestrzeni";
+"networkbattle.join.submit" = "Dołącz";
+"networkbattle.join.spaceid" = "Przestrzeń:";
+"networkbattle.join.participants" = "Uczestnicy:";
+"networkbattle.join.deadline" = "Rejestracja zamknięta za:";
+"networkbattle.join.closed" = "Rejestracja zamknięta";
+"networkbattle.join.placement" = "Umieść swoje PENTANy";
+"networkbattle.join.placement.count" = "%d / %d PENTANów umieszczonych";
+"networkbattle.join.placement.hint" = "Umieść swoje PENTANy na siatce, a następnie prześlij swój zakryty ruch.";
+"networkbattle.join.upload" = "Prześlij rozmieszczenie";
+"networkbattle.join.uploaded" = "Rozmieszczenie przesłane!";
+"networkbattle.join.waiting" = "Oczekiwanie na termin rejestracji...";
+"networkbattle.join.play" = "Rozpocznij grę";
+"networkbattle.join.ready" = "Gra gotowa!";
+"networkbattle.join.ready.description" = "Wszystkie rozmieszczenia pobrane. Symulacja zostanie uruchomiona na twoim urządzeniu.";
+
+"networkbattle.you" = "Ty";
+"networkbattle.player" = "Gracz %d";
+
+"networkbattle.graph.tab" = "Wykres";
+"networkbattle.graph.title" = "Populacja";
+"networkbattle.graph.gen" = "Pokolenie %d";
+
+"networkbattle.result.title" = "Wynik bitwy";
+"networkbattle.result.you" = "(Ty)";
+"networkbattle.result.count" = "%d PENTANów";
+
+"networkbattle.grid.title" = "Bitwa sieciowa";
+"networkbattle.toolbar.upload" = "Prześlij rozmieszczenie";
+"networkbattle.toolbar.submit" = "Wyślij";
+
+"networkbattle.spaces.title" = "Dołączone przestrzenie";
+"networkbattle.spaces.full" = "Osiągnięto maksymalną liczbę przestrzeni";
+"networkbattle.spaces.phase.created" = "Oczekiwanie na rozmieszczenie";
+"networkbattle.spaces.phase.placed" = "Przesłano";
+"networkbattle.spaces.phase.ready" = "Gotowy";
+"networkbattle.placement.limit.title" = "Limit rozmieszczenia";
+"networkbattle.placement.limit.message" = "Możesz umieścić do 5 pentanów dla rozmieszczenia początkowego. Zmniejsz liczbę pentanów i spróbuj ponownie.";
+"download.grid.alert.title" = "Pobieranie zakończone";
