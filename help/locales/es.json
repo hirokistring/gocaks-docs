@@ -138,6 +138,8 @@
   "help.releasenotes.title": "Notas de versión de GoCAKs",
   "help.releasenotes.v1_4.intro": "Esta versión incluye las siguientes adiciones de funciones y mejoras:",
   "help.releasenotes.v1_4.items": "• Modo Batalla en Red añadido. Cada jugador decide y registra la colocación inicial de sus PENTAN. El resultado se determina mediante una simulación determinista, por lo que es necesario decidir estratégicamente la colocación inicial.\n• Función de exportación e importación de PENTAN y Grid añadida.\n• Vitrinas de PENTAN y Grid añadidas a las páginas de ayuda.\n• Soporte para más idiomas añadido.\n• Cálculo y renderizado de generaciones mejorados.",
+  "help.releasenotes.v1_5.intro": "Esta versión incluye las siguientes adiciones de funciones y mejoras:",
+  "help.releasenotes.v1_5.items": "• Imágenes de fondo añadidas en las pantallas del menú superior, biblioteca y menú del modo batalla en red.\n• Visualización mejorada en modo horizontal.",
   "help.releasenotes.v1_3.intro": "Esta versión incluye las siguientes mejoras:",
   "help.releasenotes.v1_3.items": "• Vídeos de YouTube sobre cómo jugar a GoCAKs.\n• Programas de ejemplo añadidos a la Cell Library.",
   "help.releasenotes.v1_2.intro": "Esta versión implementa las siguientes extensiones:",
