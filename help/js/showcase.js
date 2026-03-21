@@ -46,13 +46,29 @@
     });
   });
 
-  window.importPentan = function (p1Text) {
+  window.importPentan = function (arg) {
     if (isInApp && window.webkit.messageHandlers.importPentan) {
-      window.webkit.messageHandlers.importPentan.postMessage(p1Text);
+      // Inline P1 or relative path — native resolves paths like grid import
+      window.webkit.messageHandlers.importPentan.postMessage(arg);
       showToast("Imported!");
-    } else {
-      copyToClipboard(p1Text);
+      return;
     }
+    if (arg.indexOf("P1:") === 0) {
+      copyToClipboard(arg);
+      return;
+    }
+    var url = new URL(arg, window.location.href);
+    fetch(url.href)
+      .then(function (res) {
+        if (!res.ok) throw new Error("fetch failed: " + res.status);
+        return res.text();
+      })
+      .then(function (text) {
+        copyToClipboard(text.trim());
+      })
+      .catch(function (err) {
+        console.error("Pentan load failed:", err);
+      });
   };
 
   function copyToClipboard(text) {
