@@ -142,6 +142,8 @@
   "help.releasenotes.title": "Informacje o wersji GoCAKs",
   "help.releasenotes.v1_4.intro": "Ta wersja zawiera następujące nowe funkcje i ulepszenia:",
   "help.releasenotes.v1_4.items": "• Dodano tryb Sieciowej Bitwy. Każdy gracz decyduje i rejestruje początkowe rozmieszczenie PENTAN. Wynik jest określany przez deterministyczną symulację, dlatego konieczne jest strategiczne planowanie początkowego rozmieszczenia.\n• Dodano funkcję eksportu i importu PENTAN i Grid.\n• Dodano witryny PENTAN i Grid do stron pomocy.\n• Dodano obsługę dodatkowych języków.\n• Ulepszone algorytmy obliczania i renderowania generacji.",
+  "help.releasenotes.v1_6.intro": "Ta wersja zawiera następujące nowe funkcje i ulepszenia:",
+  "help.releasenotes.v1_6.items": "• Do trybu bitwy sieciowej dodano Bitwę w czasie rzeczywistym. Zaproś znajomego i walcz na żywo, od razu. Bitwa sieciowa oferuje teraz dwa rodzaje: Bitwę w czasie rzeczywistym i Bitwę nie w czasie rzeczywistym.",
   "help.releasenotes.v1_5.intro": "Ta wersja zawiera następujące nowe funkcje i ulepszenia:",
   "help.releasenotes.v1_5.items": "• Dodano obrazy tła do ekranów menu górnego, biblioteki i menu trybu Sieciowej Bitwy.\n• Ulepszono wyświetlanie w trybie poziomym.",
   "help.releasenotes.v1_3.intro": "Ta wersja zawiera następujące ulepszenia:",

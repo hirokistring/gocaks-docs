@@ -142,6 +142,8 @@
   "help.releasenotes.title": "GoCAKs 更新日志",
   "help.releasenotes.v1_4.intro": "本版本包含以下功能新增与改进：",
   "help.releasenotes.v1_4.items": "• 新增了网络对战模式。每位玩家决定并注册 PENTAN 的初始摆放位置，之后胜负由确定性模拟决定，因此需要战略性地规划初始摆放位置。\n• 新增了 PENTAN 和网格的导出・导入功能。\n• 在帮助页面新增了 PENTAN 和网格展示。\n• 新增了更多语言支持。\n• 改进了世代计算和渲染算法。",
+  "help.releasenotes.v1_6.intro": "本版本包含以下功能新增与改进：",
+  "help.releasenotes.v1_6.items": "• 在网络对战模式中新增了“实时对战”。邀请好友即可当场实时对战。现在网络对战可在“实时对战”和“非实时对战”两种类型中选择。",
   "help.releasenotes.v1_5.intro": "本版本包含以下功能新增与改进：",
   "help.releasenotes.v1_5.items": "• 为顶部菜单、书库及网络对战模式菜单画面添加了背景图。\n• 改进了横屏模式下的界面显示。",
   "help.releasenotes.v1_3.intro": "本版本包含以下改进：",

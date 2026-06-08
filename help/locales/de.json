@@ -142,6 +142,8 @@
   "help.releasenotes.title": "GoCAKs Versionshinweise",
   "help.releasenotes.v1_4.intro": "Diese Version enthält folgende Funktionserweiterungen und Verbesserungen:",
   "help.releasenotes.v1_4.items": "• Netzwerk-Kampfmodus hinzugefügt. Jeder Spieler entscheidet und registriert die anfängliche PENTAN-Aufstellung. Das Ergebnis wird durch eine deterministische Simulation bestimmt, daher ist eine strategische Planung der Anfangsaufstellung erforderlich.\n• Export- und Importfunktion für PENTAN und Grid hinzugefügt.\n• PENTAN- und Grid-Showcases zu den Hilfeseiten hinzugefügt.\n• Unterstützung für weitere Sprachen hinzugefügt.\n• Berechnung und Darstellung der Generationen verbessert.",
+  "help.releasenotes.v1_6.intro": "Diese Version enthält folgende Funktionserweiterungen und Verbesserungen:",
+  "help.releasenotes.v1_6.items": "• Im Netzwerkkampfmodus wurde der Echtzeit-Kampf hinzugefügt. Lade einen Freund ein und tritt sofort in Echtzeit gegeneinander an. Der Netzwerkkampf bietet jetzt zwei Arten: Echtzeit-Kampf und Nicht-Echtzeit-Kampf.",
   "help.releasenotes.v1_5.intro": "Diese Version enthält folgende Funktionserweiterungen und Verbesserungen:",
   "help.releasenotes.v1_5.items": "• Hintergrundbilder für die Bildschirme Hauptmenü, Bibliothek und Netzwerk-Kampf-Menü hinzugefügt.\n• Anzeige im Querformat (Landschaftsmodus) verbessert.",
   "help.releasenotes.v1_3.intro": "Diese Version enthält folgende Verbesserungen:",

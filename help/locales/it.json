@@ -142,6 +142,8 @@
   "help.releasenotes.title": "Note di versione GoCAKs",
   "help.releasenotes.v1_4.intro": "Questa versione include le seguenti aggiunte di funzionalità e miglioramenti:",
   "help.releasenotes.v1_4.items": "• Aggiunta modalità Battaglia di Rete. Ogni giocatore decide e registra il posizionamento iniziale dei PENTAN. Il risultato è determinato da una simulazione deterministica, quindi è necessario decidere strategicamente il posizionamento iniziale.\n• Aggiunta funzionalità di esportazione e importazione di PENTAN e Grid.\n• Aggiunte vetrine PENTAN e Grid nelle pagine di aiuto.\n• Aggiunto supporto per ulteriori lingue.\n• Migliorati algoritmi di calcolo e rendering delle generazioni.",
+  "help.releasenotes.v1_6.intro": "Questa versione include le seguenti aggiunte di funzionalità e miglioramenti:",
+  "help.releasenotes.v1_6.items": "• Aggiunta la Battaglia in tempo reale alla modalità Battaglia in Rete. Invita un amico e sfidalo dal vivo, sul momento. La Battaglia in Rete ora offre due tipi: Battaglia in tempo reale e Battaglia non in tempo reale.",
   "help.releasenotes.v1_5.intro": "Questa versione include le seguenti aggiunte di funzionalità e miglioramenti:",
   "help.releasenotes.v1_5.items": "• Aggiunte immagini di sfondo alle schermate del menu principale, della libreria e del menu della modalità battaglia di rete.\n• Migliorata la visualizzazione in modalità paesaggio.",
   "help.releasenotes.v1_3.intro": "Questa versione include i seguenti miglioramenti:",

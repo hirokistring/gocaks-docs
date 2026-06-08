@@ -142,6 +142,8 @@
   "help.releasenotes.title": "Notes de version GoCAKs",
   "help.releasenotes.v1_4.intro": "Cette version comprend les ajouts de fonctionnalités et améliorations suivants :",
   "help.releasenotes.v1_4.items": "• Mode Combat Réseau ajouté. Chaque joueur décide et enregistre le placement initial de ses PENTAN. Le résultat est déterminé par une simulation déterministe, ce qui nécessite une réflexion stratégique pour le placement initial.\n• Fonctionnalité d'export et d'import de PENTAN et de Grid ajoutée.\n• Vitrines PENTAN et Grid ajoutées aux pages d'aide.\n• Prise en charge de langues supplémentaires ajoutée.\n• Calcul et rendu des générations améliorés.",
+  "help.releasenotes.v1_6.intro": "Cette version comprend les ajouts de fonctionnalités et améliorations suivants :",
+  "help.releasenotes.v1_6.items": "• Ajout de la Bataille en temps réel au mode Combat Réseau. Invitez un ami et affrontez-le en direct, sur le moment. Le Combat Réseau propose désormais deux types : la Bataille en temps réel et la Bataille en différé.",
   "help.releasenotes.v1_5.intro": "Cette version comprend les ajouts de fonctionnalités et améliorations suivants :",
   "help.releasenotes.v1_5.items": "• Images d'arrière-plan ajoutées aux écrans du menu principal, de la bibliothèque et du menu du mode combat réseau.\n• Affichage amélioré en mode paysage.",
   "help.releasenotes.v1_3.intro": "Cette version comprend les améliorations suivantes :",

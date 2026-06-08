@@ -10,6 +10,8 @@
   "help.releasenotes.title": "Release Notes",
   "help.releasenotes.v1_4.intro": "This version includes the following feature additions and improvements:",
   "help.releasenotes.v1_4.items": "• Added Network Battle Mode. Each player decides and registers their initial PENTAN placement. The outcome is determined by a deterministic simulation, making this a game mode where strategic thinking about your initial placement is essential.\n• Added PENTAN and Grid export/import functionality.\n• Added PENTAN and Grid showcases to the help pages.\n• Added support for more languages.\n• Improved generation calculation and rendering algorithms.",
+  "help.releasenotes.v1_6.intro": "This version includes the following feature additions and improvements:",
+  "help.releasenotes.v1_6.items": "• Added Realtime Battle to Network Battle mode. Invite a friend and battle live, right then and there. Network Battle now offers two types: Realtime Battle and Non-Realtime Battle.",
   "help.releasenotes.v1_5.intro": "This version includes the following feature additions and improvements:",
   "help.releasenotes.v1_5.items": "• Added background images to the top menu, library, and network battle mode menu screens.\n• Improved screen display in landscape mode.",
   "help.releasenotes.v1_3.intro": "This version includes the following improvements:",
